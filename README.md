@@ -1,10 +1,11 @@
-# 2023 中国开源年度报告
+# 2024 中国开源年度报告
 
-![GitHub Repo stars](https://img.shields.io/github/stars/kaiyuanshe/2023-China-Open-Source-Report?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kaiyuanshe/2023-China-Open-Source-Report?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/kaiyuanshe/2023-China-Open-Source-Report?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/kaiyuanshe/2024-China-Open-Source-Report?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/kaiyuanshe/2024-China-Open-Source-Report?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/kaiyuanshe/2024-China-Open-Source-Report?style=for-the-badge)
+![Github View Count](https://img.shields.io/badge/dynamic/json?url=https://counterpro.vercel.app/api/count/id/2024-China-Open-Source-Report&query=%24.count&label=Page%20Views&style=for-the-badge)
 
-在线地址：https://kaiyuanshe.github.io/2023-China-Open-Source-Report/
+在线地址：https://kaiyuanshe.github.io/2024-China-Open-Source-Report/
 
 👏 如有问题，欢迎提 issue 或 PR。
 
