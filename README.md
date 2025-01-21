@@ -12,17 +12,17 @@
 ## 文件目录
 
 - 中文版
-  - [卷首语](./preface.md)
+  <!-- - [卷首语](./preface.md) -->
   - [问卷篇](./questionnaire.md)
-  - [数据篇](./data.md)
-  - [商业化篇](./commercialization.md)
-  - [开源大事记](./open-source-milestones.md)
+  <!-- - [数据篇](./data.md) -->
+  <!-- - [商业化篇](./commercialization.md) -->
+  <!-- - [开源大事记](./open-source-milestones.md) -->
 - English
-  - [Preface](./en/preface.md)
+  <!-- - [Preface](./en/preface.md)
   - [OSS Questionnaire](./en/questionnaire.md)
   - [OSS Data Analytics](./en/data.md)
   - [OSS Commercialization](./en/commercialization.md)
-  - [OSS Chronicle](./en/open-source-milestones.md)
+  - [OSS Chronicle](./en/open-source-milestones.md) -->
 
 ## 许可证
 
