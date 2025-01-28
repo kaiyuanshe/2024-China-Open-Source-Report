@@ -30,7 +30,7 @@ features:
     title: X-lab 开放实验室
     details: X-lab 开放实验室定位为一个开源研究与创新的开放群体，是一群由来自国内外著名高校、创业公司、部分互联网与IT企业的专家学者与工程师所构成，聚焦于开源软件产业开放式创新的共同体。专业背景包括计算机科学、软件工程、数据科学、工商管理学、社会学、经济学等跨学科领域，长期思考并实践开源战略、开源测量学、开源数字生态系统等主题。目前已在包括开源治理标准制定、开源社区行为度量与分析、开源社区流程自动化、开源全域数据治理与洞察等方面做出了较有影响力的工作。
     link: https://github.com/X-lab2017
-    linkText: GitHub 主页
+    linkText: GitHub 链接
 ---
 
 <script setup>
@@ -70,80 +70,99 @@ const questionnaireDesignMembers = [
 // 数据篇
 const dataPieceMembers = [
   {
-    avatar: withBase('/image/home/avatar/方蕴仪.jpg'),
+    avatar: withBase('/image/home/avatar/方蕴仪.png'),
     name: '方蕴仪',
+    title: "宏观洞察",
   },
   {
     avatar: withBase('/image/home/avatar/游明东.jpg'),
     name: '游明东',
+    title: "宏观洞察",
   },
   {
     avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
     name: '赵思嘉',
+    title: "宏观洞察",
   },
   {
-    avatar: withBase('/image/home/avatar/黄帆.jpg'),
+    avatar: withBase('/image/home/avatar/黄帆.png'),
     name: '黄帆',
+    title: "OpenRank 排行榜",
   },
   {
     avatar: withBase('/image/home/avatar/赵生宇.jpg'),
     name: '赵生宇',
+    title: "OpenRank 排行榜",
   },
   {
     avatar: withBase('/image/home/avatar/彭佳恒.jpg'),
     name: '彭佳恒',
+    title: "企业洞察",
   },
   {
-    avatar: withBase('/image/home/avatar/夏倍蓓.jpg'),
+    avatar: withBase('/image/home/avatar/夏倍蓓.png'),
     name: '夏倍蓓',
+    title: "企业洞察",
   },
   {
     avatar: withBase('/image/home/avatar/夏小雅.jpg'),
     name: '夏小雅',
+    title: "基金会洞察",
   },
    {
     avatar: withBase('/image/home/avatar/王婕.jpg'),
     name: '王婕',
+    title: "基金会洞察",
   },
   {
     avatar: withBase('/image/home/avatar/韩凡宇.jpg'),
     name: '韩凡宇',
+    title: "技术领域洞察",
   },
   {
     avatar: withBase('/image/home/avatar/娄泽华.jpg'),
     name: '娄泽华',
+    title: "技术领域洞察",
   },
   {
     avatar: withBase('/image/home/avatar/王衍童.jpg'),
     name: '王衍童',
+    title: "技术领域洞察",
   },
   {
     avatar: withBase('/image/home/avatar/李鸿斌.jpg'),
     name: '李鸿斌',
+    title: "开源项目洞察",
   },
   {
     avatar: withBase('/image/home/avatar/史雪涛.jpg'),
     name: '史雪涛',
+    title: "开源项目洞察",
   },
   {
     avatar: withBase('/image/home/avatar/毕枫林.jpg'),
     name: '毕枫林',
+    title: "开发者洞察",
   },
   {
     avatar: withBase('/image/home/avatar/黄温瑞.jpg'),
     name: '黄温瑞',
+    title: "开发者洞察",
   },
   {
     avatar: withBase('/image/home/avatar/谢思怡.jpg'),
     name: '谢思怡',
+    title: "商业开源洞察",
   },
   {
     avatar: withBase('/image/home/avatar/朱志炜.jpg'),
     name: '朱志炜',
+    title: "商业开源洞察",
   },
   {
     avatar: withBase('/image/home/avatar/何德鑫.jpg'),
     name: '何德鑫',
+    title: "高校开源洞察"
   },
 ]
 
@@ -192,30 +211,37 @@ const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/袁滚滚.jpg'),
     name: '袁滚滚',
+    title: "开源技术、开源商业化",
   },
   {
     avatar: withBase('/image/home/avatar/INP.png'),
     name: 'INP',
+    title: "开源技术",
   },
   {
-    avatar: withBase('/image/home/avatar/王峰.jpg'),
+    avatar: withBase('/image/home/avatar/王峰.jpeg'),
     name: '王峰',
+    title: "开源安全",
   },
   {
     avatar: withBase('/image/home/avatar/庄表伟.jpg'),
     name: '庄表伟',
+    title: "开源社区生态、开源政策",
   },
   {
     avatar: withBase('/image/home/avatar/卫剑钒.jpg'),
     name: '卫剑钒',
+    title: "开源许可与合规治理",
   },
   {
     avatar: withBase('/image/home/avatar/梁尧.jpg'),
     name: '梁尧',
+    title: "开源许可与合规治理",
   },
   {
     avatar: withBase('/image/home/avatar/李明康.jpg'),
     name: '李明康',
+    title: "开源教育",
   },
 ]
 
@@ -240,12 +266,12 @@ const infrastructureMembers = [
 ]
 
 // 设计/排版
-const artWorkers = [
-  {
-    avatar: withBase('/image/home/avatar/王军.jpg'),
-    name: '王军',
-  }
-]
+// const artWorkers = [
+//   {
+//     avatar: withBase('/image/home/avatar/王军.jpg'),
+//     name: '王军',
+//   }
+// ]
 
 </script>
 
@@ -319,12 +345,12 @@ const artWorkers = [
     </template>
   </VPTeamPageSection>
 
-  <VPTeamPageSection v-if="artWorkers">
+  <!-- <VPTeamPageSection v-if="artWorkers">
     <template #title>设计/排版</template>
     <template #members>
       <VPTeamMembers size="small" :members="artWorkers" />
     </template>
-  </VPTeamPageSection>
+  </VPTeamPageSection> -->
 </VPTeamPage>
 
 <!-- <VPTeamPageTitle>
@@ -337,11 +363,24 @@ const artWorkers = [
 <p :style="{fontSize: '1.5rem', textAlign: 'center'}">郭雪、姜宁、蒋涛、tison、卫剑钒、余杰</p> -->
 
 <VPTeamPageTitle>
+  <template #title>协作开源社区/单位</template>
+</VPTeamPageTitle>
+
+<div :style="{display: 'flex', width: '100%', center, flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'center'}">
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/KaiYuanShe-logo.png"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/x_lab2017_logo.jpg"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/logo-dark-FIT2CLOUD.svg"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/KWDB.png"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/logo_gitee_light.png"/>
+</div>
+
+
+<VPTeamPageTitle>
   <template #title>合作媒体</template>
 </VPTeamPageTitle>
 
 <div :style="{display: 'flex', width: '100%',center}">
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
   <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
 </div>
 
