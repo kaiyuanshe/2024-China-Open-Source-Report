@@ -59,7 +59,7 @@ const forewordMembers = [
 ]
 
 // 问卷篇
-const questionnaireMembers = [
+const questionnaireDesignMembers = [
   {
     avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
     name: '赵思嘉',
@@ -194,6 +194,10 @@ const memorabiliaMembers = [
     name: '袁滚滚',
   },
   {
+    avatar: withBase('/image/home/avatar/INP.png'),
+    name: 'INP',
+  },
+  {
     avatar: withBase('/image/home/avatar/王峰.jpg'),
     name: '王峰',
   },
@@ -225,12 +229,15 @@ const copyreaders = [
     avatar: withBase('/image/home/avatar/刘天栋.jpg'),
     name: '刘天栋',
   },
+];
+
+// 基础设施支持
+const infrastructureMembers = [
   {
     avatar: withBase('/image/home/avatar/丁文昊.png'),
     name: '丁文昊',
   },
-  
-];
+]
 
 // 设计/排版
 const artWorkers = [
@@ -284,6 +291,13 @@ const artWorkers = [
     </template>
   </VPTeamPageSection>
 
+  <VPTeamPageSection v-if="aiMembers">
+    <template #title>开源人工智能篇</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="aiMembers" />
+    </template>
+  </VPTeamPageSection>
+
   <VPTeamPageSection v-if="memorabiliaMembers">
     <template #title>开源大事记</template>
     <template #members>
@@ -295,6 +309,13 @@ const artWorkers = [
     <template #title>整体报告汇总/编辑</template>
     <template #members>
       <VPTeamMembers size="small" :members="copyreaders" />
+    </template>
+  </VPTeamPageSection>
+
+  <VPTeamPageSection v-if="infrastructureMembers">
+    <template #title>基础设施支持</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="infrastructureMembers" />
     </template>
   </VPTeamPageSection>
 
