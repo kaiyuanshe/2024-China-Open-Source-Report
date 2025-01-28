@@ -19,6 +19,7 @@ export const en = defineConfig({
           { text: 'OSS Questionnaire', link: '/en/questionnaire' },
           { text: 'OSS Data Analytics', link: '/en/data' },
           { text: 'OSS Commercialization', link: '/en/commercialization' },
+          { text: 'OSS AI', link: '/en/ossAI' },
           { text: 'OSS Chronicle', link: '/en/open-source-milestones' },
         ]
       }
