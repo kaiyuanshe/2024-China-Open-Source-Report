@@ -1685,13 +1685,13 @@ Armory 表现波动较大，2020 年至 2021 年略有下降，但在 2022 年�
 
 本节以飞致云为例，介绍企业的开源商业化实践案例。飞致云的开源商业化实践是借助开源杠杆，实现高效的“**产品 & 商业**”的协同创新，做出好的软件产品并不断把产品卖出去。飞致云的商业模式是基于开源的免费增值模式，该商业模式的成立需要同时解决两件事情：一是持续扩大免费安装基数，二是持续提升付费转化率。
 
-![image](https://hackmd.io/_uploads/SJ94-RSD1x.png#pic_center =450x)
+![8-6](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_8/8-6.png)
 <center>图 8-6 基于开源的免费增值模式</center>
 <br>
 
 飞致云的产品观是“好的软件是迭代出来的”。飞致云充分利用开源实现高效分发，获取大量反馈，并按月迭代发布产品。飞致云的商业观是 “Our products are bought, not sold”。 最终用户正在成为工具软件产品采购的关键决策者，飞致云实现了线上获客，销售标准产品，并通过强大的产品组合持续提升交叉销售率。这种“开源吸引用户-用户反馈促进迭代-迭代产品吸引更多用户-更多用户带来更多客户-更多收入带来更大研发投入”的循环，是飞致云商业模式能够真正形成飞轮效应的关键所在。
 
-![【推文配图】飞致云开源](https://hackmd.io/_uploads/rkr_X0HPkl.png)
+![【推文配图】飞致云开源](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_8/8-7.png)
 
 
 <center>图 8-7 飞致云开源商业化实践</center>
