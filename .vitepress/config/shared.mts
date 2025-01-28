@@ -5,11 +5,11 @@ const deploymentEnvironment = process.env.VITE_DEPLOYMENT_ENVIRONMENT;
 export const shared = defineConfig({
   lastUpdated: true,
 
-  base: deploymentEnvironment === 'gitee' ? '/2023-china-open-source-report/' : deploymentEnvironment === 'vercel' ? '' : '/2023-China-Open-Source-Report/',
+  base: deploymentEnvironment === 'gitee' ? '/2024-china-open-source-report/' : deploymentEnvironment === 'vercel' ? '' : '/2024-China-Open-Source-Report/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/image/China-Open-Source-Report.ico' }],
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/2023-China-Open-Source-Report/image/China-Open-Source-Report.ico' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/2024-China-Open-Source-Report/image/China-Open-Source-Report.ico' }],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-7CSQ2KPB1F' }
