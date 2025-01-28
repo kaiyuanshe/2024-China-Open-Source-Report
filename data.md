@@ -1,0 +1,1744 @@
+---
+title: 5. 数据篇
+tags: [2024 中国开源年度报告]
+
+---
+
+# 数据篇
+
+## 概述
+
+**2024 中国开源年度报告**以全面、深入的数据洞察为核心，通过九大篇章全方位展现中国开源生态的蓬勃发展。**第一部分宏观洞察篇**，从基础事件、活跃仓库、活跃用户和编程语言等维度，揭示中国在全球开源生态中的独特地位与影响力。**第二部分 OpenRank 排行榜篇**，通过全球与中国各领域的开源项目、企业、基金会、开发者及协作机器人排名，为业界提供权威、系统的 OpenRank 指标信息服务，成为衡量开源贡献的重要标尺。**第三、四部分企业洞察篇与基金会洞察篇**，通过动态演变图和趋势分析，深度解析全球与中国企业、基金会在开源领域的战略布局与演化路径。**第五部分技术领域洞察篇**，聚焦各领域 Top10 榜单与项目变化，精准捕捉前沿技术的发展方向与创新趋势。**第六部分开源项目洞察篇**，深入探讨项目类型、领域与主题的多样性，展现开源生态的活力与创新潜力。**第七部分开发者洞察篇**，通过开发者类型、工作时间分布、地区分布及机器人使用情况的分析，描绘开发者群体的多元化特征与工作模式。**第八部分商业开源洞察篇**，聚焦中国及全球商业开源企业与项目的发展现状，剖析其成长路径与成功经验。**第九部分高校开源洞察篇**，结合开源之夏 OSPP 活动与 OpenRank 社区算法，展现高校学生参与开源活动的活跃度与贡献度，揭示开源人才培养的新趋势。整体而言，数据篇以丰富的数据维度与深度的分析视角，勾勒出 2024 年中国开源生态的全景图，为行业提供宝贵的洞察与参考。
+
+
+### 指标介绍
+
+**影响力/贡献度（OpenRank）**
+
+**OpenRank 指标**由 X-lab 开放实验室研发，基于开发者-项目协作关系网络构建，具备多维度的评价能力。在评估**项目**时，OpenRank 以**影响力**为核心，全面衡量项目的整体发展状态与社区参与度；在评估**开发者**时，则以**贡献度**为关键指标，精准反映其在开源生态中的协作价值与活跃程度。此外，OpenRank 还可将评价对象聚合至**企业、组织、基金会**等更高层级，揭示其在开源生态中的战略地位与协作网络中的核心作用。目前，OpenRank 已获得工业界与学术界的广泛认可，并被纳入多项权威标准与实践，包括中国标准化研究院的开源治理标准、信通院的开源治理白皮书、开放原子开源基金会的全球开源大屏，以及企业开源办公室的治理工具箱，成为衡量开源生态健康度与协作价值的权威工具。
+
+OpenRank 参考文献：
+
+[1] [Shengyu Zhao et al: OpenRank Leaderboard: Motivating Open Source Collaborations Through Social Network Evaluation in Alibaba. ICSE, 2024](https://www.researchgate.net/publication/376686121_OpenRank_Leaderboard_Motivating_Open_Source_Collaborations_Through_Social_Network_Evaluation_in_Alibaba)
+
+[2] [赵生宇: 如何评价一个开源项目（三）价值流网络, 2021](https://blog.frankzhao.cn/how_to_measure_open_source_3)
+
+[3] 工业和信息化部标准化研究院: 《信息技术 开源治理 第3部分：社区治理与运营》[T/CESA 1270.3-2023]、《信息技术 开源治理 第 5 部分：开源贡献者评价模型》[T/CESA 1270.5-2023], 2023
+
+
+**活跃度（Activity）**
+
+**活跃度**是 X-lab 研发的核心指标之一，用于量化评估项目或开发者的活跃程度。开发者活跃度通过对其在开源生态中的关键行为（如 Issue 提交、PR 创建、代码 Review 等）进行加权计算得出，精准反映其参与度与贡献强度。项目活跃度则基于项目中所有开发者的活跃度总和，经过标准化处理后生成，全面衡量项目的整体活跃状态与社区参与水平。这一指标为开源生态的健康度评估提供了科学、可量化的依据。
+
+Activity 参考文献：
+
+[1] [Xiaoya Xia et al: Exploring activity and contributors on GitHub: Who, what, when, and where. APSEC, 2023](https://ieeexplore.ieee.org/abstract/document/10043221)
+
+[2] [赵生宇：如何评价一个开源项目（一）——活跃度，2021](https://blog.frankzhao.cn/how_to_measure_open_source_1)
+
+
+## 一. 总体宏观洞察
+
+### 1.1 基础事件
+**基础事件**是开源生态分析的核心数据来源，指全球化开源协作平台（如 GitHub、Gitee 等）上由开发者活动行为产生的事件日志数据。通过对这些事件的统计分析，可以宏观洞察全球开源生态的发展态势。本报告涵盖 GitHub 和 Gitee 两大平台的数据。
+
+#### 1.1.1 GitHub 全域事件趋势
+
+2024 年，GitHub 全域事件日志总数达到 **17.5 亿**，同比增长约 **10%**。尽管增速较 2018-2023 年的高速增长期有所放缓，但 10% 的增长率仍表明开源在全球数字化转型中的关键地位。推动这一增长的主要因素包括：
+
+* **GitHub Copilot 等 AI 工具的普及**：自 2023 年初以来，AI 辅助编程工具的广泛应用吸引了更多开发者，尤其是南半球开发者的参与。
+* **开发者数量增长**：全球开发者数量的增加直接推动了事件日志的上升。
+
+图 1.1 展示了 GitHub 年度事件数的增长趋势，凸显了开源生态的持续活跃。
+
+![1-1](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-1.png?raw=true)
+<center>图 1.1 GitHub 年度事件数趋势 </center>
+<br>
+
+#### 1.1.2 GitHub 与 Gitee 事件数趋势比较
+
+为便于比较，我们选取 GitHub 和 Gitee 各平台**前 3 万**个活跃仓库，并聚焦与开源参与密切相关的 8 类事件（如 CommitCommentEvent、PullRequestEvent 等）。分析结果显示：
+
+* **GitHub**：事件数量持续增长，但波动较大，反映了其全球平台的多样性与活跃性。
+* **Gitee**：事件数量稳步上升，显示出国内开源社区的稳步发展与规范化趋势。
+
+尽管 GitHub 的事件数量仍远高于 Gitee，但 Gitee 的稳定增长表明国内开发者对开源的热情与贡献度不断提升。图 1.2 展示了两大平台的事件数趋势对比。
+
+![GitHuB&Gitee_events_count](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/GitHuB%26Gitee_events_count.png?raw=true)
+
+<center>图 1.2 GitHub 与 Gitee 活跃仓库事件数 </center>
+<br>
+
+#### 1.1.3 细分事件类型分析
+
+进一步分析事件类型的分布（图 1.3 和图 1.4）：
+
+* **GitHub**：Watch 事件（即 Star 行为）占比最高，反映了用户对项目的关注与认可。Pull Request 和 Issue Comment 事件紧随其后，表明代码协作与问题讨论的活跃度。
+* **Gitee**：Pull Request Review Comment 事件占比最高，主要由于平台 CI 特性的自动化审核机制。这一趋势反映了国内开发者从“关注者”向“贡献者”角色的转变。
+
+![GitHub_events_type_distribute](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/Gitee_events_type_distribute.png?raw=true)
+
+<center>图 1.3 GitHub 细分事件类型分析 </center>
+<br>
+
+![Gitee_events_type_distribute](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/GitHub_events_type_distribute.png?raw=true)
+
+<center>图 1.4 Gitee 细分事件类型分析 </center>
+<br>
+
+### 1.2 活跃仓库
+
+#### 1.2.1 GitHub 全域活跃仓库趋势
+
+GitHub 活跃仓库数量持续增长，但增速逐年放缓（图 1.5）。2020 年疫情期间的远程办公与数字化转型推动了仓库数量的激增，而 2022 年后增速放缓则与市场趋于成熟及竞争平台（如 Gitee、GitLab）的发展有关。
+
+图 1.6 展示了 GitHub 仓库活跃度的总体趋势，2024 年接近历史最高水平。
+
+![1-5](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-5.png?raw=true)
+
+
+<center>图 1.5 GitHub 年度活跃仓库数量趋势 </center>
+<br>
+
+
+![1-6](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-6.png?raw=true)
+
+<center>图 1.6 GitHub 仓库活跃度总览 </center>
+<br>
+
+**Issue 相关事件**（如 Issue Comment）和 **Pull Request 事件**（如 PR 创建与合并）是 GitHub 仓库活跃度的主要驱动力（图 1.7）。具体来看：
+
+* **Issue 评论事件**占比达 29.1%，是活跃事件的最大组成部分，表明用户在问题解决与改进讨论中表现出高度活跃。
+* **Pull Request 事件**（包括 PR 创建与合并）合计占比 46.4%，接近总活跃事件的一半，凸显了 GitHub 在代码协作与贡献中的核心作用。
+
+图 1.7 展示了 GitHub 仓库活跃度的详细组成，进一步印证了 Issue 和 PR 事件在推动开源项目发展中的关键地位。
+
+![1-7](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-7.png?raw=true)
+
+
+<center>图 1.7 GitHub 仓库活跃度组成 </center>
+<br>
+
+GitHub 仓库的 **OpenRank 值**在 2018-2020 年经历了快速增长期，2020 年增长率达到峰值，反映出这一时期 GitHub 用户扩展与开源项目活跃度的双重爆发。2021-2022 年，增长率逐渐放缓，进入平缓期。然而，从 **2023 年开始**，增长率有所回升，2024 年虽有小幅回落，但整体仍保持稳定增长，表明 GitHub 作为全球领先开源平台的持续活力与吸引力。
+
+![1-8](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-8.png?raw=true)
+
+<center>图 1.8 GitHub 仓库 OpenRank </center>
+<br>
+
+
+#### 1.2.2 Gitee 全域活跃仓库趋势
+
+Gitee 的仓库活跃度在 2018-2020 年快速增长，2020 年达到顶峰，主要受益于国内开源政策的支持与开放原子开源基金会的成立。2021 年后增速放缓，但 2024 年仍达到新的峰值（图 1.9）。
+
+![1-9](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-9.png?raw=true)
+<center>图 1.9 Gitee 仓库活跃度总览 </center>
+<br>
+
+在 Gitee 平台上，**Review Comment 事件**占据绝对主导地位，占总活跃事件的 75.6%，远高于其他事件类型（如 Open Issue、Issue Comment、Merged Pull 等，占比约 7%；Open Pull 事件占比仅为 5%）。这一分布表明 Gitee 开发者更聚焦于代码审查环节，而在代码提交与问题讨论的活跃度上略低于 GitHub，反映了平台用户对代码质量的高度关注与规范化流程的逐步成熟（图 1.10）。
+
+![1-10](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-10.png?raw=true)
+<center>图 1.10 Gitee 仓库活跃度组成 </center>
+<br>
+
+Gitee 的 **OpenRank 值**从 2018 年到 2024 年实现了显著增长，尤其在 2019-2020 年间大幅提升，主要受益于国内开源生态政策的支持与开发者对本土化平台的积极参与。尽管 2021 年后增长率有所放缓，但 Gitee 的综合活跃度仍保持稳步上升趋势，印证了其在国内开源平台中地位的不断提升，以及在社区贡献与活跃度上的持续增长。
+
+![1-11](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-11.png?raw=true)
+<center>图 1.11 Gitee 仓库 OpenRank </center>
+<br>
+
+### 1.3 活跃开发者
+
+#### 1.3.1 GitHub 总体活跃用户趋势
+
+2024 年的分析延续了以往的研究方法，并基于更丰富、精细化的数据来源。本次研究覆盖了 GitHub 上 1200 万活跃开发者的样本，其中约 255 万开发者提供了准确的地理位置信息，占 GitHub 全域注册用户总量（约 1.2 亿）的 2%。尽管样本仅为全体用户的一小部分，但数据质量的提升为分析全球开发者地理分布及区域协作模式提供了更具代表性的视角。
+
+图 1.12 展示了 GitHub 年度活跃开发者数量的增长趋势。从 2020 年的 1,454 万增长至 2024 年的 2,511 万，活跃开发者数量总体呈上升趋势。其中：
+
+* **2019-2021 年**：快速增长，主要受益于疫情推动的远程工作转型与全球数字化转型加速。
+* **2022-2023 年**：增速放缓，可能与市场趋于成熟及基数效应有关。
+* **2024 年**：增长率回升至 14.1%，新增约 311 万开发者，反映出新技术浪潮（如 AI、Web3 等）对开发者生态的推动作用。
+
+![1-12](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-12.png?raw=true)
+<center>图 1.12 GitHub 年度活跃开发者数量趋势 </center>
+<br>
+
+与仓库增长相比，开发者增长更为稳定，表明 GitHub 的用户基础持续扩大。即使在增长放缓期，每年仍有大量新开发者加入，2024 年的反弹进一步证明了 GitHub 作为全球领先开源平台的强大吸引力。
+
+#### 1.3.2 开发者地理分布
+
+**1、全球开发者地域分布**
+
+根据统计，全球开发者的地理分布呈现高度集中化特征，前10大国家占全球开发者总量的60%，具体见下表：
+
+| 排名 | 国家         | 总人数  | 占比    | 开发者活跃度     |
+|------|--------------|---------|---------|------------------|
+| 1    | 美国         | 435,202 | 17.11%  | 4,301,051.55     |
+| 2    | 印度         | 252,054 | 9.91%   | 1,099,659.73     |
+| 3    | 中国         | 184,085 | 7.23%   | 1,097,116.82     |
+| 4    | 巴西         | 174,811 | 6.87%   | 683,186.08       |
+| 5    | 德国         | 126,397 | 4.96%   | 1,492,317.89     |
+| 6    | 英国         | 103,061 | 4.05%   | 1,140,839.73     |
+| 7    | 加拿大       | 82,627  | 3.24%   | 821,240.65       |
+| 8    | 法国         | 78,288  | 3.07%   | 833,038.24       |
+| 9    | 俄罗斯       | 60,735  | 2.38%   | 310,555.47       |
+| 10   | 韩国         | 44,006  | 1.73%   | 375,550.82       |
+
+**主要观察：**
+- **美国**以43.5万开发者（占比17.11%）遥遥领先，其**活跃度**（4,301,051.55）也居全球首位，展现出其在开源生态中的绝对主导地位。
+- **印度**（9.91%）和**中国**（7.23%）紧随其后，中国开发者数量虽少于印度，但活跃度几乎持平，显示出中国开发者在开源项目中的高参与度和贡献密度。
+- **德国**表现突出，尽管开发者数量排名第五，但其活跃度（1,492,317.89）位列第二，说明其开发者整体参与深度较高。
+- **巴西与俄罗斯**开发者虽数量较多，但人均活跃度偏低，表明在开源生态的参与质量上仍有提升空间。
+
+#### **2. 中国开发者地域分布**
+进一步分析中国开发者的分布情况，数据显示，中国开发者总量为**9,404,966人**，其中**北上广深**地区占据主要份额，展现出经济发达区域对开源技术的强大吸引力。
+
+| 排名 | 省份   | 总人数 | 全国占比 | 实际总量（万） |
+|------|--------|--------|----------|----------------|
+| 1    | 北京   | 38,323 | 22.04%   | 207.20         |
+| 2    | 上海   | 28,393 | 16.43%   | 154.86         |
+| 3    | 广东   | 24,959 | 14.49%   | 136.28         |
+| 4    | 台湾   | 15,894 | 9.53%    | 89.62          |
+| 5    | 浙江   | 15,816 | 8.13%    | 76.52          |
+| 6    | 江苏   | 9,369  | 4.90%    | 46.10          |
+| 7    | 四川   | 8,186  | 4.69%    | 44.03          |
+| 8    | 香港   | 6,625  | 3.13%    | 29.44          |
+| 9    | 湖北   | 5,732  | 2.95%    | 27.75          |
+| 10   | 陕西   | 3,669  | 1.88%    | 17.68          |
+
+**主要观察：**
+- **北上广深主导**：北京（22.04%）、上海（16.43%）和广东（14.49%）位列前三，合计占比超过50%，反映出这些经济与科技中心在开源生态中的突出地位。北京以38,323名开发者（207.2万人）居首，展现了其在技术创新和人才集聚方面的核心优势。
+- **台湾和香港**：台湾（9.53%）和香港（3.13%）在开源生态中占据重要位置，台湾凭借其高科技产业和开放政策环境吸引大量开发者。
+- **长三角与珠三角优势明显**：长三角地区（上海、浙江、江苏）和珠三角地区（广东）开发者总数超过15万，显示出东部沿海经济发达地区的强大创新能力。
+- **中西部崛起**：四川（4.69%）、湖北（2.95%）和陕西（1.88%）开发者数量虽不及东部，但整体增长显著，显示出中西部地区技术创新生态的逐步完善和吸引力的提升。
+
+#### **总结与观点：**
+- **全球视角**：中国在全球开源生态中的地位日益重要，开发者的活跃度与贡献密度接近印度，表现出开源生态的快速成熟。德国和英国等国家的人均活跃度较高，值得中国借鉴其深度参与模式。
+- **国内分布**：北上广深以及沿海地区仍是中国开源开发者的核心聚集地，但中西部地区的技术生态正在崛起，为未来中国开源生态的平衡发展提供了新的动能。
+- **发展建议**：
+  1. 加强对中西部地区开发者的支持和资源倾斜，推动区域均衡发展。
+  2. 借鉴德国等高参与度国家的经验，提高开发者的社区参与度和贡献深度。
+  3. 通过政策激励和技术支持，培养更多高活跃度、高贡献度的开发者，进一步巩固中国在全球开源生态中的竞争力。
+
+<!-- ### 1.4 开源许可证
+### **1.4 开源许可证（优化版）**
+#### **1.4.1 使用开源许可证的仓库数量**
+统计数据显示，GitHub 活跃仓库中采用的开源许可证分布如下：
+
+![license_distribute](https://hackmd.io/_uploads/HJamkTmUJe.png)  
+<center>图 1.12 使用开源许可证的仓库数量占比 </center>  
+
+**主要观察：**
+- **MIT 许可证**占比最高，接近 43%，是最受欢迎的开源许可证。MIT 许可证以其简洁和灵活性著称，提供最小的法律限制，允许开发者自由使用和传播代码。这种特性使其成为全球开发者的首选。
+- **Apache 许可证 v2.0**占比从 2023 年的 15.7% 上升至 19.4%，显示出对更严格版权声明的需求逐渐增加。
+- 其他主要许可证包括 **GNU 通用公共许可证 v3.0** 和 **BSD 3-Clause 许可证**，它们在开源项目中也有广泛应用。
+
+相比 2023 年，MIT 许可证的占比有所下降，而 Apache 2.0 许可证的比例显著提高，这反映了开源社区对代码修改声明和知识产权保护的关注逐渐上升。
+
+---
+
+#### **1.4.2 开源许可证种类变化趋势**
+分析了开源许可证种类的增长趋势，结果如下图所示：
+
+![license_type_count_trend](https://hackmd.io/_uploads/r1Gmkpm8Jg.png)  
+<center>图 1.13 开源许可证种类数量变化趋势 </center>  
+
+**主要观察：**
+- 从 2017 年起，开源许可证的种类呈现持续增长态势。2017-2018 年间，**Eclipse 公共许可证 2.0** 和 **欧盟公共许可证 1.2** 等新许可证的推出推动了增长。
+- 2021-2022 年，**木兰系列许可证**和 **CERN 许可证 v2** 等创新型许可证开始崭露头角，进一步丰富了许可证种类。
+- 到 2024 年，GitHub 上主流开源许可证的种类已稳定在 **47 种**，表明开源社区对标准化和成熟化的需求逐步提升。
+
+---
+
+#### **1.4.3 使用开源许可证仓库数量变化趋势**
+2023 年，约有 **770 万个活跃仓库**使用了各种开源许可证，占所有活跃仓库的 8.76%。以下是对主要许可证的数量变化趋势分析：
+
+**1. MIT 许可证数量变化趋势**  
+![MIT_repo_count_trend](https://hackmd.io/_uploads/B1Lf1T7I1x.png)  
+<center>图 1.14 使用 MIT 许可证的仓库数量变化趋势 </center>  
+
+**发现：**
+- 2023 年，MIT 许可证的活跃仓库数量为 **158 万**，2024 年则减少至不到 **100 万**，出现大幅下降。
+- 与此同时，Apache 2.0 许可证的占比上升，表明开发者更倾向于选择需要在代码修改后声明修改的许可证，而非完全自由的 MIT 许可证。
+- 总体来看，MIT 许可证的使用减少反映了开源社区对项目代码属性保护的需求逐渐增强。
+
+**2. 其他主要许可证数量变化趋势**  
+![Var_license_repo_count_trend](https://hackmd.io/_uploads/HJsbJ67I1l.png)  
+<center>图 1.15 使用其他许可证的仓库数量变化趋势 </center>  
+
+**发现：**
+- 所有主要许可证（如 Apache、GNU、BSD）的使用数量在 2024 年均有所下降，但许可证头部仍以 MIT、Apache 和 GNU 为主。
+- **小众许可证**的使用比例相对稳定，热门许可证的下降比例更为明显，表明开源社区正在逐渐多元化。
+
+---
+
+#### **1.4.4 使用木兰系列许可证仓库数量变化趋势**
+以下是对木兰系列许可证（包括“木兰宽松许可证”和“木兰公共许可证”）的使用趋势分析：
+
+![Mulan_repo_count_trend](https://hackmd.io/_uploads/BJieypQIyl.png)  
+<center>图 1.16 使用木兰系列许可证的活跃仓库数量累加图 </center>  
+
+**主要观察：**
+- 木兰系列许可证由北京大学牵头，联合开源社、产学研团队及开源法务团队起草，是中国首个获得 OSI 认可的开源软件许可证。
+- 从 2022 年 9 月起，使用木兰许可证的活跃仓库开始显著增长，并在 2024 年 1 月后，每月新增仓库数量稳定在 **50 个以上**。
+- 木兰许可证的增长展示了其在中国开源社区和全球市场中的认可度逐步提升，尤其在推动本土开源规范和知识产权保护方面的价值日益凸显。
+
+---
+
+### **总结与趋势洞察：**
+1. **许可证偏好变化**：MIT 许可证仍是最流行的开源许可证，但其下降趋势表明社区更关注代码修改声明和知识产权保护，Apache 2.0 的上升则是这一趋势的直接体现。
+2. **种类稳定化**：2024 年，主流开源许可证的种类趋于稳定，显示出开源社区对标准化许可协议的需求日益成熟。
+3. **木兰许可证崛起**：木兰许可证的使用量持续增长，标志着中国本土开源协议在国际开源社区中的影响力逐步提升，这将为中国开源生态的发展注入更多动力。
+4. **发展建议**：
+   - 推动更多创新型许可证的研发，满足不同行业和场景的需求。
+   - 强化开源许可证知识普及，帮助开发者更好地理解和选择适合项目的许可证。
+   - 支持本土许可证的国际化推广，进一步提升中国开源生态的全球影响力。
+ -->
+ 
+### 1.4 编程语言
+
+#### **1.4.1 2024 年开发者使用编程语言榜单**
+
+编程语言的受欢迎程度一直是开发者关注的重点。以下是 2024 年度最受开发者欢迎的编程语言榜单：
+
+<center>表1.3 开发者使用编程语言排行榜（Top 15） </center>  
+
+| 排名 | 编程语言          | 使用该语言开发者数	   | 使用该语言仓库数   |
+|:---:|:-----------------:|:-------:|:-------:|
+|  1  | JavaScript       | 591,223  | 654,037  |
+|  2  | Python           | 540,751  | 499,644  |
+|  3  | TypeScript       | 439,954  | 462,496  |
+|  4  | HTML             | 424,901  | 401,084  |
+|  5  | Java             | 281,403  | 328,123  |
+|  6  | C++              | 143,135  | 106,444  |
+|  7  | CSS              | 137,566  | 114,166  |
+|  8  | C#               | 131,549  | 163,796  |
+|  9  | Go               | 125,521  | 121,209  |
+|  10 | Jupyter Notebook | 119,874  | 79,415   |
+|  11 | PHP              | 100,984  | 108,019  |
+|  12 | Shell            | 93,726   | 76,276   |
+|  13 | C                | 84,253   | 60,389   |
+|  14 | Rust             | 68,199   | 62,969   |
+|  15 | Kotlin           | 53,503   | 48,013   |
+
+**主要观察：**
+- **JavaScript**以 59 万开发者和 65 万仓库继续稳居榜首，是最受欢迎的编程语言，其广泛的应用场景和成熟的生态系统是其保持领先的关键因素。
+- **Python**以 54 万开发者紧随其后，得益于其在数据科学、人工智能及通用编程领域的广泛应用。
+- **TypeScript**排在第三，开发者人数（43.9 万）超过 HTML（42.4 万），显示其在前端开发中的地位持续上升。
+- **HTML**和**Java**分列第四和第五，分别拥有 42.4 万和 28.1 万开发者，但从第 6 名的 **C++** 开始，开发者人数减少近一半，表现出头部编程语言的显著集中效应。
+- 排行榜第 6 至第 15 名语言（如 C++、Rust、Kotlin）虽用户基数较小，但它们在特定领域（如系统开发、移动开发等）仍具有重要影响力。
+
+总体来看，主流编程语言的适用领域已基本固化，近年来使用人数排名变化不大，表明开发者对这些语言的选择具有较高稳定性。
+
+---
+
+#### **1.4.2 2019-2024 年开发者使用编程语言趋势**
+
+以下为 2019-2024 年开发者使用编程语言趋势的统计分析：
+
+![var_lang_until_2023](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/var_lang_until_2023.png?raw=true)  
+<center>图 1.15 2019 - 2023 年开发者使用编程语言趋势 </center>  
+
+![var_lang_until_2024_predict](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/var_lang_until_2024_predicted.png?raw=true)  
+<center>图 1.16 2019 - 2024 年开发者使用编程语言趋势（预测） </center>  
+
+**数据说明：**
+由于数据源不再提供仓库的元信息，2024 年 10、11、12 月的相关数据缺失，因此结合 2019-2023 年的数据，采用预测模型对 2024 年的数据进行了估算，虚线部分为预测结果。
+
+**主要观察：**
+1. **JavaScript**、**Python**、**HTML**、**TypeScript**、**Java**是当前最主要的编程语言，且长期保持领先地位。
+2. **HTML语言快速增长**：预测显示，2024 年 HTML 的增长速度将加快，与 Python 的差距显著缩小。这一趋势可能与开发者对项目展示美观性和便捷性的重视有关，未来 HTML 在前端开发和内容展示中仍会保持重要地位。
+3. **TypeScript持续飞跃**：过去 5 年，TypeScript 使用人数增长迅猛，在 2021 年已与排在其后的编程语言拉开明显差距，成为开发者的核心选择之一。2024 年预测数据显示，其开发者使用数将位列第四。TypeScript 的成功得益于其在 JavaScript 基础上引入的静态类型检查、强大的社区支持以及对大型项目的适配性。
+4. **JavaScript和Python稳定增长**：两者始终位列前两名，且增长曲线相对平稳，表明其在通用开发中的不可替代性。
+
+---
+
+### 总结与趋势洞察：
+
+1. **头部效应显著**：JavaScript 和 Python 长期稳居前两位，TypeScript 的快速崛起进一步巩固了其在前端开发中的地位。与此同时，HTML 的增长也反映了开发者对更直观、易用技术的需求。
+2. **领域驱动趋势**：C++、Rust 等语言虽然用户基数较小，但它们在系统编程、高性能计算等特定领域的影响力不容忽视，未来或将继续作为垂直领域的关键技术。
+3. **社区与生态作用明显**：TypeScript 的成功再次证明了社区和生态系统在编程语言推广中的重要性。语言本身的技术优势与强大支持体系相结合，能够显著推动其用户增长。
+4. **发展建议**：
+   - 针对新兴编程语言（如 Rust、Kotlin）的发展趋势，积极完善配套工具和生态，吸引更多开发者。
+   - 鼓励开发者在项目中更多尝试 HTML 和 TypeScript，提升前端开发效率和展示效果。
+   - 支持垂直领域编程语言（如 C++ 和 Go）在行业中的深化应用，推动创新技术落地。
+
+
+## 二. OpenRank 排行榜
+
+在开源领域，排行榜不仅是衡量项目影响力和活跃度的重要工具，也是展示全球开源生态动态的窗口。2024 年度中国开源年报通过 **OpenRank 排行榜**，以独特的视角呈现了开源社区的关键参与者，包括项目、地区、企业、基金会及新兴项目的活跃度和影响力。报告整合了国内外两大平台 **GitHub** 和 **Gitee** 的数据，既涵盖了中国的开源生态，也提供了全球视角的分析。通过这些排行榜，我们期望进一步推动开源文化的普及和开源技术的应用，同时鼓励企业和个人更加积极地参与开源项目。
+
+---
+
+### 2.1 全球项目排行榜
+![全球项目排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_2.jpg)  
+<center>图 2.1 2024 年全球项目 OpenRank 排行榜 Top 30</center>  
+
+根据 **2024 年全球项目 OpenRank 排行榜 Top 30**，**中国开源项目 OpenHarmony** 以 **67538.71** 的 OpenRank 值位居榜首，展现了其在开源社区中的卓越活跃度和全球影响力。**Azure** 和 **.Net** 分别排名第二和第三位。值得注意的是，**OpenHarmony** 和 **LLVM** 的 OpenRank 分数在过去一年中显著增长，表明它们在特定技术领域或技术栈中具有巨大的成长潜力和社区影响力。
+
+**排行榜概览：**
+- 覆盖多个领域，包括 **操作系统**、**云计算**、**编程语言**、**物联网**、**大数据**、**人工智能**、**游戏引擎** 和 **可视化工具**。
+- 展现出开源项目的广泛性和多样性，同时反映了技术领域的重点和热点方向。
+
+---
+
+### 2.2 中国项目排行榜
+![中国项目排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_1.jpg)  
+<center>图 2.2 2024 年中国项目 OpenRank 排行榜 Top 30</center>  
+
+**2024 年中国项目 OpenRank 排行榜** 涵盖了多个技术领域，包括 **操作系统**（如 OpenHarmony）、**人工智能**（如 MindSpore）、**数据库**（如 openGauss、TiDB）和 **大数据处理**（如 Apache Flink）。这表明中国开源项目的多样性和技术实力正在不断增强。
+
+**主要观察：**
+- **华为**在排行榜中占据多个位置（如 OpenHarmony、openEuler），显示了其在中国开源社区中的主导地位和突出贡献。
+- **人工智能项目**表现抢眼：**MindSpore** 和 **PaddlePaddle** 分别位列第三和第四，反映了中国在 AI 领域的快速发展。
+- **隐私计算项目的崛起**：**SecretFlow** 作为隐私计算领域的代表入榜，表明新兴技术领域正在获得广泛关注。
+
+---
+
+### 2.3 全球企业排行榜
+![全球企业排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2-8.png)  
+<center>图 2.3 2024 年全球企业 OpenRank 排行榜 Top 30</center>  
+
+**全球企业 OpenRank 排行榜** 展示了开源项目国际化与全球化的特点，其中 **美国企业**占据绝对主导地位。科技巨头如 **微软（Microsoft）**、**谷歌（Google）** 和 **亚马逊（Amazon）** 在 OpenRank 分数上遥遥领先，显示出其在全球开源领域中的领导地位。
+
+**亮点：**
+- **中国企业的崛起**：**华为（Huawei）** 和 **阿里巴巴（Alibaba）** 分别位列第二和第八，反映了中国企业在全球开源生态中的影响力持续增强。
+- **新兴企业的崭露头角**：如 **HashiCorp**、**Hugging Face**、**Vercel** 和 **LangChain** 等新兴企业也进入榜单，表明开源领域的创新活力正在不断释放。
+
+---
+
+### 2.4 中国企业排行榜
+![中国企业排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_5.png)  
+<center>图 2.4 2024 年中国企业 OpenRank 排行榜 Top 30</center>  
+
+**2024 年中国企业 OpenRank 排行榜** 以大型企业为主导，显示了中国企业在推动开源生态发展中的重要作用。
+
+**主要观察：**
+- **华为（Huawei）、阿里巴巴（Alibaba）、蚂蚁集团（Ant Group）、百度（Baidu）** 等公司名列前茅，展现了它们作为开源生态核心驱动力的地位。
+- 腾讯（Tencent）、百度、阿里巴巴等企业不仅在国内表现突出，也在全球开源项目中拥有显著影响力。
+
+---
+
+### 2.5 开源基金会排行榜
+![开源基金会排行榜](https://hackmd.io/_uploads/B1X4XTXIkx.png)  
+<center>图 2.5 2024 年开源基金会 OpenRank 排行榜 Top 30</center>  
+
+**2024 年开源基金会 OpenRank 排行榜** 中，**开放原子开源基金会（OpenAtom Foundation）** 位居第一，表明中国在推动大型开源项目方面取得了重要成就。
+
+**亮点：**
+- 美国的多个高排名基金会（如 **Cloud Native Computing Foundation**、**Apache Software Foundation** 和 **Linux Foundation**）继续保持强劲影响力。
+- 荷兰的 **Stichting NixOS Foundation** 和 **Godot Foundation** 分别位列第四和第七，展现了欧洲在开源项目中的参与和贡献。
+
+---
+
+### 2.6 全球行政区划开发者排行榜
+![全球行政区划开发者排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_3.jpg)  
+<center>图 2.6 2024 年全球行政区划开发者 OpenRank 排行榜 Top 30</center>  
+
+**全球行政区划排行榜** 显示了经济发达地区的开源开发活跃程度较高。  
+**主要观察：**
+- **美国**主导：如加利福尼亚州（硅谷）、华盛顿州（微软、亚马逊总部所在地）、纽约州等是全球开源活动的中心。
+- **中国**的北京、上海等城市也表现强劲，进一步巩固了其在全球开源生态中的地位。
+
+---
+
+### 2.7 中国行政区划开发者排行榜
+![中国行政区划开发者排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_4.jpg)  
+<center>图 2.7 2024 年中国行政区划开发者 OpenRank 排行榜 Top 34</center>  
+
+**中国行政区划排行榜** 显示，北京、上海等一线城市继续在开源发展中占据主导地位，同时沿海城市和部分西部地区也展现了较大的开发潜力。
+
+---
+
+### 2.8 全球新势力项目排行榜
+![全球新势力项目排行榜](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_2/2_7.png)  
+<center>图 2.8 2024 年全球新势力项目 OpenRank 排行榜 Top 10</center>  
+
+**全球新势力项目排行榜** 反映了高度活跃的核心项目和开发团队，代表了未来技术趋势和创新方向。
+
+**亮点：**
+- **UV 项目**位列第一，作为 Python 包管理工具，其活跃开发者数量和协作紧密度非常高。
+- **Valkey 项目**（第四位）：从 Redis 分叉而来，是一个高性能键值数据存储项目，目前托管于 Linux 基金会，并获得包括 AWS、Google Cloud 和阿里巴巴等巨头支持。
+- **Redot Engine**（第九位）：社区驱动的开源游戏开发引擎，基于 Godot 引擎分叉，采用 MIT 许可证。
+- **KWDB 项目**（第十位）：作为中国唯一上榜的新势力项目，KWDB 是国内首款开源分布式多模数据库，由开放原子基金会孵化，体现了中国在数据库领域的技术创新和开源贡献。
+
+---
+
+### 总结与趋势洞察：
+
+1. **中国开源生态崛起**：OpenHarmony 等项目的全球领先地位和华为等企业的突出表现显示了中国在开源领域的快速崛起。
+2. **全球化与多样性**：排行榜涵盖了多个技术领域和地区，充分反映了开源生态的国际化和技术广泛性。
+3. **新兴技术驱动**：隐私计算、分布式数据库和社区驱动游戏引擎等新兴领域正在成为全球开源技术的热点。
+4. **发展建议**：
+   - 支持新兴项目的孵化与发展，尤其是中国项目的国际化推广。
+   - 加强对开源基金会和社区的支持，推动全球开源生态的合作与创新。
+   - 引导更多开发者参与开源项目，提升技术影响力和全球竞争力。
+
+## 三. 企业洞察
+企业在开源生态中的角色与表现，正日益成为衡量其技术创新能力与行业影响力的关键维度。从全球化的技术竞争到本地化的行业应用，开源已成为驱动企业数字化转型和技术突破的重要引擎。随着开源生态的持续扩展，企业在开源领域的活跃度、贡献度和影响力，逐渐成为评估其综合实力的重要指标。
+
+本节将通过分析全球及中国企业近十年来的OpenRank演变趋势，并结合2024年度的活跃度与OpenRank排名，深入探讨企业在开源领域的表现及其对行业生态的推动作用。特别是针对今年中国企业中的黑马——DaoCloud，将通过数据可视化、核心项目生态协作网络与社区协作网络的分析，全面展现其在云原生技术领域的快速崛起与战略布局，为行业提供新的参考与启示。
+
+### 3.1 近 10 年全球企业 OpenRank 演变图
+
+![image](https://hackmd.io/_uploads/r131OHq81g.png)
+<center>图 3.1 近 10 年全球企业 OpenRank 演变图 </center>
+<br>
+
+全球企业开源影响力的观察如下：
+
+* 微软从十多年前（2008 年）开始布局开源，在 2016 年站到了全球开源影响力的巅峰，直到今天无人撼动；
+* 2019 年，华为正式被美国制裁开始，将开源作为重要战略方向，一路飙升，并于2023年完成了对 Google 和 Amazon 的超越；
+* 阿里巴巴在 2021 年前，一直是国内开源的领先者，并至今稳居世界第八的排名；
+* 蚂蚁集团在近三年的表现也是非常抢眼，并于 2023 年正式进入世界前15，目前排名全球13；
+* 国内开源的第四大巨头百度，由于国内快速的开源态势变化，目前排名全球 12；
+* 全球年度黑马为Nabu Casa Inc（首次进入全球Top15，目前全球排名11），这是世界上最大的开源家庭自动化平台；
+* 今年还有首次进入Top15的有Intel（排名15），预示着Intel逐渐在开源领域布局；以及DataDog（排名14），是一家提供分析数据、监控服务器、工具、数据库和各项服务的云应用公司
+
+### 3.2 近 10 年中国企业 OpenRank 演变图
+
+![image](https://hackmd.io/_uploads/HJLHFrcI1x.png)
+<center>图 3.2 近 10 年中国企业 OpenRank 演变图 </center>
+<br>
+
+本图能够很好表现国内公司的开源战略及其变化趋势：
+
+* 华为 2018 年开始发力，仅用2年的时间就做到了国内第一，到2023年达到了全球第二的位置；
+* 阿里和蚂蚁作为国内老牌开源引领的企业，表现稳定；
+* 百度则由于前面三家的竞争，滑落第四；
+* 字节跳动则是近几年肉眼可见的进步神速；
+* Espressif（乐鑫科技）是国内开源界相对低调的半导体开源王者；
+* Fit2Cloud 则是作为另一家低调但非常务实的开源企业，旗下多款开源软件深受开发者喜爱；
+* 近年来，排名靠前的新兴企业包括 Fit2Cloud、PingCAP 和 StarRocks，这些公司主要活跃于 云计算、大数据、AI 和基础设施 领域，反映了开源生态的技术趋势逐渐向云原生和大数据方向倾斜。
+
+
+### 3.3 2024年度全球企业 OpenRank 变化
+![image](https://hackmd.io/_uploads/H1ciUUAIyx.png)
+<center>图 3.3 2024年度全球企业 OpenRank 变化值 </center>
+<br>
+
+* 全球企业Top5只有华为和Meta在2024年出现了增长，而华为的增长幅度是巨大的（31226.88），Meta则为（174.75）
+* 微软、谷歌和Amazon均出现了OpenRank值降低的情况，其中Amazon的降幅最大（为8974.76）
+* 华为于2023年完成了对 Google 和 Amazon 的超越后，今年的增幅同样巨大，可以预期华为未来可能撼动微软的全球第一的地位；也表明中国企业正在加快在全球开源社区中的布局，逐渐提升影响力
+
+
+### 3.4 2024年度中国企业 OpenRank 变化
+![image](https://hackmd.io/_uploads/SJ8Zt8CUJe.png)
+
+<center>图 3.4 2024年度中国企业 OpenRank 变化值 </center>
+<br>
+
+* 中国企业Top10中华为、Ant Group、ByteDance、DaoCloud、ESPRESSIF和Fit2Cloud在2024年出现了增长，而华为的增长幅度是巨大的（31226.88）
+* DaoCloud为国内年度增幅黑马（增加值为4846.22，OpenRank总值为6759.34），国内OpenRank排名上升9位，来到全国第6的位置，后续也会对该企业进行详细分析
+* Baidu的降幅最大，年度降低值为 4911.89，尤其是在全球企业排行中，baidu今年下降9位，来到了全球第19的位置表明其2024年内开源影响力没能保持持续的发展势头。
+
+
+<!-- ### 3.5 2024年度全球企业的活跃度前10
+![image](https://hackmd.io/_uploads/rklKk5XIye.png)
+<center>图 3.5 2024年度全球企业的活跃度前10 </center>
+<br>
+
+微软 (Microsoft) 稳居第一，以绝对优势（活跃度 706,985.92）在各项指标上表现最为出色，证明其持续在开源生态中的领导地位。华为 (Huawei) 超越谷歌，上升两位至第二名，展现了其在开源社区中的强劲增长（活跃度增长 147,619.52）。谷歌 (Google) 下滑一位至第三名，活跃度仍维持在较高水平（290,417.81）。亚马逊 (Amazon) 和 Red Hat 分列第四和第五，前者活跃度略有下降。Mozilla 上升一位至第六名，表明其在开源领域的贡献有提升。
+其他企业如 Meta、IBM、阿里巴巴 (Alibaba) 和 Elastic 也保持了在前十名中的竞争力。
+
+* 华为的快速崛起：活跃度和贡献指标均显著增长，反映出其对开源生态的持续投入，特别是在 PR 审查和 Issue 评论上的活跃表现。
+* RedHat 和 Mozilla 的稳定贡献：作为传统开源社区的领导者，这两家公司继续在开源项目贡献中扮演重要角色，展现了持续的影响力。
+* 中国企业的表现：除华为外，阿里巴巴也榜上有名，排名第九。这表明中国企业在全球开源领域的影响力正在逐步上升。
+* Microsoft 是开源生态中无可争议的领导者，各项指标均表现优异。
+* 华为 和 Google 在开源贡献上的竞争日益激烈。
+* 其他老牌开源企业如 RedHat 和 Mozilla 依然保持了在社区中的活跃度和贡献力。
+* 从整体上看，这份 OpenRank 榜单反映了全球开源生态中的多样化和竞争格局，以及企业对开源的日益重视。
+
+### 3.6 2024年度全球企业的OpenRank前10
+![image](https://hackmd.io/_uploads/S1pc7aQLkx.png)
+<center>图 3.6 2024年度全球企业的OpenRank前10 </center>
+<br>
+
+* 北美企业的强势地位：前十中，北美企业占据七席，微软、谷歌和亚马逊继续主导开源生态。这些企业在基础设施、AI、云计算等领域贡献巨大，是全球开源的核心推动力。
+* 中国企业的崛起：华为的高速增长显示其在开源技术和全球化方面的显著进步。
+* 阿里巴巴的排名下降则反映了开源生态中新的挑战。
+* 老牌企业的复苏：Red Hat、IBM等传统企业重新发力，显示出老牌技术公司依然具有强大的技术积累和生态价值。
+未来趋势：
+* 全球企业的开源竞争将更加激烈，各大公司需要在技术贡献、社区互动和生态扩展方面进一步投入。
+
+
+### 3.7 2024年度中国企业的活跃度前10
+
+![image](https://hackmd.io/_uploads/rkA0CtQU1g.png)
+<center>图 3.7 2024年度中国企业的活跃度前10 </center>
+<br>
+
+* 华为 (Huawei) 稳居第一，其活跃度（422,865.51）远高于其他企业，展示了在开源领域的绝对领先地位。
+* 阿里巴巴 (Alibaba) 和 蚂蚁集团 (Ant Group) 分列第二和第三，显示了阿里系在开源领域的持续深耕。
+* 百度 (Baidu) 保持第四，活跃度为 53,851.9。
+* DaoCloud 是本次榜单的黑马，上升 10 位至第五名，活跃度大幅增长。
+* 其他企业如 字节跳动 (ByteDance)、PingCAP、ESPRESSIF、腾讯 (Tencent) 和 飞致云（Fit2Cloud） 则分列第六至第十名。
+* 华为的绝对优势：在所有指标上均位列榜首，充分展现了其在开源社区的主导地位。
+* DaoCloud 的强势崛起：活跃度大幅提升，并在创建 Issue 和 Pull Request 上表现出色，成为本年度榜单的一大亮点。
+* 阿里系的整体实力：阿里巴巴 和 蚂蚁集团 双双跻身前三，显示出阿里系企业对开源生态的持续投入。
+* 中小型企业的竞争力：企业如 ESPRESSIF 和 Fit2Cloud 尽管体量较小，但也展示了显著的开源贡献。
+
+这份榜单体现了中国企业在全球开源领域的强劲表现：
+* 头部企业（如华为、阿里巴巴）持续扩大领先优势。
+* 新兴企业（如 DaoCloud）快速崛起，带来了更多活力。
+* 数据表明，中国企业在开源领域不仅注重贡献代码，还积极参与社区互动和治理，推动了全球开源生态的发展。
+
+### 3.8 2024年度中国企业的OpenRank前10
+![image](https://hackmd.io/_uploads/BkFQG6XI1l.png)
+<center>图 3.8 2024年度中国企业的OpenRank前10 </center>
+<br>
+
+* 华为凭借高额得分和显著增长继续稳居榜首。
+* 阿里巴巴和百度依旧占据前列，但受到其他新兴企业的挑战。
+* DaoCloud的跃升和Fit2Cloud的新进入，说明中小型企业在开源领域的活跃度逐渐增强。
+* 整体来看，榜单中的企业在多样化领域（如云计算、IoT、数据库等）都展现了开源的深度参与。 -->
+
+### 3.5 2024年度中国企业黑马DaoCloud的解读
+
+在2024年度的中国企业OpenRank和活跃度两个榜单中，DaoCloud以令人瞩目的表现跻身前十，OpenRank从去年的排名中上升了整整9位（来到全国第6）；同时活跃度上升了10位（来到全国第5），成为了本年度当之无愧的“黑马”。**值得关注的是2024年6月各高校Docker镜像网站被封，大量开发者转向DaoCloud，带来了DaoCloud的快速崛起**。DaoCloud得益于其在开源领域的持续投入和创新，不仅通过技术创新推动了容器云和微服务架构的普及，还积极参与了多个国内外主流开源项目的研发与贡献，例如Kubernetes生态、容器编排工具和云原生开发框架等。这种崛起也反映了中国科技企业在开源技术发展和社区参与中的多样化探索与成功实践。DaoCloud的表现不仅提升了自身的行业影响力，也为其他中小型企业提供了开源发展的参考路径。
+
+#### 3.5.1 DaoCloud企业洞察大屏
+
+<img width="1159" alt="image" src="https://github.com/user-attachments/assets/25d53bf8-31ed-4c9d-9b1b-993d5f9a872d" />
+<center>图 3.9 DaoCloud企业洞察大屏 </center>
+<br>
+
+这张图是 DaoCloud 洞察大屏，展示了 DaoCloud 的总体贡献情况、活跃项目排行、贡献者分布以及一些重要的开源活动指标（如 Issue、Commit 和 PR 的变化趋势）。
+
+DaoCloud活动趋势分析
+* Issue 月度变化：2024 年 5 月，Issue 数量出现高峰（超过 60,000），可能是因为新版本发布或重大事件推动了社区讨论。
+* 后续的关闭和处理趋势表明社区对问题的响应效率较高。
+* Commit 月度分布：历史上社区的 Commit 活动有明显波动：
+* 2020 年和 2023 年分别出现两次较大峰值，可能对应社区的重要版本发布或功能更新。
+* 最近一次（2024 年底）Commit 数量也显著上升，显示出社区活跃度的增长。
+PR 月度变化：PR 的打开、合并和关闭数量在 2024 年度整体保持稳定，显示出社区开发活动的高效和有序。
+
+总结与观察
+* 核心项目表现突出：public-image-mirror 和 DaoCloud-docs 是社区的核心项目，贡献了主要的活跃度和影响力。
+* 社区协作紧密：从 PR 和 Issue 的处理效率可以看出，社区对开发者的反馈及时且高效，增强了社区凝聚力。
+* 持续增长的活跃度：贡献者数量、Commit 活动和 PR 活跃度均表明社区仍在快速发展，具备持续吸引新开发者的能力。
+* 整体健康的社区生态：多样化的贡献者结构、活跃的项目管理和稳定的开发活动使 DaoCloud 社区在开源生态中占据了重要位置。
+
+public-image-mirror（公开镜像服务）和 DaoCloud-docs（相关文档协作）是DaoCloud的两大核心项目，下面对这两个仓库进行解读
+
+#### 3.5.2 DaoCloud核心项目DaoCloud-docs的生态协作网络
+
+![image](https://hackmd.io/_uploads/BkK8p678yx.png)
+<center>图 3.10 DaoCloud-docs的生态协作网络 </center>
+<br>
+
+这个图是 DaoCloud 社区中 DaoCloud-docs 项目 的生态网络，旨在展示项目与其他项目、组织之间的相互联系，以及它们的开发活动和合作关系。
+
+主要发现：
+* 与 Kubernetes 的强联系：DaoCloud-docs 与多个 Kubernetes 相关项目（如 kubernetes/kubernetes、kubernetes/website）有较强的联系，这表明它在 Kubernetes 生态中扮演了重要角色。这种联系可能来自于 DaoCloud 对 Kubernetes 的深度使用、扩展或贡献。
+* 与 Istio 的合作：DaoCloud-docs 与 Istio 项目也有显著的关联（如 istio/istio、istio/istio.io），说明其在服务网格技术上的协同作用。
+* 其他合作伙伴：除了 Kubernetes 和 Istio，DaoCloud-docs 还与 GoogleCloudPlatform、Kubean-io 等多个项目有联系，显示了其在多云和容器技术中的活跃度。
+
+#### 3.5.3 DaoCloud核心项目DaoCloud-docs的社区协作网络
+![image](https://hackmd.io/_uploads/rJtT2i7Iyx.png)
+<center>图 3.9 DaoCloud-docs的社区协作网络 </center>
+<br>
+
+这个图展示了 DaoCloud-docs 项目的社区网络（Project Community Network），通过开发活动和组织关联分析了项目社区的分布和组成。
+
+主要发现
+* 社区的核心力量：中国开发者和组织 是该项目社区的核心力量，主要的贡献者和关联组织均来自中国。开发者 windsonsea 和 samzong是贡献最多的个人，其提交的 PR 数量表明其在项目中的主导作用。windsonsea 今年还拿到了 CNCF 社区的年度“最佳技术文档奖” Top Documentarian（https://mp.weixin.qq.com/s/tdO2QhvE800TKy5RY7FCWw ）。
+* 国际化影响力：尽管社区的核心集中在中国，但该项目也得到了其他国家和地区开发者的关注，如美国和韩国，这表明 DaoCloud-docs 项目具有一定的国际化影响力。
+* 组织协作：不同组织如 EMC 和 @DaoCloud 的参与显示了跨组织协作的特点，有助于提升项目的多样性和影响力。
+
+DaoCloud-docs 项目社区展现出了显著的本地化特性，以中国的开发者和组织为主要贡献力量，同时也具有国际化的潜力。
+
+#### 3.5.4 DaoCloud核心项目public-image-mirror的生态协作网络
+
+![image](https://hackmd.io/_uploads/ByUmKTQIyg.png)
+<center>图 3.10 public-image-mirror的生态协作网络 </center>
+<br>
+
+强连接的项目：
+* kubesre/docker-registry-mirrors（连接强度：161）和 DigitalPlatDev/FreeDomain（连接强度：176）是与 public-image-mirror 项目联系最紧密的两个项目，可能是共同开发、资源共享或技术集成的结果。
+* kubernetes/kubernetes（71）和 alibaba/nacos（52）也与其有显著关联，表明它们可能使用或依赖于该镜像项目。
+* 与多个工具和镜像服务的协作：项目与 imdingtalk/image-mirror 和 langenius/dify 等镜像工具有较多互动，这表明 public-image-mirror 项目可能为这些工具提供了基础设施支持。
+* 与其他核心项目的合作：DaoCloud/DaoCloud-docs 是与其关系密切的同属 DaoCloud 的另一个核心项目，可能协作于文档和配置相关的开发。
+
+#### 3.5.5 DaoCloud核心项目public-image-mirror的社区协作网络
+
+![image](https://hackmd.io/_uploads/rkpkTT7LJl.png)
+<center>图 3.11 public-image-mirror的社区协作网络 </center>
+<br>
+
+主要贡献者：
+* wzshiming 提交了大量 PR（279），是该项目的核心贡献者。
+* 其他贡献者如 JaredTan95、yank1 和 cuisongliu 也通过 PR 和 Star 等形式为项目做出了显著贡献。
+
+主要贡献来源：
+* 中国（China） 是社区协作的主要来源，显示出该项目的本地化特性。
+* 美国（United States） 和 台湾（Taiwan） 也参与了协作，表明项目具有一定的国际影响力。
+
+## 四. 基金会洞察
+
+作为非营利性开源组织，基金会在推动开源项目和社区的组织、发展以及协同创新中发挥了不可或缺的作用。它不仅为开源软件的孵化提供技术支持、运营管理和法律保障等全方位服务，还为社区建设和运营提供了科学指导，成为孵化器和加速器的结合体，为开源生态注入了持续发展的动力。基金会作为开源生态的重要组织者，其规范化的运作模式和资源整合能力，使其在连接开发者、企业与社区间发挥桥梁作用。本部分从基金会这一维度，对开源生态的发展进行分析，旨在通过数据洞察揭示基金会在开源生态中的核心地位和实际贡献。
+
+### 4.1 全球基金会 OpenRank 趋势分析
+![image](https://hackmd.io/_uploads/rkeUGpvUkg.png)
+<center>图4.1 全球基金会 OpenRank 趋势</center>
+<br>
+
+*注：此处 Linux Foundation 不包含子基金会
+
+* OpenAtom Foundation 的表现尤为突出，其影响力继续快速攀升，成为2024年的最大亮点。体现了其强大的生态扩展能力和项目影响力。
+* 相比之下，CNCF（Cloud Native Computing Foundation） 和 Apache Software Foundation 的增长势头明显放缓，虽然仍保持较高影响力，但2024年 OpenRank 出现小幅下降，这可能反映了云原生技术进入成熟期，竞争加剧。
+* 与此同时，Linux Foundation 继续保持稳健发展，展现出较强的稳定性。而 OpenJS Foundation、Hyperledger Foundation 等基金会波动不大。
+
+2024年整体趋势表明，快速增长的基金会正在凭借创新技术和强大的社区生态获得市场认可，而成熟基金会则需要在保持现有优势的同时，寻找新的突破点来应对日益激烈的竞争。
+
+### 4.2 全球基金会项目 OpenRank 趋势分析
+![1736166415846](https://hackmd.io/_uploads/Hk3XnHYLkg.png)
+<center>图4.2 全球基金会旗下项目 OpenRank 趋势</center>
+
+
+* OpenHarmony/docs 项目影响力快速上升，OpenRank在2024年达到历史新高，可能得益于生态系统的扩展和社区活动的推动。
+* 相比之下，Kubernetes/kubernetes 的OpenRank自2020年以来持续下降，2024年，其影响力进一步削弱，这可能与社区活跃度的降低或竞争对手的崛起密切相关。
+* Apache/doris 是另一个值得关注的项目，其OpenRank在2024年继续保持稳步增长。这表明该项目在数据处理领域的表现持续受到用户和社区的认可.
+* 同时，一些成熟的项目，如 Cilium/cilium 和 Envoyproxy/envoy，在2024年的表现相对平稳，OpenRank的波动较小。这说明这些项目已进入稳定发展阶段，影响力保持在一定水平。
+
+
+### 4.3 全球基金会旗下中国项目 OpenRank 趋势分析
+![a18348be5cb98244fce9cea2176de7b](https://hackmd.io/_uploads/rkUZXnP81l.png)
+<center>4.3 基金会旗下中国项目 OpenRank 趋势</center>
+<br>
+
+2024 年基金会旗下中国项目中，头部项目快速增长，其他项目稳定发展。中国开源项目在不同技术领域展现了强劲的影响力和发展潜力。
+* openharmony/docs 排名第一, OpenHarmony 的其他核心模块（如 graphic_graphic_2d、interface_sdk-js 和 xts_acts）也位列前茅，体现了 OpenHarmony 社区在推动生态建设方面的高度重视。这说明其在操作系统领域已构建出较为成熟和活跃的社区生态，核心组件获得了开发者的广泛关注和参与。 
+* 中国项目在数据库领域有展现了较高影响力。在分布式数据处理和存储领域，apache/doris 作为高性能分析型数据库项目，排名第二，显示出其在大数据和分析场景中的重要地位。此外，milvus-io/milvus 专注于向量数据库的开发、apache/flink 和 apache/shardingsphere 代表了国内开发者在实时计算和分布式数据库技术方向的创新能力。
+* 此外，openeuler/kernel 作为 openEuler 的核心模块，是国内操作系统领域的代表性项目，反映了基础软件技术的持续进步和社区协作的成果。而 openharmony-sig/arkcompiler_runtime_core 则表明国内操作系统生态不仅关注内核开发，也注重编译器和运行时等关键技术的突破。
+
+
+
+#### Linux 基金会旗下中国项目 OpenRank 趋势分析
+
+![ed3fa71197713dc1e83a26286d75566](https://hackmd.io/_uploads/SJUYyTP8yl.png)
+<center>图4.4 Linux 基金会（包含子基金会）旗下中国项目 OpenRank 趋势</center>
+
+Linux 基金会作为全球开源社区的重要组织，中国项目的参与和发展可以反映中国在全球开源生态中的影响力。
+
+* milvus-io/milvus 的项目的OpenRank 快速增长。Milvus 是由 Zilliz 公司发起并贡献给 Linux 基金会 AI & 数据子基金会（LF AI & Data Foundation） 的开源向量数据库项目，专注于处理非结构化数据（如图像、视频、音频和文本）的高效存储与检索，尤其适用于机器学习和人工智能相关场景。 milvus-io/milvus 2024 年在 Linux 基金会 OpenRank 排名中位列第六，展现了中国在大数据和人工智能领域的强劲影响力。
+* 总体来看，大多数项目的 OpenRank 较低且变化不大，这种差异也为其他中国项目提供了启示：通过技术创新、市场适配和社区运营，增强项目的竞争力和生命力，才能在开源生态中保持长久的影响力。
+
+### 4.4 开放原子基金会旗下项目 OpenRank 趋势分析
+![image](https://hackmd.io/_uploads/ryBvZTwIkl.png)
+
+<center>图4.5 开放原子基金会旗下项目 OpenRank 趋势
+</center>
+<br>
+
+* OpenHarmony 继续稳居首位，其OpenRank指标较2023年增长显著，增幅接近70%，显示出其作为核心项目的强大吸引力。这种增长可能得益于其在智能设备和操作系统领域的广泛应用，以及社区对其的持续投入和支持。
+* openEuler 紧随其后，2024年继续保持增长势头，OpenRank稳定增长。这表明其在开源操作系统领域的影响力持续扩大，并在云计算和企业应用中得到了进一步推广。
+* Anolis OS 和 openKylin 在2024年的表现则相对平稳。尽管增长幅度不如前两者显著，但它们在特定领域仍具有竞争力。Anolis OS 主攻企业级Linux市场，而openKylin聚焦国产操作系统，均在其目标用户群中保持了一定的认可度。
+* 其他项目如 Taro、UBML 和 PikwiDB 的openrank值较低，反映了这些项目的生态规模有限，或应用场景尚未广泛推广。
+
+
+
+## 五. 技术领域洞察
+
+技术领域的发展在开源技术中起着风向标的作用，众多技术子领域展现出快速的进步和变革：操作系统领域不断适配新架构，在开源社区中持续演化；云原生技术推动企业实现数字化转型，其开源项目生态活跃且增长迅速；数据库作为数据创新的核心基础设施，开源技术的广泛应用促进了多样化场景的突破；大数据领域依托开源工具，正为智能决策提供强大支撑；人工智能借助开源框架加速各行业的自动化进程；前端技术则通过开源项目推动交互体验与视觉设计的不断提升。这些领域以其开放性和创新性吸引了众多开发者与投资者的关注，本节将基于影响力和活跃度两大指标对其进行数据洞察分析。
+
+### 5.1 各子领域近5年变化趋势
+![image](https://hackmd.io/_uploads/H1tQ2s78yx.png)
+<center>图5.1 OpenRank of Technology Category 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/B1h7tT78Jl.png)
+<center>图5.2 Activity of Technology Category 2020-2024 </center>
+<br>
+
+从各子领域近 5 年的变化趋势来看，云原生优势明显，该领域下仓库数量相对其他领域较多；AI 在近几年的快速发展中增速显著；数据库作为关键的基础软件，以其活跃性稳居前列；大数据热度在 2024 年略有下降；操作系统领域虽仓库数量较少，但其影响力逐年上升，展现出基础软件高价值的特性；前端领域的影响力则呈现逐年降低的趋势。
+
+### 5.2 各领域 OpenRank Top 10项目近五年变化趋势
+#### 大数据
+
+![image](https://hackmd.io/_uploads/SJ3AnoXLJx.png)
+<center>图5.3 OpenRank of Big data 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/rJB76i7Iye.png)
+<center>图5.4 Activity of Big data 2020-2024 </center>
+<br>
+
+大数据领域的双指标整体呈现上升趋势，其中 Kibana 和 Grafana 在影响力和活跃度上始终位居前二。值得注意的是，2023 年两者之间的差距逐渐缩小，而到了 2024 年，这一差距又开始扩大。此外，Clickhouse 和 Doris 在大数据领域的竞争也日益激烈。
+
+Kibana 是一款开源的数据可视化与探索工具，与 ElasticSearch 无缝集成，支持对 ElasticSearch 数据的查询、分析和可视化。
+Grafana 则是一款功能强大的开源数据可视化工具，广泛应用于监控与报告场景。它支持多种数据源，包括 Prometheus、InfluxDB 和 Graphite 等，能够生成多种类型的图表和仪表板，为用户提供灵活的数据展示与分析能力。
+
+#### 数据库
+
+![image](https://hackmd.io/_uploads/S1CT6jQI1l.png)
+<center>图5.5 OpenRank of Database 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/SJpRTsmLyg.png)
+<center>图5.6 Activity of Database 2020-2024 </center>
+<br>
+
+ClickHouse 数据库双指标持续稳定增长，ElasticSearch 重回榜单前三，Doris 的增速虽有所放缓，但活跃度指标已接近第一，预计其双指标未来有望超越 ClickHouse。此外，YDB 增速显著，在 2024 年成功进入榜单前十。
+
+ClickHouse 是由俄罗斯 Yandex 公司开源的一款基于 MPP 架构的高性能分析引擎，其向量化执行引擎使其号称比传统事务型数据库快 100-1000 倍，同时具备丰富的功能和极高的可靠性。
+Apache Doris 是百度贡献的开源 MPP 分析型数据库产品，具有简洁的分布式架构，便于运维，广泛应用于高效的实时分析场景。
+
+YDB 作为开源项目于 2020 年发布，旨在提供支持 ACID 事务的高效分布式数据库解决方案，尤其适合高并发和分布式应用场景。YDB 的设计和开发旨在解决 Yandex 自身的技术挑战，随着开源后，它吸引了越来越多的开发者和企业的关注，并成为了现代分布式数据库领域的一部分。
+
+#### 操作系统
+
+![image](https://hackmd.io/_uploads/BJkUCjQ8Jl.png)
+<center>图5.7 OpenRank Operating System 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/HkX_Rj78Jx.png)
+<center>图5.8 Activity of Operating System 2020-2024 </center>
+<br>
+
+可以看到，OpenHarmony 项目下的多个仓库位居榜单前十。本次洞察结合了 Gitee 平台的数据，更直观地展现了国产操作系统的多方面优势。此外，OpenEuler Kernel 项目也表现不俗。
+
+#### 云原生
+
+![image](https://hackmd.io/_uploads/r170Ro78yl.png)
+<center>图5.9 OpenRank of Cloud Native 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/H1zJ1hXL1x.png)
+<center>图5.10 Activity of Cloud Native 2020-2024 </center>
+<br>
+
+LLVM-Project 增速显著，双指标位居第一；Grafana 增速放缓，排名第二；Kubernetes 双指标下降明显，其余项目竞争激烈。
+LLVM 是一个模块化、可重用的编译器框架和工具链技术的集合，近 3 年来活跃度增长迅速，深受广大开发者喜爱。
+
+#### 前端
+
+![image](https://hackmd.io/_uploads/HJQq12X8Jx.png)
+<center>图5.11 OpenRank of Frontend 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/Bktj1nmLJe.png)
+<center>图5.12 Activity of Frontend 2020-2024 </center>
+<br>
+
+Flutter 虽然双指标逐年下降，但相较于 Next.js 仍具明显优势。Next.js 自 2023 年起表现亮眼，增速显著，但在 2024 年有所回落；排名 3-10 的项目竞争激烈，差距较小。
+
+Flutter 是由 Google 开发的框架，前端和全栈开发人员可使用它通过单一代码库为多个平台构建用户界面。
+Next.js 是由 Vercel 创建的开源框架，基于 Node.js 和 Babel 构建，设计与 React 单页应用框架配合使用，同时提供预览模式、快速开发编译和静态导出等实用功能。
+
+#### 人工智能
+
+![image](https://hackmd.io/_uploads/SJFzg2Q81g.png)
+<center>图5.13 OpenRank of AI 2020-2024 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/BJdXxhQLye.png)
+<center>图5.14 Activity of AI 2020-2024 </center>
+<br>
+
+自 2020 年起，TensorFlow 的双指标持续下滑，至 2024 年已跌出 OpenRank 榜单前十。相比之下，PyTorch 稳步增长，与其他项目的差距逐步拉大。值得一提的是，LangChain 自 2022 年开源后双指标一直稳居前三，尽管 2024 年热度略有回落，但其影响力依然显著。同时，vllm 增速显著，超越 LangChain 位居第二，而 Huggingface/Transformers 项目则保持双指标的稳定增长。
+
+LangChain 是 Harrison Chase 于 2022 年 10 月推出的开源项目，已成为 LLM 开发中备受欢迎的框架之一。
+vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为大规模语言模型（LLM）的高效推理优化而设计。近 3 年活跃度显著增长，深受开发者喜爱。
+
+### 5.3 各领域OpenRank Top 10 榜单
+
+下面再给出 2024 年各领域的项目 OpenRank 排行榜。
+ ![image](https://hackmd.io/_uploads/SJq6827Ikx.png)
+<center>图5.15 大数据领域OpenRank TOP 10 榜单 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/H1Kj_nmIkg.png)
+<center>图5.16 数据库领域OpenRank TOP 10 榜单 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/rkQCO37Lyg.png)
+<center>图5.17 操作系统领域OpenRank TOP 10 榜单 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/By-sPh7Ikx.png)
+<center>图5.18 云原生领域OpenRank TOP 10 榜单 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/Skj6t2mI1x.png)
+<center>图5.19 前端领域OpenRank TOP 10 榜单 </center>
+<br>
+
+![image](https://hackmd.io/_uploads/H1My93Q8kl.png)
+<center>图5.20 人工智能领域OpenRank TOP 10 榜单 </center>
+<br>
+    
+## 六. 开源项目洞察
+2024年，开源项目在经历了AI大模型、生成式AI的快速发展后逐渐呈现平稳演进的态势，以及在数据库领域的稳步发展后，呈现出新的活力。本章节从开源项目的视角出发，深入分析了项目的多维度数据，以获得更全面的洞察。通过对开源项目的Topic进行统计分析，揭示了全球开源社区在2024年的共同兴趣点。
+
+### 6.1 项目类型
+
+本小节选取了 GitHub 活跃度排名前 10,000 的仓库数据进行统计分析。
+
+#### 6.1.1 不同项目类型数量比例
+
+![6-1](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-1.png?raw=true)
+<center>
+图 6.1 不同项目类型数量比例
+</center>
+<br>
+
+- Application Software（应用软件）：用蓝色表示，占据了饼图的24.3%，这表明应用软件在所分析的数据集中占有相当的比例，反映出应用软件在软件生态中的重要性。
+- Libraries and Frameworks（库和框架）：用橙色表示，占比最大，达到31.4%。这显示了库和框架在软件开发中的广泛应用，它们为开发者提供了构建应用的基础设施和工具。
+- Non Software（非软件）：绿色部分，占23.2%。这一类别可能包括与软件直接开发不相关的项目，如文档、设计资源或其他非代码资产。
+- Software Tools（软件工具）：红色部分，占18.9%。这类工具可能包括编译器、调试器、版本控制系统等，它们是软件开发过程中不可或缺的辅助工具。
+- System Software（系统软件）：紫色部分，占比最小，仅为2.3%。这可能包括操作系统、驱动程序等，它们是计算机系统运行的基础，但在这个数据集中所占比例较小。
+
+#### 6.1.2 不同项目类型 OpenRank 加总比例
+
+![6-2](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-2.png?raw=true)
+<center>
+图 6.2 不同项目类型2024年 OpenRank 加总比例
+</center>
+<br>
+
+结合2024年的 OpenRank 影响力视角再看这几个类别：
+- 最大的变化，就是内容资源类型（Non Software）项目虽然在活跃项目的数量上占比较多，但其2024年的影响力相对较低；
+- 而系统软件类型（System Software）虽然活跃项目数量上占比很少，但其2024年的影响力占比相对更多；软件工具类型（Software Tools）项目也有类似的现象；
+- 组件框架类型和应用软件类型则没有太多变化，都是属于占比较多的类型。
+
+#### 6.1.3 不同项目类型近 5 年 OpenRank 变化趋势
+
+![6-3](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-3.png?raw=true)
+<!-- ![App-Openrank](https://hackmd.io/_uploads/BkQMgA7U1e.png) -->
+
+<center>
+图 6.3 不同项目类型近 5 年 OpenRank 变化趋势
+</center>
+<br>
+
+从上面的五年 OpenRank 演化图上可以看得出来，系统软件类型（System Software）的影响力逐年升高，软件工具（Software Tools）影响力在今年略有下降，库和框架（Libraries and Frameworks）、应用软件（Application Software）整体呈下降趋势，而内容资源类型（Non Software）项目的影响力比例是在逐年下降。
+
+### 6.2 项目 Topic 分析
+
+本节同样选取 GitHub OpenRank排名前 10,000 的仓库数据进行分析，并获取仓库下的 Topic 标签进行深入洞察。
+
+#### 6.2.1 热门 topic
+
+<!-- ![projectTopic-plot](https://hackmd.io/_uploads/SJijGnQIJg.png) -->
+![6-4](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-4.png?raw=true)
+<center>
+图 6.4 出现次数前十的 Topic
+</center>
+<br>
+
+前十的主题涵盖了多个领域，反映了开源社区的广泛兴趣。其中，hacktoberfest是GitHub上的一个开源活动，鼓励开发者贡献代码,以1132次的出现次数遥遥领先，显示诸多项目对开发者的欢迎。Python、JavaScript、TypeScript、Java和Rust等Topic数量表现了这些语言受到了开源软件开发的青睐。此外，kubernets和machine-learning等是在开源中具有较高关注度的Topic。
+
+#### 6.2.2 热门 Topic 的仓库总 OpenRank 趋势
+
+
+![6-5](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-5.png?raw=true)
+<center>
+图 6.5 出现次数前十的 Topic 下仓库的 OpenRank 变化 (2019 - 2023)
+</center>
+<br>
+
+- 从2020至2024年，Hacktoberfest的OpenRank显著增长，表现突出。Hacktoberfest的目标是鼓励更多人参与开源项目，它反映了人们对于开源项目、社区参与和贡献的热情。
+- Python和React稳步上升，反映其流行度。JavaScript和TypeScript增长稳定，显示前端以及应用开发的持续需求。
+- Kubernetes和Machine Learning增长，体现云和AI领域的发展。
+- 其他如Java、Rust、Android增长平缓，显示成熟技术市场的稳定。
+
+### 6.3 数据库领域项目分析
+本小节分析了数据库领域在OpenRank、 Activity等指标方面近五年的增长趋势及Top 10 头部项目的集中度变化趋势，并依据 [Database of Databases](https://dbdb.io/) 及 [DB-Engines Ranking](https://db-engines.com/en/ranking) 中公开的开源数据库信息，将该领域按数据库的存储结构及用途划分为 Relational、Key-value、Document、Wide Column、Search Engine、Time Series、Vector、Graph、Object Oriented、Hierarchical、RDF、Array、Event、Spatial、Columnar、 Native XML、Content 18 个子类，收集并分析其在 GitHub 上的相应数据库开源项目的协作日志数据。
+
+#### 6.3.1 数据库领域近五年增长趋势及Top 10 头部项目的集中度变化趋势
+
+![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-6%20OpenRank_of_Database_2020-2024.png?raw=true)
+
+<center>
+    图 6.6 数据库领域 2020 - 2024 年 领域的OpenRank变化趋势
+</center>
+<br>
+
+
+![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-7%20Activity_of_Database_2020-2024.png?raw=true)
+<center>
+    图 6.7 数据库领域 2020 - 2024 年 领域的Activity变化趋势
+</center>
+<br>
+
+
+![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-8%20Top10_OpenRank_Ratio_of_Database_2020-2024.png?raw=true)
+<center>
+    图 6.8 数据库领域 2020 - 2024 年 领域内 Top 10 项目的OpenRank集中度变化趋势
+</center>
+<br>
+
+![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-9%20Top10_Activity_Ratio_of_Database_2020-2024.png?raw=true)
+
+<center>
+    图 6.9 数据库领域 2020 - 2024 年 领域内 Top 10 项目的Activity集中度变化趋势
+</center>
+<br>
+
+数据库领域近五年 Top 10 头部项目的OpenRank集中度与Activity集中度均保持在[29%, 35%]的区间内，且均在最近三年相比于2020与2021年下降了3个百分点，均在去年（2024年）有小幅度回升。其中OpenRank集中度在2021年达到最高33.9455%，而Activity集中度在2020年达到最高34.29604%；OpenRank集中度在2023年达到最低29.42372%，而Activity集中度在2022年达到最低29.96794%。这反映了近五年数据库领域头部项目的集中度在Activity和OpenRank两个指标上的一致性，同时注意到两个指标的峰谷值年份及趋势的变化对比，OpenRank的变化趋势略微滞后于Activity的变化趋势（滞后的相位差异可粗略估计为月度到季度水平），这体现了同一项目的活跃度与影响力传播的时序逻辑关系。
+此外，Top 10 头部项目2024年的各指标集中度均在回升，根据去年Activity集中度环比回升幅度在增大，且比OpenRank集中度增幅更大，可以预测2025年的OpenRank集中度加速回升的可能性大，数据库头部项目对整个领域的影响力也将随着OpenRank集中度加速回升增大地越来越快，如何利用影响力促进活跃度提升的问题对于头部项目保持领域地位越来越重要。结合数据库领域近五年OpenRank与Activity变化趋势，数据库领域的各指标增速在2024年放缓，意味着领域内资源的竞争性将会增强，发挥已有优势保持项目在领域中的地位也将越来越重要。
+
+#### 6.3.2 数据库各子领域近五年增长趋势
+
+
+![6-10](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-10.png?raw=true)
+<center>
+    图 6.10 数据库各子领域 2020 - 2024 年 OpenRank 变化趋势
+</center>
+<br>
+
+![6-11](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-11.png?raw=true)
+<center>
+    图 6.11 数据库各子领域 2020 - 2024 年 活跃度变化趋势
+</center>
+<br>
+
++ 数据库各子领域的发展相对平稳，在过去的五年中，关系型数据库独占鳌头。在2024年虽然发展相对放缓，但依然展现了足够的统治力
++ 键值类型数据库在2024年的影响力与活跃度有所降低，并且在一定程度上被文档型数据库追平甚至有所超越。
++ 文档行数据库在过去的发展中保持了稳定的上升。前三名的数据库子领域的两项指标累计均占数据库领域两项指标的 70% 以上。
++ 数据库作为一个从计算机诞生时起就一直存在的领域，在近五年的发展中保持的平稳的态势。可以预见的是，在未来的相当长一段时间中，数据库的发展依然会是以关系型数据库为主，其他各类非关系型数据库为重要分支的发展趋势。
+
+
+#### 6.3.3 数据库子领域 OpenRank 榜单和活跃度榜单及占比
+
+<center>
+    表 6.1 数据库子领域  OpenRank 排行
+</center>
+<br>
+
+| 排名 |   子领域名称    |   openrank |   openrank_ratio(%) |
+| :--: | :-------------: |-----------:|-----------------:|
+|  1   |   Relational    |   55440.5  |       41.334     |
+|  2   |    Document     |   18780.1  |       14.0016    |
+|  3   |    Key-value    |   18262    |       13.6154    |
+|  4   |   Wide Column   |   11285.4  |        8.41389   |
+|  5   |  Search Engine  |    7575.18 |        5.64772   |
+|  6   |   Time Series   |    7111.37 |        5.30192   |
+|  7   |     Vector      |    5187.47 |        3.86755   |
+|  8   |      Graph      |    4262.87 |        3.17821   |
+|  9   | Object Oriented |    3532.3  |        2.63353   |
+|  10  |  Hierarchical   |    1036.42 |        0.772709  |
+|  11  |       RDF       |     430.36 |        0.320857  |
+|  12  |      Array      |     319.34 |        0.238086  |
+|  13  |      Event      |     281.65 |        0.209986  |
+|  14  |     Spatial     |     239.08 |        0.178248  |
+|  15  |    Columnar     |     228.52 |        0.170374  |
+|  16  |   Native XML    |     132.76 |        0.09898   |
+|  17  |     Content     |      22.77 |        0.0169763 |
+
+<!-- ![newplot](https://hackmd.io/_uploads/rkJOlSqIkg.png)
+
+<center>图 6.8 数据库领域各子领域 OpenRank 加总比例</center><br /> -->
+
+<center>
+    表 6.2 数据库子领域  活跃度排行
+</center>
+<br>
+
+| 排名 |   子领域名称    | activity  |   activity_ratio(%) |
+| :--: | :-------------: |-----------:|-----------------:|
+|  1   |   Relational    |  166707    |       40.4575    |
+|  2   |    Document     |   58567.1  |       14.2134    |
+|  3   |    Key-value    |   57491.4  |       13.9524    |
+|  4   |   Wide Column   |   32835.4  |        7.96871   |
+|  5   |  Search Engine  |   24881.8  |        6.03848   |
+|  6   |   Time Series   |   22610.5  |        5.48727   |
+|  7   |     Vector      |   17463.4  |        4.23814   |
+|  8   |      Graph      |   13128    |        3.18599   |
+|  9   | Object Oriented |   10190.1  |        2.47299   |
+|  10  |  Hierarchical   |    3021.28 |        0.733224  |
+|  11  |       RDF       |    1405.37 |        0.341064  |
+|  12  |      Array      |    1009.34 |        0.244953  |
+|  13  |     Spatial     |     812.11 |        0.197088  |
+|  14  |      Event      |     735.62 |        0.178525  |
+|  15  |    Columnar     |     568.63 |        0.137999  |
+|  16  |   Native XML    |     549.4  |        0.133332  |
+|  17  |     Content     |      77.83 |        0.0188883 |
+
+
+从数据库领域各子领域 2024 年的 OpenRank 和活跃度排行可以看出：
+
+- Relational、Key-value、Document 在以上两项指标中都稳据前三，前三名的数据库子领域的两项指标累计均占数据库领域两项指标的 70% 以上；
+- Relational 的各项指标超过了第二至第五名的总和，其两项指标均占数据库领域两项指标的 40% 以上，是一个超大子类。
+- Columnar作为新加入榜单的数据库项目发展势头迅猛
+- 向量数据库在2024年也有了显著的提升。
+
+#### 6.3.4 数据库领域各子领域下项目的开源象限图
+开源象限图共涉及三个度量指标：Activity、Openrank、CommunityVolume。 其中 CommunityVolume 与 open-digger 中的 Attention 指标计算公式相同，即对一定时间内目标项目的 star 数和 fork 数的加权求和：`sum(1*star+2*fork)`。
+
+象限图绘制方法：
+
+1. 把每个数据库子类按 activity 选取 Top 10 的项目；
+2. 做出 `log(openrank)-log(communityvolume)` 的 `log(x)-log(y)` 散点图, log 的底数均为 2，分别表示空间影响力 openrank 与时间影响力 communityvolume 衰减到 1 所需的半衰次数；
+3. 以图上所有点的横坐标均值所对应的纵向线作为纵轴，以图上所有点的纵坐标均值所对应的横向线作为横轴划分为四个象限。
+
+数据库领域子类标签共计18个，选取2023年活跃度占比超过1%的类别共9个：Relational、Key-value、Document、Wide Column、Search Engine、Time Series、Vector、Graph、Object Oriented，统计分析并绘制开源象限图如下：
+
+
+![6-12](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-12%20DBMS_quadrant_diagram-main_subcategories.png?raw=true)
+<!-- <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/OpenRank-CommunityVolume%20log-log%20quadrant%20diagram.html" width="100%" height="702px" frameborder="0"></iframe> -->
+
+<center>图 6.12 数据库各子领域 Activity Top 10象限图</center><br />
+
+
+<!-- ![6-13](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-13%20DBMS_quadrant_diagram-relational.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/relational.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.13 Relational数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-14](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-14%20DBMS_quadrant_diagram-key_value.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/key_value.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.14 Key-value数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-15](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-15%20DBMS_quadrant_diagram-document.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/document.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.15 Document数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-16](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-16%20DBMS_quadrant_diagram-wide_column.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/wide_column.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.16 Wide Column数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-17](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-17%20DBMS_quadrant_diagram-search_engine.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/search_engine.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.17 Search Engine数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-18](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-18%20DBMS_quadrant_diagram-time_series.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/time_series.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.18 Time Series数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-19](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-19%20DBMS_quadrant_diagram-vector.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/vector.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.19 Vector数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-20](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-20%20DBMS_quadrant_diagram-graph.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/graph.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.20 Graph数据库 Activity Top 10象限图</center><br />
+
+<!-- ![6-21](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-21%20DBMS_quadrant_diagram-object_oriented.png?raw=true) -->
+<iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/object_oriented.html" width="100%" height="702px" frameborder="0"></iframe>
+
+<center>图 6.21 Object Oriented数据库 Activity Top 10象限图</center><br />
+
+搜索引擎类两极分化严重，既有像 ElasticSearch 这样 OpenRank 和 CommmunityVolume 都很高的项目，又有像 lucene-solr 和 Xapian 这样 OpenRank 和 CommmunityVolume 都相对很低的项目。
+
+从第一象限看出：relational、document、searchengine、vector、wide_column 都是 openrank 影响力较强且 CommmunityVolume 关注度也较强的数据库类型，而 object_oriented、graph 则在两方面相对较弱。
+
+从活跃度 Top 9 子类数据库的开源象限图中的纵向分布可以看出：key_value、search_engine 两个子类的valkey、meilisearch等项目的 CommmunityVolume 相较于 OpenRank 更高，有较高的社区声量，相比于其他的子类有较快的发展期望。vector子类的Top10项目CommmunityVolume与 OpenRank 的log-log值线性相关性较好，社区声量与协作影响力比较均衡。
+
+#### 6.3.5 开源数据库项目工作活跃时间分析
+
+
+![6-22](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-22.png?raw=true)
+
+<center>
+    图 6.22 数据库开源项目工作时间打点图
+</center>
+<br />
+
+可以看出数据库开源项目的高峰工作时间主要集中在周一 ~ 周五的UTC时间2时 ~ 10时，活跃时间主要集中在周一 ~ 周五的UTC时间1时 ~ 18时, 可能与大部分数据库类型的项目都存在公司背景有关系。根据活跃UTC时间，可以看出UTC 2时开始迎来了一天中的活跃阶段，直到在UTC 6时迎来了高峰阶段，持续到UTC 10时，在UTC 11时活跃度大幅降低，并在UTC 18时不再活跃。这两个不同水平的高峰阶段UTC 2时~6时，与6时~10时分别对应了亚洲与欧洲地区的工作时间（以9时为工作开始时刻，按9时到来顺序对应UTC+7 ~ UTC+3，与UTC+3 ~ UTC-1），之后由于工作时间重合度逐渐降低，工作高峰迅速消退。可以看出亚洲与欧洲的开源数据库项目协作对于开源数据库领域至关重要。
+
+### 6.4 生成式 AI 领域项目分析
+
+在经历了新的一年的行业发展，生成式AI展现了新的发展样态。总的来说，在2024年AIGC领域全域发展都进入了放缓时期。这可能是因为生成式AI尤其是大模型领域的发展需要海量的资金与算力资源投入。在2022-2023年的增量竞争之后，2024年，AI的发展进入了存量市场的竞争。并且由于各家AI产品的基本构建已经完成，因此其发展趋势也逐渐进入了产品形态的变化而不是扩张时期。并且随着各种头部项目的落地以及应用，我们认为2025年的生成式AI发展也会进入新的平衡时期。
+
+#### 6.4.1 生成式AI各子领域近五年增长趋势
+
+![6-23](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-23.png?raw=true)
+<center>图 6.23 生成式 AI 各子领域 2020 - 2024 年 OpenRank 变化趋势</center>
+<br>
+
+![6-24](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-24.png?raw=true)
+<center>图 6.24 生成式 AI 各子领域 2020 - 2024 年 活跃度 变化趋势</center>
+<br>
+
++ 对于不同种类别的划分的分类分析，各类生成式AI项目的活跃度与影响力都出现了一定程度的回落。
++ 工具类AIGC开源项目的影响力与活跃度均显著高于模型类和应用类
++ 模型类项目影响力自 2022 年开始增长迅速，在 2023 年超过基础类，整体呈现上升趋势，代表着 2023 年是 AIGC 创新应用开发的大爆发之年，而2024年发展放缓，这可能体现了在过去一段时间中，生成式AI的发展相对趋于稳定。
+
+#### 6.4.2 生成式 AI 领域项目 OpenRank 和活跃度 Top 10 变化趋势
+
+![6-25](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-25.png?raw=true)
+<center>图 6.25 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势</center>
+<br>
+
+![6-26](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-26.png?raw=true)
+<center>图 6.26 生成式 AI 领域 活跃度 Top 10 项目近 5 年变化趋势</center>
+<br>
+
+- vllm 影响力和活跃度双排名第一，备受开发者的关注；
+- langchain 的影响力以及活跃度排名在新的一年有所回落，但是依然保持了相当高的排名。
+- transformers 作为从问世以来的新时代AI的基石，在最新一年中依然保持了极高的关注度，面对新的诸如mamba等最新架构的挑战，transformer依然是当下大模型AI的核心。
+- stable-diffusion-webui在2023年展现了非常强大的发展势头，曾被认为是transformer的有力挑战者，但其在2024年的各种指标的发展都有所降低，依然没有动摇transformer的地位。
+- Langchain-Chatchat作为一个本地部署的知识库，在2024年依然保持了稳定上升的发展态势。 
+
+#### 6.4.3 2024 年生成式 AI 领域项目 OpenRank 和活跃度 Top 10 榜单
+
+<center>
+    表 6.3 生成式 AI 领域 OpenRank 度排行
+</center>
+<br>
+
+| 排名 | 项目名称                          | OpenRank |
+| ---- | --------------------------------- | -------- |
+| 1    | vllm-project/vllm                 | 4611     |
+| 2    | huggingface/transformers          | 4212.26  |
+| 3    | langchain-ai/langchain            | 4292.13  |
+| 4    | ggerganov/llama.cpp               | 3110.07  |
+| 5    | run-llama/llama_index             | 2665.89  |
+| 6    | milvus-io/milvus                  | 1955.52  |
+| 7    | facebookincubator/velox           | 1641.14  |
+| 8    | chatchat-space/Langchain-Chatchat | 1097.79  |
+| 9    | microsoft/DeepSpeed               | 983.42   |
+| 10   | invoke-ai/InvokeAI                | 971.2    |
+
+<center>
+    表 6.4 生成式 AI 领域 活跃度排行
+</center>
+<br>
+
+| 排名 | 项目名称                             | OpenRank |
+| ---- | ------------------------------------ | -------- |
+| 1    | vllm-project/vllm                    | 17556.02 |
+| 2    | langchain-ai/langchain               | 16413.39 |
+| 3    | huggingface/transformers             | 14454.74 |
+| 4    | ggerganov/llama.cpp                  | 10599.61 |
+| 5    | run-llama/llama_index                | 10272.5  |
+| 6    | milvus-io/milvus                     | 6978.76  |
+| 7    | facebookincubator/velox              | 4832.71  |
+| 8    | chatchat-space/Langchain-Chatchat    | 4315.73  |
+| 9    | AUTOMATIC1111/stable-diffusion-webui | 3782.55  |
+| 10   | getcursor/cursor                     | 3579.97  |
+
+## 七. 开发者洞察
+
+开发者是开源生态持续发展的核心驱动力，他们不仅是创新的生产者和推动者，也是开源社区协作机制的基石。开发者的整体数量规模、贡献活跃度及协作方式，对开源项目的繁荣和发展产生了深远影响。本节将通过全球视角，基于个体开发者的数据展开深入洞察，同时提供国家和地区层面的分析，以呈现全球开源开发者的分布格局和趋势变化。
+
+###  7.1 开发者的地区分布
+
+2024年的分析延续了以往的研究方法，但基于更丰富和精细化的数据来源。此次研究覆盖了 GitHub 上 1200 万活跃开发者的样本，其中 正确填写地理位置信息的开发者约为 255 万人，占 GitHub 全域注册用户总量（约 1.2 亿）的 2%。尽管数据仅为全体注册用户的一个子集，但这一样本量的增长以及开发者数据质量的提升，为分析全球开发者的地理分布及区域协作模式提供了更具代表性的视角。
+
+#### 7.1.1 GitHub 活跃开发者地理分布
+
+首先将 GitHub 上活跃开发者数量在地图上进行可视化分析，如下图所示。
+
+<img width="1195" alt="image" src="https://github.com/user-attachments/assets/668c90c4-f668-4430-bc1b-a7474eebd99d" />
+<center>图 7.1 2024 全球开发者分布图</center>
+
+从地图中可以清晰地感受到 GitHub 开发者的地理位置分布呈现出显著的区域特点。在人口密集且互联网基础设施发展较为完善的地区，例如中国的沿海城市群、欧洲各主要经济体、美国的东西海岸科技聚集区、印度的高科技产业集中区域，以及巴西东南部的大城市带，开发者的分布尤为集中。这些地区通常既拥有大规模的技术人才储备，又有成熟的科技产业生态，为开源开发活动提供了良好的环境支持。
+相比之下，在居住人口较为稀少或互联网发展水平相对滞后的区域，例如广袤的沙漠、山地和极地地区，开发者的分布显得较为零散甚至罕见。这种分布规律不仅反映了技术人才与资源的全球分布现状，也从一定程度上揭示了数字经济发展的不平衡性。
+值得注意的是，一些新兴经济体中的特定区域，例如东南亚、非洲的部分国家，也开始涌现出越来越多的活跃开发者。这表明，随着全球互联网普及率的提高和科技教育的普及，开源开发活动正在逐渐从传统的核心技术区域向更多新兴市场扩展，为全球开源生态注入了新的活力与多样性。
+
+<br>
+
+<img width="1189" alt="image" src="https://github.com/user-attachments/assets/f28d26f5-07f0-47a6-a571-b18b6252d241" />
+<center>图 7.2 2024 中国开发者分布图</center>
+<br>
+
+#### 7.1.2 GitHub 活跃开发者国家 / 地区分布
+
+<img width="795" alt="image" src="https://github.com/user-attachments/assets/bb313a67-eaf5-4fb4-a6ab-580267f0d2a8" />
+<center>图 7.3 2024 全球 GitHub 活跃开发者国家 / 地区分布图</center>
+<br>
+
+<center>表 7.1 2024 全球活跃开发者数量国家 / 地区排名</center>
+<br>
+
+| 排名 | 国家           | 2024年数量 | 2023年数量 | 增长数量  | 增长率 (%) |
+|------|----------------|------------|------------|-----------|------------|
+| 1    | United States  | 22233197   | 18326730   | 3906467   | 21.32      |
+| 2    | European Union | 17281528   | 14086752   | 3194776   | 22.68      |
+| 3    | India          | 15209709   | 11443487   | 3766222   | 32.91      |
+| 4    | China          | 9404966    | 8863326    | 541640    | 6.11       |
+| 5    | Brazil         | 4812874    | 3736602    | 1076272   | 28.80      |
+| 6    | United Kingdom | 3796457    | 3110915    | 685542    | 22.04      |
+| 7    | Russia         | 3404378    | 2790032    | 614346    | 22.02      |
+| 8    | Indonesia      | 3321239    | 2518881    | 802358    | 31.85      |
+| 9    | Germany        | 3316461    | 2676735    | 639726    | 23.90      |
+| 10   | Japan          | 3221378    | 2471377    | 750001    | 30.35      |
+
+
+从表格数据中可以看出，2024年全球主要国家的 GitHub 开发者数量较2023年均有显著增长。所有列入统计的国家均在2024年实现了开发者数量的明显增长，这表明全球开源生态的活跃度进一步提升。增长的驱动因素可能包括互联网普及率的提高、技术教育的普及、以及更多企业和个人参与开源项目的意愿增强。
+- 排名第一的国家：美国（United States），在2024年数据数量达到了22,233,197，是所有国家中最高的，其增长数量为3,906,467，增长率为21.32%。
+- 增长最快的国家：印度（India），增长率达到了32.91%，增长数量为3,766,222。
+- 最低增长率：中国（China），虽然2024年数量为9,404,966，位列第四，但其增长率仅为6.11%，增长数量为541,640。
+- 其他表现亮眼的国家：欧洲联盟（European Union），增长数量3,194,776，增长率22.68%，排名第二。印度尼西亚（Indonesia），虽然数量较少，但增长率高达31.85%，增长数量为802,358。
+
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/dc407c46-92ad-4209-b64d-851f66869b0e" />
+<center>图 7.4 2024 中国 GitHub 活跃开发者地区分布图</center>
+<br>
+
+<center>表 7.2 2024 中国活跃开发者数量地区排名</center>
+<br>
+
+| 排名 | 地区  | 2024数量 | 2023数量 | 增长数量 | 增长率 (%) |
+|------|------|---------|---------|---------|----------|
+| 1    | 北京  | 38,323  | 24,151  | 14,172  | 58.69    |
+| 2    | 上海  | 28,393  | 18,215  | 10,178  | 55.86    |
+| 3    | 广东  | 24,959  | 16,153  | 8,806   | 54.51    |
+| 4    | 台湾  | 15,894  | 8,823   | 7,071   | 80.15    |
+| 5    | 浙江  | 15,816  | 10,927  | 4,889   | 44.74    |
+| 6    | 江苏  | 9,369   | 5,437   | 3,932   | 72.34    |
+| 7    | 四川  | 8,186   | 5,311   | 2,875   | 54.14    |
+| 8    | 香港  | 6,625   | 3,344   | 3,281   | 98.10    |
+| 9    | 湖北  | 5,732   | 3,273   | 2,459   | 75.13    |
+| 10   | 陕西  | 3,669   | 1,993   | 1,676   | 84.11    |
+
+这张表格展示了中国各地区 GitHub 开发者数量在2023年至2024年间的变化情况，包括开发者总量、增长数量和增长率。（此处的数据是255万活跃用户中的地区分布）
+- 北京、上海和广东稳居前三位，分别拥有 38,323、28,393 和 24,959 名开发者。这三个地区作为中国的核心科技和经济中心，吸引了大量技术人才，也成为开源生态的主要贡献者。台湾 和 浙江 分列第四和第五，分别拥有 15,894 和 15,816 名开发者，展现了在两岸科技发展中的重要地位。
+- 北京 以新增 14,172 名 开发者的绝对增长量位居榜首，其增长率为 58.69%，说明作为中国科技创新中心，北京仍然在快速扩充其技术人才队伍。香港 的增长率达到了惊人的 98.10%，接近翻倍，新增 3,281 名 开发者。这表明香港的开源开发生态正在迅速崛起，可能与该地区在科技和国际化方面的战略布局有关。
+- 华北、华东和华南 地区的开发者总量占据明显优势，例如北京、上海、广东和浙江。作为中国经济最发达的区域，这些地方的互联网产业发展水平较高，为开源贡献提供了有力支持。中西部地区 的开发者数量相对较少，但增长率较快。例如，陕西 和 湖北 分别新增 1,676 和 2,459 名开发者，增长率均超过 75%，显示出中西部地区技术力量的快速崛起。
+
+### 7.2 开发者工作时间分析
+
+本小节对 GitHub 及 Gitee 开发者工作时间进行分析。本节时间默认使用 UTC 区时，相比东八区滞后 8 小时。数据默认使用 min-max 方法放缩到 [1-10] 区间，时区图中圆点面积越大代表数值越高。
+
+#### 7.2.1 全域开发者工作时间分布
+
+**GitHub 全域开发者工作时间分布**
+
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/a87be22b-c8f0-444b-ad13-1f92e20761e8" />
+<center>图 7.5 GitHub 全域开发者工作时间分布</center>
+<br>
+
+通过统计 GitHub 全域开发者的工作时间分布，可以发现开发者的活跃时段主要集中在 6点至21点之间，而 12点达到一个显著高峰，这可能与定时任务的触发有关。此外，周六和周日的活跃度相对较低，显示出开发者在周末的工作频率有所下降。
+
+**Gitee 全域开发者工作时间分布**
+
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/6bcd76ea-6205-4582-b54a-e76943080666" />
+<center>图 7.6 Gitee 全域开发者工作时间分布</center>
+<br>
+
+从数据中可以明显看出，Gitee 平台的开发者活跃时间更加符合东八区的作息规律。这种特征与 Gitee 作为中国本土代码托管平台的用户群体分布息息相关。由于 Gitee 的主要用户集中在中国及东亚地区，其开发者的活跃时间分布反映了该地区普遍的工作和生活节奏。
+具体来看，开发者的工作时间高峰通常出现在 早晨9点至晚上8点之间，与东八区的标准工作时间基本重合。同时，在中午和晚餐时间段活跃度略有下降，这进一步说明开发者的工作习惯与东亚地区的日常作息保持一致。此外，与全球化平台（如 GitHub）相比，Gitee 数据中周末的开发者活跃度下降更为显著，这可能反映了中国开发者在周末更倾向于休息或从事非工作相关活动的文化特征。
+
+**除去机器人的全域开发者时间分布**
+
+<img width="1001" alt="image" src="https://github.com/user-attachments/assets/e371f8d0-a841-46d6-84f0-9c11dfb4daaa" />
+<center>图 7.7 除去机器人的全域开发者时间分布</center>
+<br>
+
+在剔除机器人数据后，开发者的工作时间分布呈现出更加真实和自然的规律。数据显示，开发者的活跃时段主要集中在 6点至21点之间，这个时间区间内的活动量显著增加，并且分布更加均匀。这表明，在排除自动化行为的干扰后，开发者的工作习惯和实际活动轨迹更加清晰地反映出来。
+这种分布特征与人类开发者的日常作息高度吻合，通常对应于早晨到晚间的工作时间段。这一规律说明，绝大多数开发者倾向于在一天的主要工作时段进行代码编写、协作以及开源项目的贡献，而在深夜和凌晨时间段的活跃度则明显下降。此外，工作时间的均匀分布可能表明，开发者的任务处理节奏更为平稳，避免了过度集中在某些特定时间点的爆发式行为。
+
+#### 7.2.2 项目工作时间分布
+
+##### 全球 GitHub 仓库 OpenRank 前四名工作时间分布
+
+1. [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)
+
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/0d99a62a-c89c-49f5-98bc-73cd1d35c872" />
+
+<center>图 7.8 NixOS/nixpkgs 2024 年工作时间打点图</center>
+<br>
+
+2. [llvm/llvm-project](https://github.com/llvm/llvm-project)
+
+<img width="1005" alt="image" src="https://github.com/user-attachments/assets/c303f4b5-6841-4e0e-b22f-cc96859da22e" />
+
+<center>图 7.9 llvm/llvm-project 2024 年工作时间打点图</center>
+<br>
+
+3. [home-assistant/core](https://github.com/home-assistant/core)
+
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/6eb34367-dffe-4e65-8692-4a68acd8a792" />
+<center>图 7.10 home-assistant/core 2024 年工作时间打点图</center>
+<br>
+
+4. [pytorch/pytorch](https://github.com/pytorch/pytorch)
+
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/27d72c73-6256-4b93-a0b2-fcc1c3cb233f" />
+<center>图 7.11 pytorch/pytorch 2024 年工作时间打点图</center>
+<br>
+
+##### 中国仓库 OpenRank 前四名工作时间分布
+
+1. openharmony
+
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/a52ef9e3-6fbb-4a8e-a19c-402c9e0f00e9" />
+<center>图 7.12 openharmony 2024 年工作时间打点图</center>
+<br>
+
+2. DaoCloud
+
+<img width="1002" alt="image" src="https://github.com/user-attachments/assets/e98237a7-5e42-4f46-8217-8db6fcde95b4" />
+<center>图 7.13 DaoCloud 2024 年工作时间打点图</center>
+<br>
+
+3. PaddlePaddle
+
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/ddc2dab7-afba-4ead-b785-951beafe7105" />
+<center>图 7.14 PaddlePaddle 2024 年工作时间打点图</center>
+<br>
+
+4. doris
+
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/1c333de4-198a-4411-bed1-458c72763852" />
+<center>图 7.15 doris 2024 年工作时间打点图</center>
+<br>
+
+### 7.3 开发者角色分析
+
+本部分基于 GitHub 用户在开源仓库中所触发的事件将 GitHub 用户分为**探索者**、**参与者**、**贡献者**、**提交者**（Committer）四个角色，四种角色定义如下表所示。
+
+<center> 表 7.3 四种开发者角色
+</center>
+<br>
+
+| 角色  | 定义                            | 含义                   |
+|-----|-------------------------------|----------------------|
+| 探索者 | 对某一项目进行 star 的用户              | 表示用户对该项目有一定的兴趣       |
+| 参与者 | 对某项目有过 Issue 或者 Comment 行为的用户 | 表示用户参与该项目            |
+| 贡献者（Contributer） | 对某项目中有 Pull Request (PR) 的用户        | 表示用户对项目 CodeBase 有贡献 |
+| 提交者（Committer） | 参与 PR-review 或 merge 的用户              | 表示用户对项目有深度贡献         |
+
+一般情况下，四种关系层层递进，结构如下图所示。基于所定义的角色体系，我们从角色数量、时间变化、开发者角色演化三个视角对 GitHub 全域项目中 OpenRank 排名前十的项目进行量化，即第二部分中的项目排名榜单。
+
+![7-16.png](https://raw.githubusercontent.com/kaiyuanshe/2023-China-Open-Source-Report/main/public/image/data/chapter_7/7-16.png)
+
+<center>图 7.16 开发者类型关系</center>
+<br>
+
+#### 7.3.1 2024 年各角色数量分布
+
+<center>表 7.4 OpenRank 排名前 10 项目各开发者角色数量分布</center>
+<br>
+
+| 仓库名                           | 探索者  | 参与者   | 贡献者   | 提交者   |
+|-------------------------------------|-------|---------|------|------|
+| NixOS/nixpkgs                       | 4897  | 3606    | 4339 | 3484 |
+| llvm/llvm-project                   | 6789  | 3241    | 2365 | 2092 |
+| home-assistant/core                 | 10596 | 7472    | 1300 | 989  |
+| pytorch/pytorch                     | 12513 | 2599    | 1424 | 823  |
+| digitalinnovationone/dio-lab-open-source | 3813  | 4462    | 21276| 224  |
+| odoo/odoo                           | 7659  | 650     | 1035 | 661  |
+| microsoft/vscode                    | 14701 | 12522   | 579  | 388  |
+| zephyrproject-rtos/zephyr           | 2314  | 1054    | 1276 | 1120 |
+| godotengine/godot                   | 15208 | 3314    | 1072 | 678  |
+| elastic/kibana   | 1298  |  852 |  437 |  452|
+
+
+
+![image](https://hackmd.io/_uploads/ryxvlwRI1x.png)
+
+<center>图 7.17 开发者角色分布图</center>
+<br>
+
+结果表明：
+- dio-lab-open-source:拥有最多的贡献者（21276位），由于该项目是一个为 GitHub 项目作贡献的教学课程项目，因此会有大量的贡献者。
+- microsoft/vscode：拥有最庞大的 探索者（14701人）和 参与者（12522人）群体，但 贡献者（579人）和 提交者（388人）的数量较少。这表明该项目有极高的关注度和参与度，但核心贡献仍由少部分开发者完成，说明其开发门槛较高或管理较为集中。
+- home-assistant/core 和 godotengine/godot：这两个项目的探索者人数（10596 和 15208）较多，参与者也有一定规模，但 贡献者 和 提交者 的比例更低（贡献者分别为1300和1072，提交者分别为989和678）。这种分布表明，它们有一定的社区参与度，但实际开发工作仍由少数人承担。
+
+#### 7.3.2 2024 年各角色新增情况
+
+角色新增的统计口径为：某用户在 2024 年之前不是 X 角色（例如贡献者或提交者角色），在 2024 年成为 此角色，则为 X 角色有效新增数。
+
+例如：A 2021 年给 B 项目提交了 PR，但是从未参与 Code Review 工作。2023 年 A review 了 B 项目中的 PR，则称 A 为新增提交者。
+
+详细角色新增情况如下图和下表所示。
+
+<center>表 7.5 OpenRank 排名前 10 项目新增开发者角色数量分布</center>
+<br>
+
+| 仓库名                             |   新增探索者  |  新增参与者 |   新增贡献者  |  新增提交者  |
+|---------------------------------------|---------|--------|-------|-------|
+| NixOS/nixpkgs                         |    4836 |   2392 |  2187 |  1605 |
+| llvm/llvm-project                     |    6689 |   2191 |  1517 |  1223 |
+| home-assistant/core                   |   10483 |   5502 |   819 |   565 |
+| pytorch/pytorch                       |   12321 |   1938 |   946 |   496 |
+| digitalinnovationone/dio-lab-open-source |    3809 |   4455 | 21254 |   224 |
+| odoo/odoo                             |    7559 |    445 |   467 |   239 |
+| microsoft/vscode                      |   14416 |  10614 |   450 |   312 |
+| zephyrproject-rtos/zephyr             |    2278 |    687 |   690 |   554 |
+| godotengine/godot                     |   14774 |   2216 |   738 |   445 |
+|elastic/kibana   | 1280   | 472   |155  | 117|
+
+![image](https://hackmd.io/_uploads/rkbOfPA8yl.png)
+
+<center>图 7.18 2024 年开源社区角色新增图</center>
+<br>
+
+**新增探索者**
+- microsoft/vscode 紧随其后，新增探索者数量达 14,416。这反映了其作为全球最流行的代码编辑器之一的持续吸引力。
+
+**新增参与者**
+- microsoft/vscode 的新增参与者数量达 10,614，排名第一，表明其在开源社区的参与度和受欢迎程度继续保持强劲。
+
+**新增贡献者**
+- digitalinnovationone/dio-lab-open-source 新增贡献者人数高达 21,254，远远领先其他项目。这说明该项目对开发者的吸引力在贡献层面上非常突出，可能得益于其对初学者友好的参与门槛和大量教学资源的支持。
+- NixOS/nixpkgs 以 2,187 名新增贡献者排名第二，表明其社区活跃度和开放性依然较高。
+
+**新增提交者**
+- NixOS/nixpkgs 是 2024 年最高新增提交者的项目，达到 1,605 名，表明其核心维护团队进一步扩大。这表明其社区不但吸引了大量贡献者，还能转化为高效的提交行为。
+- llvm/llvm-project 以 1,223 名新增提交者位居第二，体现了其强大的核心开发能力和社区活跃性。
+
+
+#### 7.3.3 开发者演化视角
+
+开发者演化过程定义为：一个开源社区中有多少角色转向其他角色。本报告中我们只度量某一角色转向更深层次角色的开发者。例如某用户 2023 年以前是参与者 ，到了 2023 年该用户提出了自己第一个 PR ，因此由参与者转变为贡献者。
+
+<center>表 7.6 OpenRank 排名前 10 项目角色转化数量分布</center>
+<br>
+
+| 仓库名                            |   贡献者 -> 提交者  | 参与者 -> 贡献者  | 探索者 -> 参与者 |
+|---------------------------------------|-------|------|-------|
+| NixOS/nixpkgs                         |   287 |  188 |   204 |
+| llvm/llvm-project                     |   134 |  289 |   185 |
+| home-assistant/core                   |    66 |  103 |   155 |
+| pytorch/pytorch                       |    82 |   78 |   168 |
+| digitalinnovationone/dio-lab-open-source |     0 |   21 |     3 |
+| odoo/odoo                             |    48 |   33 |    28 |
+| microsoft/vscode                      |    23 |   50 |   272 |
+| zephyrproject-rtos/zephyr             |    62 |   45 |    46 |
+| godotengine/godot                     |    67 |  115 |   242 |
+| elastic/kibana             |     12 |    26 |     3 |
+
+<img width="1430" alt="image" src="https://github.com/user-attachments/assets/6c544916-a765-4b69-89a8-44c1db18f68a" />
+<center>图 7.19 开发者角色演化图</center>
+<br>
+
+- 通过表格和图表中的数据，我们可以观察到 2024 年各社区中的开发者角色演化趋势，并继续体现了典型的漏斗模型，即开发者从探索者转化为参与者、从参与者转化为贡献者、再到核心的提交者的路径。这种趋势符合开源社区成员从初步探索到深度参与的演化规律。
+- 在各社区中，我们依然可以观察到典型的漏斗模型，从探索者到参与者，再到贡献者和提交者的演化路径。以 godotengine/godot 为例，2024 年有 242 名探索者 成功转化为参与者，115 名参与者转化为贡献者，67 名贡献者演化为提交者。这一趋势在其他社区中也有所体现，展现了成员从初步参与到深度贡献的自然发展过程。
+- 在 NixOS/nixpkgs 社区中，我们观察到 贡献者向提交者 的转化数量较高，达到 287 名，进一步表明其对核心贡献的开放性和较高的代码审查需求，有助于提升代码质量与项目稳定性。
+- 此外，像 microsoft/vscode 和 godotengine/godot 这样的项目，探索者向参与者的转化较为显著，分别有 272 名和 242 名探索者完成角色转变。这表明这些社区对新开发者的吸引力较强，且提供了较为低门槛的参与路径。
+- 相比之下，digitalinnovationone/dio-lab-open-source 的角色转化仍然较少，尤其是前者的演化数据少，表明社区尚处于早期发展阶段。与之类似的是 elastic/kibana ，这个项目的演化数据也较少，但是这个项目是一个成熟项目，可见，当项目发展完善后，其开发者人员也会趋于稳定。
+
+### 7.4 机器人账号视角
+
+机器人账号是经过人工标签和社区贡献的账号，目前共有1410个机器人账号，较去年新增了181个。其中2024年活跃的机器人账号有965个，其中GitHub平台有930个，Gitee平台有35个。我们分析了这些机器人参与过的仓库中的所有事件数，以此来研究机器人事件的变化。通过将机器人账号产生的事件与全部事件进行比较，可以看出机器人账号的重要性。通过不同事件类型的对比图和变化率，我们可以了解2024年机器人账号事件数量变化的原因。最后，通过机器人账号7x24小时活跃热力图，我们可以了解机器人账号的工作时间。
+
+#### 7.4.1 机器人账号事件变化
+![Comparison statistics of annual bot events and overall events (2016-2024)](https://github.com/user-attachments/assets/cd667d20-ca92-4097-9b29-c4ebfe0bf579)
+<center>图 7-8 每年机器人参与的仓库机器人账号事件与全部事件数量对比图</center>
+<br> 
+
+从图 7-8 可以看出，机器人账号事件的数量在过去几年中显著增长。尤其是从2020年开始，机器人事件的数量呈现出快速上升的趋势。相比之下，开发者参与的事件数量虽然也在增长，但增长幅度相对较小，变化趋势较为平稳。
+
+具体来看，2016年至2024年间，机器人账号事件数量从接近零增长到超过4亿次，而全部事件数量从约1亿次增长到超过7亿次。机器人事件的增长速度明显快于总体事件的增长速度，这表明机器人账号在社区中的作用和影响力正在不断增强。
+
+这种增长可能是由于机器人在自动化任务、代码审查、持续集成等方面的应用越来越广泛，从而减轻了开发者的负担，提高了工作效率。尽管开发者的参与数量变化不大，但机器人账号的快速增长弥补了这一点，确保了整体事件数量的持续上升。
+
+2024年机器人账号事件数占全部事件数的43%，而开发者参与的事件数占57%。这一比例进一步强调了机器人账号在社区中的重要性。机器人账号不仅在数量上显著增长，而且在整体事件中的占比也越来越大，这表明机器人在社区中的角色越来越重要。
+
+
+#### 7.4.2 机器人账号事件变化原因分析
+![clipboard1](https://hackmd.io/_uploads/rkMDnSR8Jl.png)
+<center>图 7-10 每年机器人账号不同事件类型对比图（2016-2024）</center>
+<br> 
+从图 7-10 可以看出，不同类型的事件在各个年份中的分布情况。因为机器人账号不会参与MemberEvent、WatchEvent、ForkEvent、PublicEvent、GollumEvent，所以我们排除了以上Event。以下是一些关键观察点：
+
+- PushEvent 和 PullRequestEvent 是最主要的事件类型，数量远超其他事件类型。
+- PushEvent 在2024年达到了一个新的高峰，数量接近3亿次。
+- PullRequestCommentEvent 的数量在持续上升。
+- 但是PullRequestEvent在逐步减少。
+
+机器人账号在代码提交方面的活动显著增加表明开发者越来越依赖于自动化工具来提交代码。与此同时，PullRequestEvent 的数量在逐步减少，可能是由于自动化工具和流程的优化减少了对手动拉取请求的需求。PullRequestCommentEvent 和 IssueCommentEvent 的数量在持续上升，表明机器人账号在代码审查和问题管理方面的参与度增加。此外，其他事件类型（如 CreateEvent、DeleteEvent 等）的数量也有所增长，反映了机器人账号在项目管理和维护方面的多样化活动。
+
+![op and Bottom Growth Rates in GitHub Event Counts (2023 vs 2024)](https://github.com/user-attachments/assets/ae482c5b-7260-48d1-8ba0-9d0e5e2eebd2)
+<center>图 7-11 2024年与2023年各个事件变化率</center>
+<br> 
+
+图 7-11 显示了2024年与2023年各个事件类型的变化率：
+
+- IssuesEvent 的增长率最高，达到了783.5%，增加了19333491次。这表明机器人在处理问题（Issues）方面的活动显著增加。
+- PullRequestReviewCommentEvent 和 PushEvent 的增长率分别为60.1% 和 56.1%，增加了1786717次和105177443次。
+- GollumEvent 和 DeleteEvent 也显示出增长，分别为49.0% 和 24.3%。
+CommitCommentEvent 和 ForkEvent 显示出显著的下降，分别减少了90.2% 和 72.3%。
+
+这些变化率表明，机器人账号在某些特定类型的事件中变得更加活跃，尤其是在处理问题（IssuesEvent）和代码提交（PushEvent）方面。同时，某些事件类型（如 CommitCommentEvent 和 ForkEvent）的减少可能表明这些任务更多地由开发者手动处理，或者这些任务的自动化需求较低。
+
+
+
+#### 7.4.3机器人账号7X24小时活跃热力图
+
+![clipboard9](https://hackmd.io/_uploads/ByGyf8RIyg.png)
+
+
+
+从24小时活跃热力图中可以看出，机器人账号的活动在一天中的不同时间段有明显的分布特点。以下是一些关键观察点：
+
+- 高峰时段：机器人账号的活动在每天的12点（中午）达到高峰。这一现象表明多数机器人事件都是定时任务，通常安排在中午进行。
+- 全天活动：尽管12点是活动的高峰时段，但机器人账号在24小时内都有一定的活动量。这表明机器人在全天候运行，处理各种自动化任务。
+- 工作日与周末：从热力图中可以看出，工作日（周一至周五）的活动量略高于周末（周六和周日）。这可能是因为工作日的开发活动更多，从而触发更多的机器人事件。
+
+这种活动模式表明，机器人账号在自动化任务中扮演着重要角色，尤其是在定时任务和持续集成等方面。通过在固定时间点执行任务，机器人可以有效地减轻开发者的负担，提高工作效率。
+
+
+
+## 八. 商业开源洞察
+
+### 8.1 商业开源的定义
+
+商业开源是指企业在开源软件的基础上，通过提供增值服务、技术支持、定制化解决方案等方式实现商业化盈利的一种模式。商业开源是通过更多人的参与，减少软件的缺陷，丰富软件的功能，同时也避免了少数人在软件里留一些不正当的后门。企业通过开源的商业模式可以直接获得经济利润，开源软件最终还会反哺商业，让商业公司为用户提供更好的产品。它与传统开源的核心区别是传统开源主要是为了促进软件的自由使用、修改和分发，往往由社区驱动来推动技术进步。但商业开源虽然也遵循开源的原则，但主要目的还是为了盈利。
+
+
+### 8.2 商业开源公司分析
+
+<img width="723" alt="Image" src="https://github.com/user-attachments/assets/acced62b-e96c-4053-88ad-dae15edb7a96" />
+
+
+<center>图 8-1 商业开源公司 OpenRank Top20榜单</center>
+<br>
+
+Grafana Labs的OpenRank排名第一，这主要得益于其核心产品Grafana的广泛应用和社区活跃度，在2024年，Grafana Labs完成了一轮融资，估值达到60亿美元。HashiCorp在开源领域具有重要地位，但其融资金额为349.2百万美元，相对较低。这可能是因为HashiCorp的商业模式和盈利方式与其他公司有所不同。它主要通过提供开源工具的企业级支持、服务和商业版本来实现商业化。
+
+### 8.3 商业开源项目分析
+
+<img width="711" alt="Image" src="https://github.com/user-attachments/assets/2392c638-4b02-4aaf-9a8f-39d4da199575" />
+<center>图 8-2 商业开源项目 OpenRank Top20榜单</center>
+<br>
+
+Odoo作为全球排名第一的免费开源PLM管理系统，其 OpenRank 最高，融资金额也较高，这可能是因为Odoo拥有强大的社区支持和活跃度，以及广泛的企业应用模块，使其在开源项目中具有很高的影响力和市场认可度。然而，尽管Bun在技术上受到认可，但其融资金额相对较低，这可能是因为项目仍处于早期阶段，商业模式尚未完全成熟或者市场对其商业潜力的评估还在观望中。随着以后项目的成熟和市场认可度的提升，预计Oven的融资金额将会增加，同时其在开源社区的影响力也可能会进一步扩大。
+
+### 8.4 商业开源项目近五年 OpenRank 变化趋势
+
+![Image](https://github.com/user-attachments/assets/a70d190c-d0ea-441f-8043-f08a385a3494)
+<center>图 8-3 商业开源项目近五年 OpenRank 变化趋势</center>
+<br>
+
+近五年商业开源项目的 OpenRank 总体呈增长趋势，2020 至 2023 年快速上升，这得益于开源生态的繁荣与企业支持；2023 至 2024 年增长放缓，可能因市场逐渐饱和、项目成熟度提高及竞争加剧所致。
+
+### 8.5 商业开源公司近五年 OpenRank 变化趋势
+
+![Image](https://github.com/user-attachments/assets/24792b5c-d752-4f18-add5-16b60f23a2ae)
+<center>图 8-4 OpenRank Top5商业开源公司近五年变化趋势</center>
+<br>
+
+HashiCorp 的 OpenRank 2020 年至 2023 年间保持稳步增长，达到峰值后在 2024 年出现小幅回落。
+Grafana Labs增长显著，从 2020 年的较低排名逐步上升，2024 年基本追平 HashiCorp。
+Vercel 增长明显，从 2020 年的中游排名逐步提升，2023 年达到峰值后略有回落。
+GitHub 保持稳定增长，体现其作为开源生态核心平台的重要性。
+Armory 表现波动较大，2020 年至 2021 年略有下降，但在 2022 年迅速反弹，2023 年达到高峰后快速下降。
+
+
+![Image](https://github.com/user-attachments/assets/73970b2e-f9f6-46e4-843a-50b6508a1249)
+<center>图 8-5 Grafana Labs近五年OpenRank变化趋势和融资时间点</center>
+<br>
+总体来看，每次融资都伴随着OpenRank的显著增长，这表明Grafana Labs能够有效地利用融资来推动公司的发展和市场地位的提升。同时，OpenRank的增长也反映了公司在开源社区中的影响力和认可度的提高。
+
+
+### 8.6 案例分析
+
+本章节以飞致云为例，介绍企业的开源商业化实践案例。飞致云的开源商业化实践是借助开源杠杆，实现高效的“产品 & 商业”的协同创新，做出好的软件产品并不断把产品卖出去。飞致云的商业模式是基于开源的免费增值模式，该商业模式的成立需要同时解决两件事情：一是持续扩大免费安装基数，二是持续提升付费转化率。
+
+![image](https://hackmd.io/_uploads/SJ94-RSD1x.png#pic_center =450x)
+<center>图 8-6 基于开源的免费增值模式</center>
+<br>
+
+飞致云的产品观是“好的软件是迭代出来的”。飞致云充分利用开源实现高效分发，获取大量反馈，并按月迭代发布产品。飞致云的商业观是 “Our products are bought, not sold”。 最终用户正在成为工具软件产品采购的关键决策者，飞致云实现了线上获客，销售标准产品，并通过强大的产品组合持续提升交叉销售率。这种“开源吸引用户-用户反馈促进迭代-迭代产品吸引更多用户-更多用户带来更多客户-更多收入带来更大研发投入”的循环，是飞致云商业模式能够真正形成飞轮效应的关键所在。
+
+![【推文配图】飞致云开源](https://hackmd.io/_uploads/rkr_X0HPkl.png)
+
+
+<center>图 8-7 飞致云开源商业化实践</center>
+<br>
+
+飞致云在开源商业化上的阶段性成果可以通过开源活跃度、开源影响力、付费企业数量和现金回款等四个数据得到验证。截止目前飞致云 OpenRank 开源活跃度位居中国企业第 10 名，全球第 47 名；OpenRank 开源影响力位居中国企业第 9 名，全球第 42 名；截止 2024 年底飞致云服务超过 3000 家企业客户，客户遍布金融、制造、能源、交通、医疗、通信、传媒、房地产、互联网、教育等各行各业；2024 年飞致云开源商业化产品的现金回款笔数 2511 笔，全年累计回款金额超过 1 亿元人民币。
+
+
+## 九. 高校开源洞察
+
+2024 [开源之夏 OSPP ](https://summer-ospp.ac.cn/)作为高校与开源社区深度互动的重要平台，在本年度取得了显著成果，有效促进了开源技术的发展与高校人才培养。而从首届 OSPP 开始，X-lab 开放实验室便深度参与其中，本年度便针对 OSPP 2024 年的相关数据进行如下数据分析。
+
+### **9.1 OSPP 宏观分析**
+
+- **OSPP 2024 基本情况**：本次 OSPP 汇聚了来自多个领域的 168 个开源社区，包括但不限于操作系统、编程语言、人工智能等各个领域。如图 9.1 所示，来自全球不同高校的 2537 名学生上线了共 561 个开源项目，并最终顺利结项了 455 个优秀项目。
+
+![9-1](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-1.png)
+
+
+<center>图 9.1 活动参与情况总览</center>
+
+- **社区数量**：从首届 OSPP 起，每年参与活动的社区数量呈现出令人瞩目的增长态势。至 2024 年，社区数量飙升至 168 个，较 2023 年实现了大幅增长。这种增长趋势主要归因于多个因素。一方面，越来越多的开发者和项目团队意识到开源协作的强大力量，进而吸引了更多社区参与到 OSPP 活动中。另一方面，高校对于开源教育的重视程度与日俱增，纷纷加强与开源社区的合作，为学生提供实践平台。
+- **学生与高校数量**：从 2020 年至 2023 年期间，学生参与数量处于平稳上升的通道，这得益于开源文化在高校的逐步渗透以及 OSPP 活动影响力的持续扩散。然而，在 2024 年，学生参与数量出现了略微降低的情况，降至 2537 人。这可能是由于本年度项目难度和要求的适度调整，以及同期其他类似开源活动竞争导致部分潜在参与者分流的影响。而关于高校参与数量的变化，自活动开展以来，其与学生数量的变化情况基本相同。即从 2020 年至 2023 年期间平稳上升，而在2024年略有下降，其原因与学生数量的变化原因大致相同。
+- **项目数量**：在 2024 年的 OSPP 活动中，参与OSPP的总人数略有下降，但项目数量仍达到了 561 个。而在结项方面，455 个项目成功结项，结项率从去年的 70% 跃升至 81%，这一出色的结项率归因于多方面因素。首先，活动组织方在项目管理流程上进行了优化，在项目启动初期，为学生和导师提供了更为详细且具有针对性的指导手册与培训课程，涵盖从项目规划到技术难点攻克等各个环节。其次，社区导师在本年度发挥了更为积极关键的作用，他们不仅在技术上给予学生专业的指导，还在时间管理、团队协作等方面提供了宝贵的经验分享。再者，学生自身对于开源项目的重视程度和投入度持续增加，能够高效地完成项目开发工作，从而使得结项率实现了显著的提升。
+
+### 9.2 OSPP 年度学生高校相关分布情况分析
+
+- **高校地理分布**：本届开源之夏活动中全球参与高校的地理分布情况如图 9.2 所示，与 2023 年的分布情况对比如表 9.1 所示。2023 年，参与的高校总数为 592 所，其中国内高校 489 所，国外高校 103 所，国外高校占比 17.4%。而到了 2024 年，高校总数降至 498 所，国内高校数量相应减少至 399 所，国外高校数量为 99 所，但国外高校占比略有上升，达到 19.9%。这一变化表明，尽管高校参与的总体规模有所收缩，但国际交流在其中的相对比重有所增加。随着 OSPP 国际影响力的提升，吸引了更多国外高校的关注，虽然绝对数量有所波动，但在相对占比上体现出国际合作的深化趋势，这对于促进全球范围内的开源技术交流与人才培养的国际化融合具有重要意义，也预示着 OSPP 在未来的发展中，国际合作将成为一个重要的增长方向和特色亮点。
+
+![9-2](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-2.png)
+
+
+<center>图 9.2 OSPP 2024 参与高校分布情况</center>
+
+<center>表 9.1 OSPP 2023 至 2024 国内外高校分布变化情况</center>
+
+| OSPP 年份 | 高校总数 | 国内高校总数 | 国外高校总数 | 国外高校占比 |
+| --------- | -------- | ------------ | ------------ | ------------ |
+| 2024      | 498      | 399          | 99           | 19.9%        |
+| 2023      | 592      | 489          | 103          | 17.4%        |
+
+
+
+- **学生学历分布**：OSPP 2024 参与学生的学历分布情况如图 9.3 所示，与 2023 年的对比情况如表 9.2 所示。可以看到除了来自中国的大量优秀学生，还有来自全球各个国家的众多学生参与其中。而所有学生中参与的主力为本科生与硕士生，少部分为博士生。具体分析而言，对比 2023 年与 2024 年 OSPP 学生学历分布情况可知，整体格局虽保持相对稳定。学历分布的变化体现了 OSPP 项目在不同学历层次学生间的动态发展态势处于一个稳定的状态中，其面向的主要群体仍是本科或硕士阶段的学生。
+
+![9-3](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-3.png)
+
+
+<center>图 9.3 OSPP 2024 参与学生学历分布情况</center>
+
+<center>表 9.2 OSPP 2023 至 2024 参与学生学历分布变化情况</center>
+
+| OSPP 年份 | 学生总数 | 本科/专科在读占比 | 硕士在读占比 | 博士在读占比 |
+| --------- | -------- | ----------------- | ------------ | ------------ |
+| 2024      | 2537     | 56%               | 42%          | 2%           |
+| 2023      | 3475     | 57%               | 41%          | 2%           |
+
+### 9.3 OSPP 年度贡献度情况分析
+
+在上述统计数据的基础上，我们结合 OSPP 近两年全年的贡献度数据和社区 OpenRank 算法对各参与高校以及参与到各社区学生的贡献度进行了详细的分析。
+
+#### 9.3.1 高校贡献度
+
+通过 OpenRank 算法计算得出的高校贡献度年度排行榜如图 9.4 和图 9.5 所示，其中图 9.4 展示了 OSPP 2024 中贡献最为突出的二十所高校，而图 9.5 则展示了 OSPP 2023 所对应的高校排行榜。
+
+在 2024 年的排行榜中，西安邮电大学以 OpenRank 值 85.13 跃居第一，参与学生数目为 15 人，人均 OpenRank 为 5.68，不仅 OpenRank 值大幅提升，且参与学生数目也较为可观，其人均 OpenRank 也较高，说明该校在 OSPP 中的综合贡献度有显著提升。陇东学院以 OpenRank 值 61.37 位列第二，不过其参与学生数目仅为 1 人，人均 OpenRank 高达 61.37。这种情况是由于该校该名学生在特定项目中具备独特的技术优势或创新能力，能够独立完成具有高价值的项目任务。类似地，上海大学以 OpenRank 值 42.21 位列第三，其同样也只有两名学生参与活动。
+
+而在 2023 年的排行榜中，前三名分别为华中科技大学、浙江大学和北京邮电大学。可以看出，这些高校在 OSPP 中的整体贡献度较高，而其中华中科技大学虽然参与学生数目不是最多，但人均 OpenRank 表现出色，使其拥有了最高的总 OpenRank 值。另一方面，复旦大学、陇东学院、武汉大学、成都信息工程大学等高校虽然在学生数量上并不占优，但因为个别学生的贡献度较高而使得最终的排名较高。
+
+- **OSPP 2024 年度高校贡献度排行榜**：
+
+![9-4](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-4.png)
+
+
+<center>图 9.4 OSPP 2024 年度高校贡献度排行榜</center>
+
+- **OSPP 2023 年度高校贡献度排行榜**：
+
+![9-5](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-5.png)
+
+
+<center>图 9.5 OSPP 2023 年度高校贡献度排行榜</center>
+
+对比 2023 年和 2024 年的高校贡献度排行榜，我们从排名与贡献度等多个角度对榜单的变化情况进行了进一步分析。
+
+首先在排名变化方面，显著上升的高校有西安邮电大学和陇东学院。前者从 2023 年的第六名上升到 2024 年的第一名，实现了巨大的跨越。这种排名的提升反映了该校在开源项目实践方面的快速发展和积极进取；而后者从 2023 年的第十二名上升到 2024 年的第二名，其排名上升幅度同样令人瞩目。该校在 2024 年虽然只有一名学生参与项目，但该学生取得了极高的贡献度。
+
+#### 9.3.2 学生贡献度
+
+本节将对 OSPP 2023 和 2024 的学生贡献度排行榜数据及其变化情况展开详细分析。从参与的社区来看，学生参与的开源社区十分多样化。涵盖了诸如 Apache Hadoop、MatrixOne、Spring Cloud Alibaba 等不同类型的社区。这反映出 OSPP 项目覆盖了广泛的技术领域，为学生提供了在不同方向上进行开源实践的机会。具体的排行榜如图 9.6 与图 9.7 所示。
+
+- **OSPP 2024 年度学生贡献度排行榜**：
+
+![9-6](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-6.png)
+
+
+<center>图 9.6 OSPP 2024 年度学生贡献度排行榜</center>
+
+- **OSPP 2023 年度学生贡献度排行榜**：
+
+![9-7](https://raw.githubusercontent.com/kaiyuanshe/2024-China-Open-Source-Report/main/public/image/data/chapter_9/9-7.png)
+
+
+<center>图 9.7 OSPP 2023 年度学生贡献度排行榜</center>
+
+对比 2024 和 2023 年的学生贡献度排行榜，可以发现在2024 年的排行榜上，陇东学院、上海大学、西安财经大学等学校的学生进入了前列。这显示出在开源项目中，并非只有传统的优势高校学生能够取得高贡献度，一些相对不那么知名的高校学生如果有足够的能力和投入，也能在排行榜上崭露头角。在参与社区方面，今年 OSPP 的情况与 2023 年类似，学生参与的社区依旧多样。不过，在一些特定社区中，如 Spring Cloud Alibaba、MindSpore 等，学生的贡献度有显著提升，这可能与这些社区在 2024 年的项目需求、发展方向以及学生对相关技术的兴趣增长有关。另一方面，今年 OSPP 的贡献度集中程度有所变化，虽然仍有部分学生的 OpenRank 值远高于平均线，但整体的差距相较于 2023 年有缩小的趋势。这可能是由于随着 OSPP 项目的推广和发展，更多学生掌握了有效的开源项目参与方法，提高了自身的贡献度，使得高贡献度学生之间的竞争更加激烈。
+

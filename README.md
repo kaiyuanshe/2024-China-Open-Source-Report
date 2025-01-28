@@ -12,12 +12,13 @@
 ## 文件目录
 
 - 中文版
-  <!-- - [卷首语](./preface.md) -->
+  - [卷首语](./preface.md)
   - [问卷篇](./questionnaire.md)
-  <!-- - [数据篇](./data.md) -->
-  <!-- - [商业化篇](./commercialization.md) -->
-  <!-- - [开源大事记](./open-source-milestones.md) -->
-- English
+  - [数据篇](./data.md)
+  - [商业化篇](./commercialization.md)
+  - [开源人工智能篇](./ossAI.md)
+  - [开源大事记](./open-source-milestones.md)
+<!-- - English -->
   <!-- - [Preface](./en/preface.md)
   - [OSS Questionnaire](./en/questionnaire.md)
   - [OSS Data Analytics](./en/data.md)
