@@ -51,15 +51,15 @@ jobs:
           publish_dir: ./.vitepress/dist
           force_orphan: true
 
-      - name: Build website for gitee
-        run: VITE_DEPLOYMENT_ENVIRONMENT=gitee pnpm build
-      - name: Deploy to Gitee Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gitee  # default: gh-pages
-          publish_dir: ./.vitepress/dist
-          force_orphan: true
+      # - name: Build website for gitee
+      #   run: VITE_DEPLOYMENT_ENVIRONMENT=gitee pnpm build
+      # - name: Deploy to Gitee Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     personal_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_branch: gitee  # default: gh-pages
+      #     publish_dir: ./.vitepress/dist
+      #     force_orphan: true
 
       - name: Lark notification
         uses: foxundermoon/feishu-action@v2
