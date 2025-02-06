@@ -46,17 +46,18 @@ tags: [2024 中国开源年度报告]
 
 下图只取了截至 2024 年第二季度为止，全球范围内部分产品：
 
-![image](https://hackmd.io/_uploads/HJHilcAD1l.png)
+![image](./public/image/ossAI/HJHilcAD1l.png)
 
 > <center> https://synaptic.com/resources/open-source-ai-2024 </center>
 
 ### **2.2 2024 人工智能时间线**
 
 - **开源模型 - 55 个**
-![image](https://hackmd.io/_uploads/S16M_0J_yl.png)
+![image](./public/image/ossAI/S16M_0J_yl.png)
 
 - **纯 API 模型 - 63 个**
-![image](https://hackmd.io/_uploads/HJ1Ed0ku1x.png)
+![image](./public/image/ossAI/HJ1Ed0ku1x.png)
+
 
     > <center> https://huggingface.co/spaces/reach-vb/2024-ai-timeline </center>
 
@@ -67,13 +68,13 @@ tags: [2024 中国开源年度报告]
 OpenAI 的早期领先优势正在缩小，Claude（Anthropic 公司的 AI 助手）和 Gemini（谷歌的 AI 模型）等模型正在迎头赶上。 ”在这一年的大部分时间里，基准测试和社区排行榜都指向 GPT-4 与其他最佳模型之间存在显著差距。然而，Claude 3.5 Sonnet、Gemini 1.5 和 Grok 2（特斯拉的 AI 模型）已经几乎消除了这一差距，模型性能现在开始趋同”。
 
 
-    ![Foundational Model Performance (Lmsys Leaderboard)](https://hackmd.io/_uploads/ryScvbZukl.png)
+    ![Foundational Model Performance (Lmsys Leaderboard)](./public/image/ossAI/ryScvbZukl.png)
     > <center> Foundational Model Performance (Lmsys Leaderboard) - Hugging Face </center>
 
 - **开源模型的崛起**
 Meta 的 Llama 系列已显著缩小了与专有模型的性能差距。 ”这标志着开源模型首次缩小了与闭源前沿模型的差距”。如 Mistral、Vicuna、Yi 等，在某些方面已经赶超封闭模型。 例如，Mixtral 8x7B 在 Elo 和 MMLU 测评中的得分超越了 GPT-3.5。
 
-    ![Foundational Model Performance (Open-LLM-Leaderboard)](https://hackmd.io/_uploads/SJiIqbW_1e.png)
+    ![Foundational Model Performance (Open-LLM-Leaderboard)](./public/image/ossAI/SJiIqbW_1e.png)
 
     > <center> Foundational Model Performance (Open-LLM-Leaderboard)-Hugging Face </center>
 
@@ -86,9 +87,9 @@ GitHub 和 Hugging Face 等平台推出了许多具有突破性的研究和开�
         - LeRobot：提供面向现实世界机器人应用的模型、数据集和工具，致力于让机器人技术更容易访问和使用）
         - MindsDB：由 NVIDIA 支持的平台，专注于帮助企业利用数据构建 AI 模型，简化数据源与 AI/ML 工具的连接，为企业带来高效解决方案）等新兴项目在 2024 年迅速获得关注。 
 
-        ![Open Source AI Github Tracction](https://hackmd.io/_uploads/HJ_TzzWO1g.jpg)
+        ![Open Source AI Github Tracction](./public/image/ossAI/HJ_TzzWO1g.jpg)
 
-        ![Open Source AI Foundation Models Hugging Face Traction](https://hackmd.io/_uploads/HkwoXGbd1g.png)
+        ![Open Source AI Foundation Models Hugging Face Traction](./public/image/ossAI/HkwoXGbd1g.png)
 
 - **模型基准测试的挑战**
 
@@ -104,7 +105,7 @@ GitHub 和 Hugging Face 等平台推出了许多具有突破性的研究和开�
     - 数据可能泄露--如果模型是在测试集上训练的，结果可能会被夸大。数据集污染和基准测试中的错误正在影响进展评估并引发安全担忧。”研究人员越来越多地关注数据集污染问题”。”一些最流行的基准测试中存在惊人的高错误率，这可能导致我们低估了某些模型的能力，并带来安全隐患。
 
     **评价指标**
-    ![image](https://hackmd.io/_uploads/HJGAKR1OJl.png)
+    ![image](./public/image/ossAI/HJGAKR1OJl.png)
     > <center> https://x.com/i2ichardlin/status/1869125541212700797 </center>
 
 - **关注推理计算**
@@ -125,7 +126,7 @@ OpenAI 的 o1 模型展示了将计算转移到推理层以解决复杂问题的
 - **特定科学领域的进展**
 AI 在多个科学领域都带来了令人惊叹的进展，比如预测蛋白质结构、发现新药、基因编辑、材料研发以及机器人和医学领域的创新，甚至还能在医疗影像中生成合成数据。这些突破展示了 AI 的广泛应用潜力，为跨学科研究和创新注入了活力。最近诺贝尔物理学和化学奖的颁布，就是 AI 助力科学发展的最佳例子！
 
-![image](https://hackmd.io/_uploads/H1ubqiRwke.png)
+![image](./public/image/ossAI/H1ubqiRwke.png)
 > <center> 2024 诺贝尔物理奖得主 </center>
 
 - **规划和推理限制**
@@ -134,7 +135,7 @@ AI 在多个科学领域都带来了令人惊叹的进展，比如预测蛋白�
 - **中国 AI 模型公司日拱一卒，砥砺前行**
     尽管受到制裁，中国 (V) LLM 仍在排行榜上名列前茅。
     
-    ![image](https://hackmd.io/_uploads/HJsf0Cedkl.png)
+    ![image](./public/image/ossAI/HJsf0Cedkl.png)
 
     > <center> https://wx4.sinaimg.cn/mw690/8c803935ly1hxtqbzoxnhj21jk2bch8n.jpg </center>
 
@@ -146,21 +147,21 @@ AI 在多个科学领域都带来了令人惊叹的进展，比如预测蛋白�
     - **深度求索（DeepSeek）**
         - **DeepSeek-V3** 在非顶尖硬件配置基础上，用远低于国际科技巨头成本，通过结构创新开发出了一个性能叫板 GPT-4o 便宜且好用的 AI 大模型，而且还是开源的！
         - **DeepSeek-V3** 多项评测成绩超越了 Qwen2.5-72B 和 Llama-3.1-405B 等其他开源模型，并在性能上和世界顶尖的闭源模型 GPT-4o 以及 Claude-3.5-Sonnet 不分伯仲。虽然目前开源的版本尚不支持多模态输入输出，但是值得期待。
-        ![image](https://hackmd.io/_uploads/SJcQq8kOkg.png)
+        ![image](./public/image/ossAI/SJcQq8kOkg.png)
         - 更令人惊艳的是，**DeepSeek-V3** 整个训练仅花费 557.6 万美元，这比 OpenAI、Meta 等用于预训练大型语言模型动辄数亿美元的成本要低得多。
-                ![image](https://hackmd.io/_uploads/SkfPqL1dJl.png)
+                ![image](./public/image/ossAI/SkfPqL1dJl.png)
         - 2025 年 1 月 20 日发布 **DeepSeek-R1** 推理模型，在多个基准测试中表现出色，尤其是在数学和程序开发领域，部分性能已达到与 OpenAI 的 o1 模型相当的水平。其特别之处在于采用了强化学习（Reinforcement Learning）作为核心训练方法，突破了传统对大规模标注数据的依赖。通过这种方式，**DeepSeek-R1** 展现了强大的推理能力，包括关联思考和自我验证等特性。
         - 以开源、便宜 20 倍的 “身价” 与 ChatGPT-4o（2024.11.20）并列
-        ![image](https://hackmd.io/_uploads/SkOUTMMOke.png)
+        ![image](./public/image/ossAI/SkOUTMMOke.png)
         - 在复杂提示词/风格控制榜单上，**DeepSeek-R1** 位列第一
-        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](https://hackmd.io/_uploads/H1r5ofMuyl.jpg)
+        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](./public/image/ossAI/H1r5ofMuyl.jpg)
         - 目前结果来看，**DeepSeek-R1** 在各个维度上都保持领先。
-        ![DeepSeek R1 Overall Comparison](https://hackmd.io/_uploads/rJovoMGd1g.jpg)
+        ![DeepSeek R1 Overall Comparison](./public/image/ossAI/rJovoMGd1g.jpg)
 
 
         - 在衡量模型编程开发能力的 WebDev 分榜上，**DeepSeek-R1** 位列第二，与闭源的 Claude 3.5 Sonnet 相差不到 40 分。
 
-        ![DeepSeek R1 WebDev Leaderboard](https://hackmd.io/_uploads/S1Cx2zzuJg.jpg)
+        ![DeepSeek R1 WebDev Leaderboard](./public/image/ossAI/S1Cx2zzuJg.jpg)
 
 
     - 月之暗面在蛇年春节前推出了 **Kimi k1.5** 多模态思考模型，轰动武林，惊动万教。 **Kimi k1.5** 在短链推理和多模态处理方面展现出色，而 OpenAI o1 则在长链推理和广泛应用场景中保持强劲表现。两者各有千秋，适用于不同的应用需求。
@@ -218,13 +219,13 @@ AI 视频领域在 Sora 之后进入了一个快速发展的阶段，分为闭�
         - 开源模型：以 Open-Sora 系列为主线，搭配新兴项目（如 EasyAnimate 和 CogVideo-X 系列），推动了开源社区的发展，为开发者提供更多的开放性工具和协作机会。 
         
         下图展示了 2024 年中至年底 AI 视频技术的关键节点和版本迭代的轨迹，表明了开源与闭源并行推进的趋势，以及技术落地和应用的逐步成熟。
-![image](https://hackmd.io/_uploads/SyLtBGWdkg.png)
+![image](./public/image/ossAI/SyLtBGWdkg.png)
         > https://ailab-cvc.github.io/VideoGen-Eval/
 
     - **AI 编程**
     从下图可知，AI 编程已经逐渐成为主流。知名的 AI 编程工具：在国际上有 Cusor 和 Devin，国内则有字节豆包 MarsCode、阿里通义灵码、百度文心快码等。
     
-        ![image](https://hackmd.io/_uploads/r1G1QQbOJg.png)
+        ![image](./public/image/ossAI/r1G1QQbOJg.png)
 
     - **AI 搜索**
     以 Perplexity 为首的新创公司，利用 AI 来为搜索精准地总结，免除了用户搜索后被数百条链接淹没，在短时间内吸引了全球大量用户，其估值高达 90 亿美元。Google、Bing、ChatGPT 4o 也在 AI 搜索领域发力，未来竞争的精彩程度可期。
@@ -254,19 +255,19 @@ Y Combinator（简称 YC）是美国非常有名的创业孵化器，自 2005 �
     
     2024 年夏季（S24）创业营的所有 AI 项目，充分体现了硅谷 AI 创业的热潮正持续升温！
 
-    ![image](https://hackmd.io/_uploads/HJ5HYGWukx.png)
+    ![image](./public/image/ossAI/HJ5HYGWukx.png)
 
     > https://www.ycombinator.com/companies?batch=S24；
  
 - **收购大增**
     - Nvidia 以 3 亿美元 收购 Deci AI
     - 其它收购：
-    ![image](https://hackmd.io/_uploads/r13iF7bO1e.png)
+    ![image](./public/image/ossAI/r13iF7bO1e.png)
 
 - **AI 坟场**
 创业维艰，AI 尤难：著名的 AI Graveyard 快速地记录了大批的阵亡 AI 新创企业。但是，我们可以预期，未来仍会有大批的创业家及投资机构前仆后继地投入 AI 创新事业中。AI 创业家不死，他们只是陆续凋零！
 
-    ![image](https://hackmd.io/_uploads/HkxgAQW_1x.png)
+    ![image](./public/image/ossAI/HkxgAQW_1x.png)
     > 来源：https://dang.ai/ai-graveyard
 
 ### 3.3 政策 人工智能的监管、经济影响和不断演变的人工智能地缘政治
@@ -347,16 +348,16 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
 ### 4.1 中国 AI 新创企业领头羊
 
-![image](https://hackmd.io/_uploads/BkamlN-_Jx.png)
+![image](./public/image/ossAI/BkamlN-_Jx.png)
 
-![image](https://hackmd.io/_uploads/HJX1eV-_kx.png)
+![image](./public/image/ossAI/HJX1eV-_kx.png)
 
 ### 4.2 中国 AI 厂商开启了全球价格大战
 从 DeepSeek 惊人的性能与超低的价格打响了全球的价格大战，字节跳动的豆包，阿里巴巴的 Qwen 也立即跟上，刀刀见骨，甚至打到了负毛利！
 
-![image](https://hackmd.io/_uploads/Hy70wzWdkl.png)
+![image](./public/image/ossAI/Hy70wzWdkl.png)
 
-![中国与国际AI厂商的主力模型推理价格对比](https://hackmd.io/_uploads/HJR3UG-dyx.jpg)
+![中国与国际AI厂商的主力模型推理价格对比](./public/image/ossAI/HJR3UG-dyx.jpg)
 
 ## 五. 世界模型与空间智能
 五亿年前，视觉的出现打破了黑暗的世界，带来了生物界最深远的一次进化。而在过去十年，人工智能的发展同样让人叹为观止。当我们开始为计算机和机器人赋予 “空间智能” 时，就像大自然曾开启的生物多样化时代一样，这也许将引发一场 “数字寒武纪大爆发”。随着这场革命的展开，AI 的未来将充满无限可能，令人充满期待！
@@ -372,7 +373,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 6. **短期记忆模块**：追踪当前状态和相关的成本信息，确保 AI 不“短路”。  
 
 这套模块像是一个小团队，分工合作，帮助 AI 更好地理解和应对世界的动态变化！
-![image](https://hackmd.io/_uploads/rJlXM2APke.png)
+![image](./public/image/ossAI/rJlXM2APke.png)
 
 ### 5.2 空间智能
 从技术发展的角度来看，**世界模型**带来了人工智能领域一种全新的思路。它的关键是将感知到的信息转化为一个抽象的 “世界地图”，帮助 AI 理解和预测周围环境的动态变化。
@@ -385,7 +386,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
     按照日本的规划，到 2030 年，东京将成为一个完全数字孪生的城市，从交通到能源都能实现无缝的信息整合。届时，越来越多的建筑、房屋和工厂都将被转化为虚拟数据，推动城市管理和规划的全面升级！
     
-    ![东京智能空间](https://hackmd.io/_uploads/BJ60emz_kg.jpg)
+    ![东京智能空间](./public/image/ossAI/BJ60emz_kg.jpg)
 
 - **交通管理与自动驾驶**
     - **新南威尔士州交通管理**
@@ -395,7 +396,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
         具体来说，通过在路口部署具有 “通感算” 功能的 AI 数字道路基站，再配合 AI 路侧边缘计算系统（AI-MRS），交通管理者可以实时获取路口周围 300 米范围内所有交通参与者的动态信息。基于这些数据，系统可以即时构建一个数字孪生模型，为范围内的所有车辆提供精准、实时的服务，从而让交通更智能、更高效！
     
-        ![中国智能化路车云](https://hackmd.io/_uploads/B1fUbmzu1e.jpg)
+        ![中国智能化路车云](./public/image/ossAI/B1fUbmzu1e.jpg)
 
 - **医疗领域**
     - **疾病诊断**
@@ -413,7 +414,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
 具身智能的内涵体现在物理互动、泛化适应、自主进化等三大方面，强调了智能系统设计开发的动态性和复杂性。
 
-![具身智能系统框架](https://hackmd.io/_uploads/ry5T7VQd1x.jpg)
+![具身智能系统框架](./public/image/ossAI/ry5T7VQd1x.jpg)
 
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
@@ -422,14 +423,14 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
 在具身智能中，机器人需要具备 “感知-学习-决策-行动” 四大核心能力模块。简单来说，就是 “能看懂、会思考、能决定、还会动”。为了实现这一套高效的闭环，机器人需要将各种技术在自身完美结合起来，不同模块也有多种技术路径可选。这种技术协同，就像把拼图一块块拼成一个完整的智慧机器人。
 
-![具身智能机器人的关键技术](https://hackmd.io/_uploads/H1MqNNXdyg.png)
+![具身智能机器人的关键技术](./public/image/ossAI/H1MqNNXdyg.png)
 
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 ### 6.3 产业生态与构成
 具身智能机器人要想适应各种丰富的应用场景，离不开多种技术和产品的支持，同时也需要将这些复杂的系统无缝整合在一起。而要让整个产业生态健康发展，还得靠各路市场玩家一起努力、通力合作，才能真正把这条路走得更远更稳。
 
-![具身智能机器人产业生态](https://hackmd.io/_uploads/Syb-8NX_Je.png)
+![具身智能机器人产业生态](./public/image/ossAI/Syb-8NX_Je.png)
 
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 <br>
@@ -444,7 +445,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 2. 追求多功能的人形机器人：这类机器人更像 “全能选手”，以人形为载体，目标是能胜任更多通用任务，努力成为 “家里、公司里都能用的万能助手”。
 
 简单来说，就是一个方向走专业路线，另一个方向走全能路线。
-![具身智能机器人两大发展路径](https://hackmd.io/_uploads/ByKQd4mdyg.jpg)
+![具身智能机器人两大发展路径](./public/image/ossAI/ByKQd4mdyg.jpg)
 
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
@@ -481,7 +482,7 @@ Mistral 和 Llama 等开源模型在 AI 社区中站稳脚跟。它们通过高�
 
 <br>
 
-![智元灵犀 X1 全栈开源机器人](https://hackmd.io/_uploads/ryMdIB7_1e.png)
+![智元灵犀 X1 全栈开源机器人](./public/image/ossAI/ryMdIB7_1e.png)
 
 <center> 智元灵犀 X1 全栈开源机器人</center> 
 
@@ -510,16 +511,16 @@ Genesis 是一个结合了生成模型能力的具身智能研究平台，这个
 ### 7.1 演进历程
 始于 20 世纪 50 年代，从基于规则、行为确定的简单系统发展到能处理不确定性、具有学习和适应能力的复杂系统，得益于计算能力提升、数据增长和算法突破，如大模型和机器学习技术的发展。
 
-![image](https://hackmd.io/_uploads/Bkti9PQ_kx.png)
+![image](./public/image/ossAI/Bkti9PQ_kx.png)
 
 ### 7.2 定义与核心组件
 - AI Agent 是能感知环境并自主决策、采取行动以实现目标的自主系统，由传感器、效应器、控制中心等核心组件构成，可在物理或数字环境中运行，通过接收用户输入、感知环境、决策规划、执行动作来改变环境。
 
-    ![WEF-Core Components of an Agent](https://hackmd.io/_uploads/SkvhhPQ_Jx.png)
+    ![WEF-Core Components of an Agent](./public/image/ossAI/SkvhhPQ_Jx.png)
 
 - 2024 是 AI Agent 的爆发之年，也是产品逐步从 Copilot 模式转向 AI Agent 的探索之年。因此市场中往往也会把自动化程度高的 Copilot 产品作为泛化的 Agent 概念产品。Copilot 与 Agent 最大的区别在于 “自主规划” 的能力：Copilot 的模式需要人的指挥；而 Agent 则是直接面对目标任务，具有自主记忆、推理、规划和执行的全自动能力，因此终极形态的 AI Agent 只需要用户的起始指令和结果的反馈，过程中并不需要人的介入。
 
-    ![Chatbot-Copilot-AI Agent](https://hackmd.io/_uploads/rJTMI_7OJl.png)
+    ![Chatbot-Copilot-AI Agent](./public/image/ossAI/rJTMI_7OJl.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 <br>
 
@@ -535,27 +536,27 @@ Genesis 是一个结合了生成模型能力的具身智能研究平台，这个
 ### 7.3 类型与特点
 包括简单反射、基于模型的反射、基于目标和基于效用等类型，分别具有不同决策方式和特点，从简单的规则映射到复杂的多目标权衡决策。当前许多 AI Agent 架构基于大语言模型，具备多组件协同工作能力，如汽车信息娱乐系统中的 AI Agent。
 1. **先进 AI 代理**（Advanced AI agent）： 具备强大自主性、基于大型模型且包含多个组成部分，能够处理复杂任务并持续学习的AI 实体。
-![image](https://hackmd.io/_uploads/SyFEsPQuyg.png)
+![image](./public/image/ossAI/SyFEsPQuyg.png)
 
 2. **AI 代理系统**（AI agent system）： 由多个功能不同的 AI 代理协同工作，以完成更复杂任务的系统。 
 
 3. **多代理系统**（Multi-agent system，MAS）：是整合多个智能自主体（包括 AI 代理、AI 代理系统和人类使用者），通过不同设计，进行互动和协作，从而实现共同目标的系统，如自动驾驶汽车系统。MAS 由多个独立智能体或智能体系统协作，有网络和监督等架构类型，可提高效率和能力，但面临智能体间通信和互操作性挑战，如交通管理中的 MAS 应用。
 
-    ![image](https://hackmd.io/_uploads/BkeDowm_yx.png)
+    ![image](./public/image/ossAI/BkeDowm_yx.png)
 
 4. **人工智能代理、人工智能代理系统和多代理系统之间的结构和关系**
 
-    ![WEF-Structure of a multi-Agent Systems](https://hackmd.io/_uploads/HJgpVRwQOyx.png)
+    ![WEF-Structure of a multi-Agent Systems](./public/image/ossAI/HJgpVRwQOyx.png)
 
 ### 7.4 工作范式被颠覆
 - Agent 的商业价值围绕工作范式差别展开，工作范式的改变则意味着新的智能时代开启。
 
-    ![AI Agent 自动化等级](https://hackmd.io/_uploads/SJera_Q_ke.png)
+    ![AI Agent 自动化等级](./public/image/ossAI/SJera_Q_ke.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 <br>
 
 - 面向过程 vs. 面向目标
-![AI Agent 造成工作方式转移](https://hackmd.io/_uploads/BJINR_QOkg.png)
+![AI Agent 造成工作方式转移](./public/image/ossAI/BJINR_QOkg.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 <br>
 
@@ -567,7 +568,7 @@ AI Agent 在多个领域展现出广泛应用潜力，包括：
 - 教育: 支持个性化学习。 
 - ...
 
-![AI Agent 应用领域](https://hackmd.io/_uploads/ryOnktX_1e.png)
+![AI Agent 应用领域](./public/image/ossAI/ryOnktX_1e.png)
 
 > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 
@@ -575,7 +576,7 @@ AI Agent 在多个领域展现出广泛应用潜力，包括：
 - 中国当下的 AI Agent 市场已经迎来丰富的参与者，包括互联网大厂类、生成 AI 类、企业服务 SaaS 类、创业类、3C 类等多类型企业，这些企业依据自身技术或行业知识迅速切入市场，通过先手占据更好的生态占位；并且越来越多的企业正在进行产品打磨与场景探索。
 - 随着这些先行者的商业价值逐步展现，中国 AI Agent 的多样性将进一步丰富，投入 AI Agent 的企业数量将迎来爆发。
 
-![中国 AI Agent 生态图谱 v1.0](https://hackmd.io/_uploads/r1juWY7OJg.png)
+![中国 AI Agent 生态图谱 v1.0](./public/image/ossAI/r1juWY7OJg.png)
 > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 
 - 一些值得关注的互联网大厂与新兴提供商

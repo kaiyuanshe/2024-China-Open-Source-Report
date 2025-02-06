@@ -77,7 +77,7 @@ tags: [2024 中国开源年度报告]
 
 |                        2024 年开源关键词                        |
 |:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/2.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/2.png" width="700"> |
 
 ## 三. 问卷分析
 ### 3.1 受访者特征
@@ -86,7 +86,7 @@ tags: [2024 中国开源年度报告]
 
 |                                年龄                                |                                性别                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/02_age_distribution.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/03_gender_distribution.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/02_age_distribution.png" width="700"> | <img src="./public/image/questionnaire/03_gender_distribution.png" width="700"> |
 
 调查数据显示，受访者主要集中在21-30岁这个年龄段，其中21-25岁的受访者占比最高，达到 26.2%，其次是26-30岁，占 20.5%。这表明开源社区的受众群体以年轻人为主，尤其是处于职业早期的成年人，他们可能对新技术和开源项目更感兴趣，更愿意参与和贡献。总体来看，分布与去年相近。
 
@@ -94,7 +94,7 @@ tags: [2024 中国开源年度报告]
 
 |                                学历                                |                                地区                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/04_education_distribution.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/05_region_distribution_map.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/04_education_distribution.png" width="700"> | <img src="./public/image/questionnaire/05_region_distribution_map.png" width="700"> |
 
 
 受访者受教育程度普遍在本科及以上，其中大学本科占比最高，达到53.2%，其次是硕士研究生，占29.0%，博士研究生及以上占6.3%。
@@ -104,7 +104,7 @@ tags: [2024 中国开源年度报告]
 
 |                                行业                                |                               职业身份                               |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/06_field_distribution.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/07_work_status.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/06_field_distribution.png" width="700"> | <img src="./public/image/questionnaire/07_work_status.png" width="700"> |
 
 受访者主要分布在互联网 / IT / 电子 / 通信行业，占比达 72.23%，表明调查对象主要涵盖了科技领域。
 在职业身份方面，最多的是在校学生，占 36.3%，其次是后端开发者、学术研究员和开源/技术布道师/DevRel。整体而言，调查对象以技术从业人员和学生居多，且涵盖了多个计算机行业职业身份。
@@ -115,7 +115,7 @@ tags: [2024 中国开源年度报告]
 
 |                                                               开源社区的角色                                                               |                                                                     接触开源的时长                                                                     |
 |:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/08_opensource_role.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/09_experience.png?raw=true" width="600"> |
+| <img src="./public/image/questionnaire/08_opensource_role.png" width="700"> | <img src="./public/image/questionnaire/09_experience.png" width="600"> |
 
 调查显示，开源社区中绝大多数成员为使用者（72.1%），同时有近半数参与者（55.1%）和少部分贡献者（29.5%）。相比较于去年的 26.51%贡献者，今年对开源社区做出了实质性的贡献的比重有所上升。
 
@@ -125,7 +125,7 @@ tags: [2024 中国开源年度报告]
 
 |                        认为自己多大程度上是开源社区一份子                         |
 |:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/20_5_role_satisfaction.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/20_5_role_satisfaction.png" width="700"> |
 
 可以看出，开源社区中，维护者、贡献者、生态运营相比参与者、使用者更有归属感。
 
@@ -134,7 +134,7 @@ tags: [2024 中国开源年度报告]
 
 |                            选择开源产品的原因                             |                             影响选择的因素                              |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/10_opensource_usage.png?raw=true" width="850"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/12_project_selection.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/10_opensource_usage.png" width="850"> | <img src="./public/image/questionnaire/12_project_selection.png" width="700"> |
 
 使用者选择使用开源软件的主要原因是产品免费，占比 63.3%，这反映了成本效益在开源产品选择中的重要性。"以二次开发为主"的因素占 56.5%。"社区氛围好"占 51.7%，这表明一个积极、友好的社区环境对于吸引和保留用户至关重要。
 
@@ -142,7 +142,7 @@ tags: [2024 中国开源年度报告]
 
 |                           使用开源产品遇到的问题                            |                           促使进行开源贡献的因素                            |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/14_usage_problems.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/16_opensource_tools.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/14_usage_problems.png" width="700"> | <img src="./public/image/questionnaire/16_opensource_tools.png" width="700"> |
 
 超过半数的受访者都遇到了项目缺少文档的问题，其次是不稳定的版本更新。
 
@@ -152,7 +152,7 @@ tags: [2024 中国开源年度报告]
 
 |                             感兴趣的技术方向                             |                             了解的开源许可证                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/13_tech_interest.png?raw=true" width="700"> |  <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/15_license_knowledge.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/13_tech_interest.png" width="700"> |  <img src="./public/image/questionnaire/15_license_knowledge.png" width="700"> |
 
 受访者对人工智能表现出强烈兴趣，占 73%，其次是开发工具以及数据库和数据处理。
 
@@ -162,7 +162,7 @@ tags: [2024 中国开源年度报告]
 
 |                            检索开源产品的途径                             |                             与社区的沟通方式                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/11_opensource_search.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/17_opensource_fields.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/11_opensource_search.png" width="700"> | <img src="./public/image/questionnaire/17_opensource_fields.png" width="700"> |
 
 在检索开源产品时，"通过代码托管平台搜索"是最常见的发现途径，占比高达 64.6%。其次是"技术社区、技术媒体推荐"，占 56.0%。"通过搜索引擎搜索"的比例为 51.0%，而"技术交流与开源代码"占 41.1%。
 
@@ -170,7 +170,7 @@ tags: [2024 中国开源年度报告]
 
 |                           常用的产品 / 技术社区                           |
 |:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/18_opensource_languages.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/18_opensource_languages.png" width="700"> |
 
 绝大部分受访者主要通过代码托管平台和进行开源社区的参与。此外，还有近半数的受访者还通过国内技术论坛参与开源社区。
 
@@ -182,7 +182,7 @@ tags: [2024 中国开源年度报告]
 
 |                            是否参与开源实践活动                            |                            每周参与开源的时长                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/22_opensource_activities.png?raw=true" width="750"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/24_weekly_hours.png?raw=true" width="600"> |
+| <img src="./public/image/questionnaire/22_opensource_activities.png" width="750"> | <img src="./public/image/questionnaire/24_weekly_hours.png" width="600"> |
 
 有接近三分之一的学生开发者积极参与了如谷歌编程之夏（GSoC）和开源之夏（OSPP）等知名的开源项目活动。其中 GSoC 吸引了 7.4%的学生开发者，而 OSPP 则吸引了 28.7%的参与者，两者合计占总比例的 36.1%。
 
@@ -191,7 +191,7 @@ tags: [2024 中国开源年度报告]
 
 |                           所在高校在开源教育与支持情况                          |
 |:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/23_education_support.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/23_education_support.png" width="700"> |
 
 有 21.4%的受访学生所在高校开设了与开源相关的课程，有 16.7%的受访学生所在高校组织了与开源项目相关的讲座、社团或研讨会。另外还有 13.7%的受访学生所在高校支持开源项目的基础设施和资源（如服务器、代码托管平台等）。
 
@@ -199,7 +199,7 @@ tags: [2024 中国开源年度报告]
 
 |                             主要开源贡献平台                             |                            开源贡献常用开发语言                            |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/25_contribution_platforms.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/28_programming_languages.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/25_contribution_platforms.png" width="700"> | <img src="./public/image/questionnaire/28_programming_languages.png" width="700"> |
 
 GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Gitee 和 GitLab。表明在国内开发者中，GitHub 的影响力仍然很大，但国内平台也在逐渐崭露头角。 主要使用的开发语言包括 Python、C / C++、Java、JavaScript、Go。此外，汇编语言、TypeScript 等也获得了较高的选择次数。
 
@@ -207,7 +207,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                       主要贡献类型                       |                             贡献的项目类型                              |
 |:--------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/26_contribution_methods.png?raw=true" width="600"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/27_project_types.png?raw=true" width="800"> |
+| <img src="./public/image/questionnaire/26_contribution_methods.png" width="600"> | <img src="./public/image/questionnaire/27_project_types.png" width="800"> |
 
 受访者对开源项目的贡献方式呈现多样化，其中“代码贡献”是最主要的贡献方式，占比达到 30.5%。其次是“文档相关贡献”，占 24.6%，这说明文档的编写和维护也是开源项目中不可或缺的一部分。接下来是分别是"开源布道"占 13.8%，"开源社区运营"占 12.8%，"协助社区活动举办"占 10.0%，"基于开源的商业化项目"占 8.3%。
 
@@ -217,7 +217,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                               激励方式                               |                             财务回报的来源                              |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/29_incentive_types.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/30_financial_returns.png?raw=true" width="400"> |
+| <img src="./public/image/questionnaire/29_incentive_types.png" width="700"> | <img src="./public/image/questionnaire/30_financial_returns.png" width="400"> |
 
 开源社区的激励机制是多维度的，不仅包括财务回报，还包括职业发展、社区认可和个人成长等方面。各激励方式都受到了积极评价，表明多元化的激励机制对开发者的开源参与产生了积极的影响。同时，开源项目的财务回报虽然多样，但大多数开发者更看重非财务的激励因素。
 
@@ -230,7 +230,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                              社区用户数量                              |                              活跃开发者                               |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/31_community_users.png?raw=true" width="800"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/32_community_developers.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/31_community_users.png" width="800"> | <img src="./public/image/questionnaire/32_community_developers.png" width="700"> |
 
 开源社区用户规模以中小型社区为主，其中接近 50%的运营者所在的开源社区用户数量小于 200 人，其中 50 人以内的社区占比 21.8%，50-200 人的社区占比 28.6%。超过 30% 的社区用户数量超过 500 人。
 
@@ -238,7 +238,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                                  社区管理情况                                   |                                 社区商业公司支持                                  |
 |:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/33_community_management.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/34_company_support.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/33_community_management.png" width="700"> | <img src="./public/image/questionnaire/34_company_support.png" width="700"> |
 
 在社区管理方面，大约一半的社区拥有清晰的治理结构，并且有专人负责日常运营，这两项分别占到了 13.3%和 12.7%。同时，社区普遍重视规范和准则的制定，以及文档和资源的持续更新，以帮助新成员更好地融入，这两项的比例均为 11.0%。
 
@@ -248,7 +248,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                           所在企业开源软件使用情况                           |                           是否认同将开源项目商业化                           |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/19_opensource_platforms.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/20_opensource_satisfaction.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/19_opensource_platforms.png" width="700"> | <img src="./public/image/questionnaire/20_opensource_satisfaction.png" width="700"> |
 
 绝大多数企业倾向于使用开源软件，其中选择使用社区版本的企业占比最高，达到了 43.3%。在开源软件的使用上，有明确的使用要求和管理规范的企业与没有相应管理规范的企业比例大约为 1 比 1.27，这表明虽然一部分企业在使用开源软件时注重规范和管理，但仍有相当一部分企业在管理规范上存在不足，这可能受到企业规模、行业特点以及对开源软件管理理念的影响。
 
@@ -260,7 +260,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                            开源项目持续发展的特征                             |                            评价开源项目的指标                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/35_community_qualities.png?raw=true" width="700"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/36_evaluation_criteria.png?raw=true" width="700"> |
+| <img src="./public/image/questionnaire/35_community_qualities.png" width="700"> | <img src="./public/image/questionnaire/36_evaluation_criteria.png" width="700"> |
 
 总体而言，受访者普遍认为，影响开源社区健康持续发展的关键因素包括快速的社区响应速度、持续涌入的新贡献者以及新贡献者能够被有效转化为长期贡献者，这些因素的比例分别为 52.5%、41.1%和 31.1%。
 
@@ -272,13 +272,13 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                            使用的大模型产品类型                            |
 |:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/37_ai_models.png?raw=true" style="height:500px; " center> |
+| <img src="./public/image/questionnaire/37_ai_models.png" style="height:500px; " center> |
 
 总体来看，闭源模型因其强大的性能和广泛的应用在大模型领域占据主导地位，而开源模型则在特定领域和应用场景中展现出其独特的价值和潜力。其中，闭源模型如 GPT 系列和 LLaMA (Meta) 显示出显著的领先地位，分别以 58.3%和 34.9%的使用率被广泛采用。另一方面，开源模型同样在社区中占有一席之地。GPT 系列开源实现和百度千帆大模型分别占 14.6%和 13.7%，显示出开源社区在大模型领域的努力得到了认可。讯飞星火和OpenLLaMA作为开源模型，使用率分别为 13.3%和 11.9%，智谱清言(Zhipu AI) 和ChatGLM系列等开源模型也在特定用户群体中受欢迎，使用率分别为 11.6%和 8.9%。
 
 |                           人工智能对开源项目 / 社区的影响                            |                         开源大模型在发展过程中最需要解决的技术挑战                         |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/38_ai_impact.png?raw=true" width="800"> | <img src="https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/questionnaire/39_llm_challenges.png?raw=true" width="450"> |
+| <img src="./public/image/questionnaire/38_ai_impact.png" width="800"> | <img src="./public/image/questionnaire/39_llm_challenges.png" width="450"> |
 
 人工智能技术对开源项目和社区产生了深远的影响。其中，最显著的是推动了跨学科合作，拓展了新兴领域的开源项目，这一影响占比达到了 30.8%。其次，人工智能加快了开发者学习和创新的速度，占比 20.2%。此外，人工智能还提升了代码生成和审查的效率（14.3%），自动化了常见开发任务以减少重复性劳动（13.0%），并帮助社区成员进行技术问题的解答与指导（6.8%）。然而，也有 4.6%的受访者担心 AI 可能导致产生更多低质量或重复性项目，以及 4.4%的受访者担心这会加剧对 AI 模型的依赖，降低开发者自主编程能力。
 

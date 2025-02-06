@@ -367,11 +367,11 @@ const infrastructureMembers = [
 </VPTeamPageTitle>
 
 <div :style="{display: 'flex', width: '100%', center, flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'center'}">
-  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/KaiYuanShe-logo.png"/>
-  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/x_lab2017_logo.jpg"/>
-  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/logo-dark-FIT2CLOUD.svg"/>
-  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/KWDB.png"/>
-  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/logo_gitee_light.png"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="./public/image/home/KaiYuanShe-logo.png"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="./public/image/home/x_lab2017_logo.jpg"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="./public/image/home/logo-dark-FIT2CLOUD.svg"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="./public/image/home/KWDB.png"/>
+  <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="./public/image/home/logo_gitee_light.png"/>
 </div>
 
 
@@ -380,7 +380,7 @@ const infrastructureMembers = [
 </VPTeamPageTitle>
 
 <div :style="{display: 'flex', width: '100%',center}">
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="./public/image/home/csdn_logo.jpg"/>
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="./public/image/home/sf_logo.png"/>
 </div>
 
