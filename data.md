@@ -45,7 +45,7 @@ Activity 参考文献：
 
 图 1.1 展示了 GitHub 年度事件数的增长趋势，凸显了开源生态的持续活跃。
 
-![1-1](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-1.png?raw=true)
+![1-1](./public/image/data/chapter_1/1-1.png)
 <center>图 1.1 GitHub 年度事件数趋势 </center>
 <br>
 
@@ -58,7 +58,7 @@ Activity 参考文献：
 
 尽管 GitHub 的事件数量仍远高于 Gitee，但 Gitee 的稳定增长表明国内开发者对开源的热情与贡献度不断提升。图 1.2 展示了两大平台的事件数趋势对比。
 
-![GitHuB&Gitee_events_count](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/GitHuB%26Gitee_events_count.png?raw=true)
+![GitHuB&Gitee_events_count](./public/image/data/chapter_1/GitHuB%26Gitee_events_count.png)
 
 <center>图 1.2 GitHub 与 Gitee 活跃仓库事件数 </center>
 <br>
@@ -70,12 +70,12 @@ Activity 参考文献：
 * **GitHub**：Watch 事件（即 Star 行为）占比最高，反映了用户对项目的关注与认可。Pull Request 和 Issue Comment 事件紧随其后，表明代码协作与问题讨论的活跃度。
 * **Gitee**：Pull Request Review Comment 事件占比最高，主要由于平台 CI 特性的自动化审核机制。这一趋势反映了国内开发者从“关注者”向“贡献者”角色的转变。
 
-![GitHub_events_type_distribute](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/Gitee_events_type_distribute.png?raw=true)
+![GitHub_events_type_distribute](./public/image/data/chapter_1/Gitee_events_type_distribute.png)
 
 <center>图 1.3 GitHub 细分事件类型分析 </center>
 <br>
 
-![Gitee_events_type_distribute](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/GitHub_events_type_distribute.png?raw=true)
+![Gitee_events_type_distribute](./public/image/data/chapter_1/GitHub_events_type_distribute.png)
 
 <center>图 1.4 Gitee 细分事件类型分析 </center>
 <br>
@@ -88,14 +88,14 @@ GitHub 活跃仓库数量持续增长，但增速逐年放缓（图 1.5）。202
 
 图 1.6 展示了 GitHub 仓库活跃度的总体趋势，2024 年接近历史最高水平。
 
-![1-5](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-5.png?raw=true)
+![1-5](./public/image/data/chapter_1/1-5.png)
 
 
 <center>图 1.5 GitHub 年度活跃仓库数量趋势 </center>
 <br>
 
 
-![1-6](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-6.png?raw=true)
+![1-6](./public/image/data/chapter_1/1-6.png)
 
 <center>图 1.6 GitHub 仓库活跃度总览 </center>
 <br>
@@ -107,7 +107,7 @@ GitHub 活跃仓库数量持续增长，但增速逐年放缓（图 1.5）。202
 
 图 1.7 展示了 GitHub 仓库活跃度的详细组成，进一步印证了 Issue 和 PR 事件在推动开源项目发展中的关键地位。
 
-![1-7](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-7.png?raw=true)
+![1-7](./public/image/data/chapter_1/1-7.png)
 
 
 <center>图 1.7 GitHub 仓库活跃度组成 </center>
@@ -115,7 +115,7 @@ GitHub 活跃仓库数量持续增长，但增速逐年放缓（图 1.5）。202
 
 GitHub 仓库的 **OpenRank 值**在 2018-2020 年经历了快速增长期，2020 年增长率达到峰值，反映出这一时期 GitHub 用户扩展与开源项目活跃度的双重爆发。2021-2022 年，增长率逐渐放缓，进入平缓期。然而，从 **2023 年开始**，增长率有所回升，2024 年虽有小幅回落，但整体仍保持稳定增长，表明 GitHub 作为全球领先开源平台的持续活力与吸引力。
 
-![1-8](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-8.png?raw=true)
+![1-8](./public/image/data/chapter_1/1-8.png)
 
 <center>图 1.8 GitHub 仓库 OpenRank </center>
 <br>
@@ -125,19 +125,19 @@ GitHub 仓库的 **OpenRank 值**在 2018-2020 年经历了快速增长期，202
 
 Gitee 的仓库活跃度在 2018-2020 年快速增长，2020 年达到顶峰，主要受益于国内开源政策的支持与开放原子开源基金会的成立。2021 年后增速放缓，但 2024 年仍达到新的峰值（图 1.9）。
 
-![1-9](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-9.png?raw=true)
+![1-9](./public/image/data/chapter_1/1-9.png)
 <center>图 1.9 Gitee 仓库活跃度总览 </center>
 <br>
 
 在 Gitee 平台上，**Review Comment 事件**占据绝对主导地位，占总活跃事件的 75.6%，远高于其他事件类型（如 Open Issue、Issue Comment、Merged Pull 等，占比约 7%；Open Pull 事件占比仅为 5%）。这一分布表明 Gitee 开发者更聚焦于代码审查环节，而在代码提交与问题讨论的活跃度上略低于 GitHub，反映了平台用户对代码质量的高度关注与规范化流程的逐步成熟（图 1.10）。
 
-![1-10](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-10.png?raw=true)
+![1-10](./public/image/data/chapter_1/1-10.png)
 <center>图 1.10 Gitee 仓库活跃度组成 </center>
 <br>
 
 Gitee 的 **OpenRank 值**从 2018 年到 2024 年实现了显著增长，尤其在 2019-2020 年间大幅提升，主要受益于国内开源生态政策的支持与开发者对本土化平台的积极参与。尽管 2021 年后增长率有所放缓，但 Gitee 的综合活跃度仍保持稳步上升趋势，印证了其在国内开源平台中地位的不断提升，以及在社区贡献与活跃度上的持续增长。
 
-![1-11](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-11.png?raw=true)
+![1-11](./public/image/data/chapter_1/1-11.png)
 <center>图 1.11 Gitee 仓库 OpenRank </center>
 <br>
 
@@ -153,7 +153,7 @@ Gitee 的 **OpenRank 值**从 2018 年到 2024 年实现了显著增长，尤其
 * **2022-2023 年**：增速放缓，可能与市场趋于成熟及基数效应有关。
 * **2024 年**：增长率回升至 14.1%，新增约 311 万开发者，反映出新技术浪潮（如 AI、Web3 等）对开发者生态的推动作用。
 
-![1-12](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/1-12.png?raw=true)
+![1-12](./public/image/data/chapter_1/1-12.png)
 <center>图 1.12 GitHub 年度活跃开发者数量趋势 </center>
 <br>
 
@@ -330,10 +330,10 @@ Gitee 的 **OpenRank 值**从 2018 年到 2024 年实现了显著增长，尤其
 
 以下为 2019-2024 年开发者使用编程语言趋势的统计分析：
 
-![var_lang_until_2023](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/var_lang_until_2023.png?raw=true)  
+![var_lang_until_2023](./public/image/data/chapter_1/var_lang_until_2023.png)  
 <center>图 1.15 2019 - 2023 年开发者使用编程语言趋势 </center>  
 
-![var_lang_until_2024_predict](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_1/var_lang_until_2024_predicted.png?raw=true)  
+![var_lang_until_2024_predict](./public/image/data/chapter_1/var_lang_until_2024_predicted.png)  
 <center>图 1.16 2019 - 2024 年开发者使用编程语言趋势（预测） </center>  
 
 **数据说明：**
@@ -870,7 +870,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.1.1 不同项目类型数量比例
 
-![6-1](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-1.png?raw=true)
+![6-1](./public/image/data/chapter_6/6-1.png)
 <center>
 图 6.1 不同项目类型数量比例
 </center>
@@ -884,7 +884,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.1.2 不同项目类型 OpenRank 加总比例
 
-![6-2](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-2.png?raw=true)
+![6-2](./public/image/data/chapter_6/6-2.png)
 <center>
 图 6.2 不同项目类型2024年 OpenRank 加总比例
 </center>
@@ -897,7 +897,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.1.3 不同项目类型近 5 年 OpenRank 变化趋势
 
-![6-3](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-3.png?raw=true)
+![6-3](./public/image/data/chapter_6/6-3.png)
 <!-- ![App-Openrank](https://hackmd.io/_uploads/BkQMgA7U1e.png) -->
 
 <center>
@@ -914,7 +914,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 #### 6.2.1 热门 topic
 
 <!-- ![projectTopic-plot](https://hackmd.io/_uploads/SJijGnQIJg.png) -->
-![6-4](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-4.png?raw=true)
+![6-4](./public/image/data/chapter_6/6-4.png)
 <center>
 图 6.4 出现次数前十的 Topic
 </center>
@@ -925,7 +925,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 #### 6.2.2 热门 Topic 的仓库总 OpenRank 趋势
 
 
-![6-5](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-5.png?raw=true)
+![6-5](./public/image/data/chapter_6/6-5.png)
 <center>
 图 6.5 出现次数前十的 Topic 下仓库的 OpenRank 变化 (2019 - 2023)
 </center>
@@ -941,7 +941,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.3.1 数据库领域近五年增长趋势及Top 10 头部项目的集中度变化趋势
 
-![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-6%20OpenRank_of_Database_2020-2024.png?raw=true)
+![image](./public/image/data/chapter_6/6-6%20OpenRank_of_Database_2020-2024.png)
 
 <center>
     图 6.6 数据库领域 2020 - 2024 年 领域的OpenRank变化趋势
@@ -949,20 +949,20 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 <br>
 
 
-![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-7%20Activity_of_Database_2020-2024.png?raw=true)
+![image](./public/image/data/chapter_6/6-7%20Activity_of_Database_2020-2024.png)
 <center>
     图 6.7 数据库领域 2020 - 2024 年 领域的Activity变化趋势
 </center>
 <br>
 
 
-![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-8%20Top10_OpenRank_Ratio_of_Database_2020-2024.png?raw=true)
+![image](./public/image/data/chapter_6/6-8%20Top10_OpenRank_Ratio_of_Database_2020-2024.png)
 <center>
     图 6.8 数据库领域 2020 - 2024 年 领域内 Top 10 项目的OpenRank集中度变化趋势
 </center>
 <br>
 
-![image](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-9%20Top10_Activity_Ratio_of_Database_2020-2024.png?raw=true)
+![image](./public/image/data/chapter_6/6-9%20Top10_Activity_Ratio_of_Database_2020-2024.png)
 
 <center>
     图 6.9 数据库领域 2020 - 2024 年 领域内 Top 10 项目的Activity集中度变化趋势
@@ -993,13 +993,13 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 #### 6.3.2 数据库各子领域近五年增长趋势
 
 
-![6-10](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-10.png?raw=true)
+![6-10](./public/image/data/chapter_6/6-10.png)
 <center>
     图 6.10 数据库各子领域 2020 - 2024 年 OpenRank 变化趋势
 </center>
 <br>
 
-![6-11](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-11.png?raw=true)
+![6-11](./public/image/data/chapter_6/6-11.png)
 <center>
     图 6.11 数据库各子领域 2020 - 2024 年 活跃度变化趋势
 </center>
@@ -1087,53 +1087,53 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 数据库领域子类标签共计18个，选取2023年活跃度占比超过1%的类别共9个：Relational、Key-value、Document、Wide Column、Search Engine、Time Series、Vector、Graph、Object Oriented，统计分析并绘制开源象限图如下：
 
 
-![6-12](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-12%20DBMS_quadrant_diagram-main_subcategories.png?raw=true)
+![6-12](./public/image/data/chapter_6/6-12%20DBMS_quadrant_diagram-main_subcategories.png)
 <!-- <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/OpenRank-CommunityVolume%20log-log%20quadrant%20diagram.html" width="100%" height="702px" frameborder="0"></iframe> -->
 
 <center>图 6.12 数据库各子领域 Activity Top 10象限图</center><br />
 
 
-<!-- ![6-13](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-13%20DBMS_quadrant_diagram-relational.png?raw=true) -->
+<!-- ![6-13](./public/image/data/chapter_6/6-13%20DBMS_quadrant_diagram-relational.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/relational.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.13 Relational数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-14](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-14%20DBMS_quadrant_diagram-key_value.png?raw=true) -->
+<!-- ![6-14](./public/image/data/chapter_6/6-14%20DBMS_quadrant_diagram-key_value.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/key_value.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.14 Key-value数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-15](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-15%20DBMS_quadrant_diagram-document.png?raw=true) -->
+<!-- ![6-15](./public/image/data/chapter_6/6-15%20DBMS_quadrant_diagram-document.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/document.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.15 Document数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-16](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-16%20DBMS_quadrant_diagram-wide_column.png?raw=true) -->
+<!-- ![6-16](./public/image/data/chapter_6/6-16%20DBMS_quadrant_diagram-wide_column.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/wide_column.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.16 Wide Column数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-17](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-17%20DBMS_quadrant_diagram-search_engine.png?raw=true) -->
+<!-- ![6-17](./public/image/data/chapter_6/6-17%20DBMS_quadrant_diagram-search_engine.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/search_engine.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.17 Search Engine数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-18](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-18%20DBMS_quadrant_diagram-time_series.png?raw=true) -->
+<!-- ![6-18](./public/image/data/chapter_6/6-18%20DBMS_quadrant_diagram-time_series.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/time_series.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.18 Time Series数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-19](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-19%20DBMS_quadrant_diagram-vector.png?raw=true) -->
+<!-- ![6-19](./public/image/data/chapter_6/6-19%20DBMS_quadrant_diagram-vector.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/vector.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.19 Vector数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-20](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-20%20DBMS_quadrant_diagram-graph.png?raw=true) -->
+<!-- ![6-20](./public/image/data/chapter_6/6-20%20DBMS_quadrant_diagram-graph.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/graph.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.20 Graph数据库 Activity Top 10象限图</center><br />
 
-<!-- ![6-21](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-21%20DBMS_quadrant_diagram-object_oriented.png?raw=true) -->
+<!-- ![6-21](./public/image/data/chapter_6/6-21%20DBMS_quadrant_diagram-object_oriented.png) -->
 <iframe src="https://birdflyi.github.io/open-digger/notebook/database_analysis/object_oriented.html" width="100%" height="702px" frameborder="0"></iframe>
 
 <center>图 6.21 Object Oriented数据库 Activity Top 10象限图</center><br />
@@ -1147,7 +1147,7 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 #### 6.3.5 开源数据库项目工作活跃时间分析
 
 
-![6-22](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-22.png?raw=true)
+![6-22](./public/image/data/chapter_6/6-22.png)
 
 <center>
     图 6.22 数据库开源项目工作时间打点图
@@ -1162,11 +1162,11 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.4.1 生成式AI各子领域近五年增长趋势
 
-![6-23](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-23.png?raw=true)
+![6-23](./public/image/data/chapter_6/6-23.png)
 <center>图 6.23 生成式 AI 各子领域 2020 - 2024 年 OpenRank 变化趋势</center>
 <br>
 
-![6-24](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-24.png?raw=true)
+![6-24](./public/image/data/chapter_6/6-24.png)
 <center>图 6.24 生成式 AI 各子领域 2020 - 2024 年 活跃度 变化趋势</center>
 <br>
 
@@ -1176,11 +1176,11 @@ vllm-project/vllm 是一个高效、可扩展的分布式推理框架，专为�
 
 #### 6.4.2 生成式 AI 领域项目 OpenRank 和活跃度 Top 10 变化趋势
 
-![6-25](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-25.png?raw=true)
+![6-25](./public/image/data/chapter_6/6-25.png)
 <center>图 6.25 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势</center>
 <br>
 
-![6-26](https://github.com/kaiyuanshe/2024-China-Open-Source-Report/blob/main/public/image/data/chapter_6/6-26.png?raw=true)
+![6-26](./public/image/data/chapter_6/6-26.png)
 <center>图 6.26 生成式 AI 领域 活跃度 Top 10 项目近 5 年变化趋势</center>
 <br>
 
