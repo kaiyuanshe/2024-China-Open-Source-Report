@@ -414,7 +414,7 @@ Gitee 的 **OpenRank 值**从 2018 年到 2024 年实现了显著增长，尤其
 ---
 
 ### 2.5 开源基金会排行榜
-![开源基金会排行榜https://hackmd.io/_uploads/B1X4XTXIkx.png)  
+![开源基金会排行榜](./public/image/data/chapter_2/2_6.png)  
 <center>图 2.5 2024 年开源基金会 OpenRank 排行榜 Top 30</center>  
 
 **2024 年开源基金会 OpenRank 排行榜** 中，**开放原子开源基金会（OpenAtom Foundation）** 位居第一，表明中国在推动大型开源项目方面取得了重要成就。
