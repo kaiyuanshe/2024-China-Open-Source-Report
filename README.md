@@ -24,6 +24,16 @@
   - [商业化篇](./commercialization.md)
   - [开源人工智能篇](./ossAI.md)
   - [开源大事记](./open-source-milestones.md)
+
+- 日文版（日本語版）
+  - [はじめに](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/preface.md)
+  - [アンケート編](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/questionnaire.md)
+  - [データ編](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/data.md)
+  - [オープンソースビジネス編](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/commercialization.md)
+  - [オープンソースAI篇](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/ossAI.md)
+  - [オープンソースTopic](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/open-source-milestones.md)
+
+
 <!-- - English -->
   <!-- - [Preface](./en/preface.md)
   - [OSS Questionnaire](./en/questionnaire.md)
