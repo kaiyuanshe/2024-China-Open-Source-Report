@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "2024 中国开源年度报告"
+  name: "2024 China Open Source Annual Report"
   text: ""
-  tagline: 开源社联合多家单位，纵横近十年对中国开源行业的综合性报告，每年发布一次
+  tagline: "KAIYUANSHE, in collaboration with multiple communities and organizations, has been releasing an annual comprehensive report on China's open-source industry for nearly a decade, providing longitudinal insights into the ecosystem."
   actions:
     - theme: brand
       text: 立即阅读 2024 年度报告
-      link: /preface
+      link: /en/preface
     - theme: alt
       text: 往年报告
       link: https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd
@@ -19,18 +19,18 @@ features:
       src: "/image/home/KaiYuanShe-logo.png"
       width: 40
       height: 40
-    title: 开源社
-    details: 开源社（英文名称为“KAIYUANSHE”）成立于 2014 年，是由志愿贡献于开源事业的个人志愿者，依 “贡献、共识、共治” 原则所组成的开源社区。开源社始终维持 “厂商中立、公益、非营利” 的理念，以 “立足中国、贡献全球，推动开源成为新时代的生活方式” 为愿景，以 “开源治理、国际接轨、社区发展、项目孵化” 为使命，旨在共创健康可持续发展的开源生态体系。
+    title: KAIYUANSHE
+    details: 'KAIYUANSHE (founded in 2014) is an open source community formed by individual volunteers committed to the open source cause, operating under the principles of "Contribution, Consensus, and Co-governance". As a steadfastly vendor-neutral, non-profit, and public-benefit organization, KAIYUANSHE upholds its vision of: "Rooted in China, Contributing Globally, Making Open Source a Lifestyle for the New Era". With core missions focused on: "Open Source Governance, Global Partnerships, Community Development and Project Incubation", KAIYUANSHE is dedicated to building a healthy and sustainable open source ecosystem.'
     link: https://kaiyuanshe.cn/
-    linkText: 官网
+    linkText: Official Site
   - icon:
       src: "/image/home/x_lab2017_logo.jpg"
       width: 40
       height: 40
     title: X-lab 开放实验室
-    details: X-lab 开放实验室定位为一个开源研究与创新的开放群体，是一群由来自国内外著名高校、创业公司、部分互联网与IT企业的专家学者与工程师所构成，聚焦于开源软件产业开放式创新的共同体。专业背景包括计算机科学、软件工程、数据科学、工商管理学、社会学、经济学等跨学科领域，长期思考并实践开源战略、开源测量学、开源数字生态系统等主题。目前已在包括开源治理标准制定、开源社区行为度量与分析、开源社区流程自动化、开源全域数据治理与洞察等方面做出了较有影响力的工作。
+    details: X-lab Open Laboratory is positioned as an open collective for open source research and innovation, consisting of experts and engineers from prestigious universities, startups, and leading internet/IT companies both in China and internationally, forming a community focused on open innovation in the open source software industry. The team's professional backgrounds span interdisciplinary fields including computer science, software engineering, data science, business administration, sociology, and economics, with long-term research and practice in open source strategy, open source metrics, and open source digital ecosystems. Currently, X-lab has made significant contributions in areas such as open source governance standard development, open source community behavior measurement and analysis, community process automation, as well as comprehensive open source data governance and insights.
     link: https://github.com/X-lab2017
-    linkText: GitHub 链接
+    linkText: GitHub link
 ---
 
 <script setup>
@@ -46,7 +46,7 @@ import {
 const convener = [
     {
     avatar: withBase('/image/home/avatar/王伟.jpg'),
-    name: '王伟',
+    name: 'Wei (Will) Wang ',
   },
 ]
 
@@ -54,7 +54,7 @@ const convener = [
 const forewordMembers = [
   {
     avatar: withBase('/image/home/avatar/江波.jpg'),
-    name: '江波',
+    name: 'Bo (Nadia) Jiang ',
   }
 ]
 
@@ -62,7 +62,7 @@ const forewordMembers = [
 const questionnaireDesignMembers = [
   {
     avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
-    name: '赵思嘉',
+    name: 'Sijia Zhao',
   },
 ];
 
@@ -71,98 +71,98 @@ const questionnaireDesignMembers = [
 const dataPieceMembers = [
   {
     avatar: withBase('/image/home/avatar/方蕴仪.png'),
-    name: '方蕴仪',
-    title: "宏观洞察",
+    name: 'Yunyi Fang',
+    title: "Marcro Insights",
   },
   {
     avatar: withBase('/image/home/avatar/游明东.jpg'),
-    name: '游明东',
-    title: "宏观洞察",
+    name: 'Mingdong You',
+    title: "Marcro Insights",
   },
   {
     avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
-    name: '赵思嘉',
-    title: "宏观洞察",
+    name: 'Sijia Zhao',
+    title: "Marcro Insights",
   },
   {
     avatar: withBase('/image/home/avatar/黄帆.png'),
-    name: '黄帆',
-    title: "OpenRank 排行榜",
+    name: 'Fan Huang',
+    title: "OpenRank Rankings",
   },
   {
     avatar: withBase('/image/home/avatar/赵生宇.jpg'),
-    name: '赵生宇',
-    title: "OpenRank 排行榜",
+    name: 'Shengyu (Frank) Zhao',
+    title: "OpenRank Rankings",
   },
   {
     avatar: withBase('/image/home/avatar/彭佳恒.jpg'),
-    name: '彭佳恒',
-    title: "企业洞察",
+    name: 'Jianheng Peng',
+    title: "Enterprise Insights",
   },
   {
     avatar: withBase('/image/home/avatar/夏倍蓓.png'),
-    name: '夏倍蓓',
-    title: "企业洞察",
+    name: 'Beibei Xia',
+    title: "Enterprise Insights",
   },
   {
     avatar: withBase('/image/home/avatar/夏小雅.jpg'),
-    name: '夏小雅',
-    title: "基金会洞察",
+    name: 'Xiaoya Xia',
+    title: "Foundation Insights",
   },
    {
     avatar: withBase('/image/home/avatar/王婕.jpg'),
-    name: '王婕',
-    title: "基金会洞察",
+    name: 'Jie Wang',
+    title: "Foundation Insights",
   },
   {
     avatar: withBase('/image/home/avatar/韩凡宇.jpg'),
-    name: '韩凡宇',
-    title: "技术领域洞察",
+    name: 'Fanyu Han',
+    title: "Technology Insights",
   },
   {
     avatar: withBase('/image/home/avatar/娄泽华.jpg'),
-    name: '娄泽华',
-    title: "技术领域洞察",
+    name: 'Zehua Lou ',
+    title: "Technology Insights",
   },
   {
     avatar: withBase('/image/home/avatar/王衍童.jpg'),
-    name: '王衍童',
-    title: "技术领域洞察",
+    name: 'Yantong Wang',
+    title: "Technology Insights",
   },
   {
     avatar: withBase('/image/home/avatar/李鸿斌.jpg'),
-    name: '李鸿斌',
-    title: "开源项目洞察",
+    name: 'Hongbin Li',
+    title: "Open Source Project Insights",
   },
   {
     avatar: withBase('/image/home/avatar/史雪涛.jpg'),
-    name: '史雪涛',
-    title: "开源项目洞察",
+    name: 'Xuetao Shi',
+    title: "Open Source Project Insights",
   },
   {
     avatar: withBase('/image/home/avatar/毕枫林.jpg'),
-    name: '毕枫林',
-    title: "开发者洞察",
+    name: 'Fenglin Bi',
+    title: "Developer Insights",
   },
   {
     avatar: withBase('/image/home/avatar/黄温瑞.jpg'),
-    name: '黄温瑞',
-    title: "开发者洞察",
+    name: 'Wenrui Huang',
+    title: "Developer Insights",
   },
   {
     avatar: withBase('/image/home/avatar/谢思怡.jpg'),
-    name: '谢思怡',
-    title: "商业开源洞察",
+    name: 'Siyi Xie',
+    title: "Commercial Open Source Insights",
   },
   {
     avatar: withBase('/image/home/avatar/朱志炜.jpg'),
-    name: '朱志炜',
-    title: "商业开源洞察",
+    name: 'Zhiwei Zhu',
+    title: "Commercial Open Source Insights",
   },
   {
     avatar: withBase('/image/home/avatar/何德鑫.jpg'),
-    name: '何德鑫',
-    title: "高校开源洞察"
+    name: 'Dexin He',
+    title: "Open Source Insights for Higher Education"
   },
 ]
 
@@ -170,23 +170,23 @@ const dataPieceMembers = [
 const commercializationMembers = [
   {
     avatar: withBase('/image/home/avatar/袁滚滚.jpg'),
-    name: '袁滚滚',
+    name: 'Yi (Wenny) Yuan ',
   },
   {
     avatar: withBase('/image/home/avatar/徐至行.jpg'),
-    name: '徐至行',
+    name: 'Zhixing Xu (Guofang Innovation)',
   },
   {
     avatar: withBase('/image/home/avatar/刘景媛.jpg'),
-    name: '刘景媛',
+    name: 'Jingyuan Liu (Delian Capital)',
   },
   {
     avatar: withBase('/image/home/avatar/丁宁.jpg'),
-    name: '丁宁',
+    name: 'Ning Ding (INP)',
   },
   {
     avatar: withBase('/image/home/avatar/刘超.jpg'),
-    name: '刘超',
+    name: 'Chao Liu (Atypical Ventures)',
   },
 ];
 
@@ -194,15 +194,15 @@ const commercializationMembers = [
 const aiMembers = [
   {
     avatar: withBase('/image/home/avatar/刘天栋.jpg'),
-    name: '刘天栋',
+    name: 'Ted Liu',
   },
   {
     avatar: withBase('/image/home/avatar/庄表伟.jpg'),
-    name: '庄表伟',
+    name: 'Biaowei Zhuang',
   },
   {
     avatar: withBase('/image/home/avatar/赵生宇.jpg'),
-    name: '赵生宇',
+    name: 'Shengyu (Frank) Zhao',
   },
 ];
 
@@ -210,38 +210,38 @@ const aiMembers = [
 const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/袁滚滚.jpg'),
-    name: '袁滚滚',
-    title: "开源技术、开源商业化",
+    name: 'Yi (Wenny) Yuan',
+    title: "Open Source Technologies, Open Source Commercialization",
   },
   {
     avatar: withBase('/image/home/avatar/INP.png'),
     name: 'INP',
-    title: "开源技术",
+    title: "Open Source Technologies",
   },
   {
     avatar: withBase('/image/home/avatar/王峰.jpeg'),
-    name: '王峰',
-    title: "开源安全",
+    name: 'Feng (Jason) Wang',
+    title: "Open Source Software Security",
   },
   {
     avatar: withBase('/image/home/avatar/庄表伟.jpg'),
-    name: '庄表伟',
-    title: "开源社区生态、开源政策",
+    name: 'Biaowei Zhuang',
+    title: "Open Source Community Ecology, Open Source Policies",
   },
   {
     avatar: withBase('/image/home/avatar/卫剑钒.jpg'),
-    name: '卫剑钒',
-    title: "开源许可与合规治理",
+    name: 'Jianfan (Sir) Wei',
+    title: "Open Source Licensing and Compliance Governance",
   },
   {
     avatar: withBase('/image/home/avatar/梁尧.jpg'),
-    name: '梁尧',
-    title: "开源许可与合规治理",
+    name: 'Yao (Leon) Liang',
+    title: "Open Source Commercialization",
   },
   {
     avatar: withBase('/image/home/avatar/李明康.jpg'),
-    name: '李明康',
-    title: "开源教育",
+    name: 'Mingkang (Bright) Li',
+    title: "Open Source Education",
   },
 ]
 
@@ -308,11 +308,11 @@ const translations = [
 const copyreaders = [
   {
     avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
-    name: '赵思嘉',
+    name: 'Sijia Zhao',
   },
   {
     avatar: withBase('/image/home/avatar/刘天栋.jpg'),
-    name: '刘天栋',
+    name: 'Ted Liu',
   },
 ];
 
@@ -320,7 +320,7 @@ const copyreaders = [
 const infrastructureMembers = [
   {
     avatar: withBase('/image/home/avatar/丁文昊.png'),
-    name: '丁文昊',
+    name: 'Wenhao Ding',
   },
 ]
 
@@ -334,78 +334,76 @@ const infrastructureMembers = [
 
 </script>
 
-
-
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>编写团队</template>
+    <template #title>Editorial Team</template>
   </VPTeamPageTitle>
 
   <VPTeamPageSection v-if="convener">
-    <template #title>召集人</template>
+    <template #title>Facilitator</template>
     <template #members>
       <VPTeamMembers size="small" :members="convener" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="forewordMembers">
-    <template #title>卷首语</template>
+    <template #title>Preface</template>
     <template #members>
       <VPTeamMembers size="small" :members="forewordMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="questionnaireDesignMembers">
-    <template #title>问卷篇</template>
+    <template #title>Questionnaire Section</template>
     <template #members>
       <VPTeamMembers size="small" :members="questionnaireDesignMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="dataPieceMembers">
-    <template #title>数据篇</template>
+    <template #title>Data Analytics Section</template>
     <template #members>
       <VPTeamMembers size="small" :members="dataPieceMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="commercializationMembers">
-    <template #title>商业化篇</template>
+    <template #title>OSS Commercialization</template>
     <template #members>
       <VPTeamMembers size="small" :members="commercializationMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="aiMembers">
-    <template #title>开源人工智能篇</template>
+    <template #title>Open Source AI</template>
     <template #members>
       <VPTeamMembers size="small" :members="aiMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="memorabiliaMembers">
-    <template #title>开源大事记</template>
+    <template #title>Open Source Chronicle</template>
     <template #members>
       <VPTeamMembers size="small" :members="memorabiliaMembers" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="copyreaders">
-    <template #title>翻译团队</template>
+    <template #title>Translation Team</template>
     <template #members>
       <VPTeamMembers size="small" :members="translations" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="copyreaders">
-    <template #title>整体报告汇总/编辑</template>
+    <template #title>Overall Report Consolidation & Editing</template>
     <template #members>
       <VPTeamMembers size="small" :members="copyreaders" />
     </template>
   </VPTeamPageSection>
 
   <VPTeamPageSection v-if="infrastructureMembers">
-    <template #title>基础设施支持</template>
+    <template #title>Infrastructure Support</template>
     <template #members>
       <VPTeamMembers size="small" :members="infrastructureMembers" />
     </template>
@@ -426,10 +424,10 @@ const infrastructureMembers = [
   </template>
 </VPTeamPageTitle>
 
-<p :style="{fontSize: '1.5rem', textAlign: 'center'}">郭雪、姜宁、蒋涛、tison、卫剑钒、余杰</p> -->
+<p :style="{fontSize: '1.5rem', textAlign: 'center'}">郭雪, 姜宁, 蒋涛, tison, 卫剑钒, 余杰</p> -->
 
 <VPTeamPageTitle>
-  <template #title>协作开源社区/单位</template>
+  <template #title>Collaborative Communities/Organizations</template>
 </VPTeamPageTitle>
 
 <div :style="{display: 'flex', width: '100%', center, flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'center'}">
@@ -440,13 +438,11 @@ const infrastructureMembers = [
   <img :style="{display: 'flex', width: '26%', objectFit: 'contain'}" src="/image/home/logo_gitee_light.png"/>
 </div>
 
-
 <VPTeamPageTitle>
-  <template #title>合作媒体</template>
+  <template #title>Media Partners</template>
 </VPTeamPageTitle>
 
 <div :style="{display: 'flex', width: '100%',center}">
   <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
   <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
 </div>
-
