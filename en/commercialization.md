@@ -1,11 +1,12 @@
 ---
-title: 3. OSS Commercialization
+title: OSS Commercialization
 tags: [2024 China Open Source Report]
+translator: "Rollroll Yuan"
+reviewer: Ted Liu
 
 ---
 
 # OSS Commercialization
-Translator: Rollroll Yuan, Reviewer: Ted Liu
 
 ## Overview
 
@@ -15,13 +16,16 @@ In previous editions of the Open Source Annual Report, the commercialization sec
 
 This year, the commercialization section is organized in an interview format, featuring conversations with four investment and financing experts specializing in open-source technology, infrastructure software, and cloud services. They are **Xu Zhixing (Guofang Innovation), Liu Jingyuan (Delian Capital), Ding Ning (INP), and Liu Chao (Atypical Ventures)**. Through these interviews, the report summarizes and analyzes the development of the open-source software sector over the past few years and provides insights into the future of the capital market. The experts also openly share their personal perspectives and understanding of this field based on their career experiences, as well as their views on the commercialization and growth of open-source enterprises.
 
+
 ## 1. Using open source as a tool, focusing on strengthening core capabilities to weather the winter together
 
 ### Guest Speaker: Xu Zhixing (Guofang Innovation)
 
-*This interview with Xu Zhixing delved into critical areas including infrastructure, cloud services, and open-source technologies, encompassing investment trends, the future of software development, and the application and evolution of AI technologies. It also explored his perspectives on the relationship between capital momentum and economic cycles, along with the challenges the current business environment poses for startups and venture capital.*
 
-*During the discussion, Xu particularly highlighted the fundamental differences between China and the U.S. in software commercialization and user payment behaviors, while noting that AI and open-source software are bringing glimmers of hope during this industry winter. He emphasized that the future of software may transcend traditional business models, shifting toward more intelligent services and applications. Despite numerous challenges, Xu maintains an optimistic outlook on the tech industry's future, believing sustained innovation and technological advancement will remain the key drivers of industry growth.*
+_This interview with Xu Zhixing delved into critical areas including infrastructure, cloud services, and open-source technologies, encompassing investment trends, the future of software development, and the application and evolution of AI technologies. It also explored his perspectives on the relationship between capital momentum and economic cycles, along with the challenges the current business environment poses for startups and venture capital._
+
+_During the discussion, Xu particularly highlighted the fundamental differences between China and the U.S. in software commercialization and user payment behaviors, while noting that AI and open-source software are bringing glimmers of hope during this industry winter. He emphasized that the future of software may transcend traditional business models, shifting toward more intelligent services and applications. Despite numerous challenges, Xu maintains an optimistic outlook on the tech industry's future, believing sustained innovation and technological advancement will remain the key drivers of industry growth._
+
 
 ### 1.1 Recently, the capital market's investment in open source has become more cautious. What are the contributing factors? Is the future outlook positive?
 
@@ -37,7 +41,8 @@ First, in the field of venture capital, I have a profound realization that China
 
 This change is not even cyclical. Because certain financial models are cyclical under fixed patterns. After analyzing numerous business models, we found that China's primary market is also experiencing significant changes. The typical approach in the past was to imitate or directly copy Silicon Valley's model. Venture capital, particularly technology-focused venture capital, originated from Silicon Valley. In the past, we followed this business model, used USD funding, and even these funds came from the United States, following American investment logic, and continued this process.
 
-![6-1 Change in Ownership of Leading Institutions](https://hackmd.io/_uploads/B1yhAcy0kg.png)
+![6-1 Change in Ownership of Leading Institutions](/image/commercialization/en/HygVMdE_yl.png)
+
 
 However, the situation today differs from the past in several ways. First, the development cycle of domestic tech innovation companies has changed and is no longer synchronized with that of U.S. tech companies. Additionally, tensions in U.S.-China relations have even affected the technology sector. The legislation from early this year had a severe impact on USD investments, leading to funding shortages in certain domestic sectors. However, this doesn't mean that investment demand in tech innovation has decreased; in fact, it's still seeking new forms of support, which everyone is exploring.
 
@@ -49,9 +54,9 @@ RMB funds seem to be leaning more towards RMB-dominated investments, which is al
 
 So, the question of what to rely on if not venture capital becomes a good one, and I think periodically it still depends on downstream users in the actual business cycle.
 
-I believe China's capital market and early-stage tech investment sector will undergo transformation. This requires our collective exploration. Investment is not just a unilateral action by investment institutions but requires growing together with invested companies. We need to explore development paths suitable for China's conditions together.
+**I believe China's capital market and early-stage tech investment sector will undergo transformation. This requires our collective exploration. Investment is not just a unilateral action by investment institutions but requires growing together with invested companies. We need to explore development paths suitable for China's conditions together.**
 
-Therefore, at this point in time, there are clear divergences in people's views. For example, if an entrepreneur's current idea is to focus on overseas markets - a pure overseas strategy - that's also a form of exploration. However, if they want to maintain the possibility of entering the Chinese market, which is massive and has its unique characteristics, then the development path in the Chinese market and the matching of investment-side resources are issues we need to explore together.
+Therefore, at this point in time, there are clear divergences in people's views. For example, if an entrepreneur's current idea is to focus on overseas markets - a pure overseas strategy - that's also a form of exploration. However, if they want to maintain the possibility of entering the Chinese market, which is massive and has its unique characteristics, **then the development path in the Chinese market and the matching of investment-side resources are issues we need to explore together.**
 
 ### 1.3 Does that mean it's essential to formulate a commercialization plan as early as possible?
 
@@ -65,13 +70,14 @@ The same applies domestically. If you have some validation at a certain stage, t
 
 Under the current unchanged macro environment, both resources and capital have their costs. We need to consider how to perform well under these conditions. Of course, changes might come in the future. Interestingly, these changes themselves provide us with new opportunities.
 
+
 ### 1.4 In the past year, foundational AI models have attracted developers and customers through 'free' offerings and 'price wars.' Could this once again imply a culture of free usage, impacting the willingness to pay for software?
 
 Indeed, this is very typical. The consumer (C-end) market has its unique business model. Many enterprise service software targets the business (B-end) market, but in China, there exists an intermediate layer in the core market dominated by small and medium-sized B-end clients - the so-called "small B serving large C" model, or professional developers serving professional users. The existence of this intermediate layer is a factor in market transformation. For instance, when services are closer to the C-end, they might face the "free-riding" phenomenon, which not only challenges service providers' survival but also reduces their willingness to pay. However, when the market environment improves and these service providers' own profitability and operations get better, they might show more willingness to pay.
 
 This phenomenon is particularly evident in the market differences between China and the United States. The core difference between China and the US lies in their software payment structures. In the software dimension, the majority of revenue comes from state-owned enterprises and central government enterprises, showing an inverted pyramid structure, where they contribute a very high proportion of payments. Although small and medium-sized organizations are numerous, their contribution to business is relatively limited.
 
-![美国四大科技巨头9个月总支出超过1500亿美元](https://hackmd.io/_uploads/SJT9gdE_1g.png)
+![美国四大科技巨头9个月总支出超过1500亿美元](/image/commercialization/SJT9gdE_1g.png)
 
 This structure makes the stability of the foundational market rely heavily on the support of top-tier enterprises. The characteristics of these enterprises are that they possess strong bargaining power, which may require a higher proportion of services or customized solutions. This stems from the differences caused by their significant influence. In contrast, the payment structure in the North American market may not be a perfectly upright pyramid, but at least its mid-tier enterprises are larger in scale and more stable, which enables a stronger compounding effect.
 
@@ -87,16 +93,16 @@ Moving up one layer, there is an intermediate layer often referred to as AI Infr
 
 Further up are open-source applications, which are AI-based applications. Currently, in the field of AI applications, while there are already some open-source projects, they are not very numerous and still require further development. 
 
-![6-2 A Decade in Global Funding to AI](https://hackmd.io/_uploads/Bkl5gjyAyg.png)
-
+![6-2 A Decade in Global Funding to AI (from Crunchbase)](/image/commercialization/en/SJ1BeuVOyg.png)
 
 In the foundational software domain, particularly in segments similar to traditional intermediate layers, the overseas market is notably active, especially when distinguishing between domestic and international business. This activity stems from a simple fact: even before AI infrastructure became widespread, North America had already seen some relatively successful cases of commercialization. These cases have at least provided the industry with a clear development path and potential opportunities. This layer shares some similarities with traditional data infrastructure but sometimes also involves more niche and vertical domains.
 
-Even so, a mature product ecosystem can only emerge after the broader ecosystem is well-established. For this reason, the domestic market faces even greater challenges. This is just my personal perspective, but it is undeniable that even in such an environment, startups maintain a certain level of enthusiasm. They are actively seeking funding and have gained considerable recognition from investors. In the future, it will be important to continue monitoring the development of leading companies in this direction.
+**Even so, a mature product ecosystem can only emerge after the broader ecosystem is well-established. For this reason, the domestic market faces even greater challenges.** This is just my personal perspective, but it is undeniable that even in such an environment, startups maintain a certain level of enthusiasm. They are actively seeking funding and have gained considerable recognition from investors. In the future, it will be important to continue monitoring the development of leading companies in this direction.
+
 
 ### 1.6 In the middle layer of the AI field, there are many niche directions. How can companies and teams identify a long-term, sustainable direction rather than a short-term or transitional solution? Is there a possibility of future monopolization by major cloud providers?
 
-I personally believe that this does not necessarily involve direct competition with major cloud providers, but it will eventually lead to differentiated competition. You won’t just think of yourself as competing with a specific company; you will also be competing with large cloud providers, some application vendors, or developers. This is similar to companies like HashiCorp in the U.S., which have developed their own commercialization by building a product matrix based on brand and recognition. So, is there an opportunity in the domestic market to achieve such integration and develop a more complete product portfolio, thereby gaining an advantage in the intermediate layer? If you cannot integrate and build a comprehensive product system and instead only offer a single product, then when other companies achieve better systems and ecosystems, your value and significance will become challenging to sustain. For example, in the field of Data Infra, there has yet to be a clear leader in the domestic market.
+I personally believe that **this does not necessarily involve direct competition with major cloud providers, but it will eventually lead to differentiated competition. You won’t just think of yourself as competing with a specific company; you will also be competing with large cloud providers, some application vendors, or developers.** This is similar to companies like HashiCorp in the U.S., which have developed their own commercialization by building a product matrix based on brand and recognition. So, is there an opportunity in the domestic market to achieve such integration and develop a more complete product portfolio, thereby gaining an advantage in the intermediate layer? If you cannot integrate and build a comprehensive product system and instead only offer a single product, then when other companies achieve better systems and ecosystems, your value and significance will become challenging to sustain. For example, in the field of Data Infra, there has yet to be a clear leader in the domestic market.
 
 If this issue is not addressed, particularly in the area of AI infrastructure, I believe it is not just a problem for major cloud providers—it could also involve large model companies or other typical IT companies stepping in to cover these areas. Ultimately, this is still a matter of user ecosystems. The key is who can establish a complete and systematic solution earlier. From the perspective of developers looking at the problem from a user’s point of view, my initial demand is the effectiveness and applicability of the solution. When the effectiveness is similar, I would then consider factors such as ease of use and ecosystem support. In essence, it’s quite straightforward—what do users need?
 
@@ -104,9 +110,10 @@ In the early stages, there may be a first-mover advantage, where other people or
 
 Thus, the core issue is to return to the essence of software. I believe that the essence of software, including open-source software, lies in the need for rapid iteration. In the past, users purchased software through a one-time buyout, only needing to acquire a single copy. However, as users are no longer satisfied with simply owning a copy, they now expect software to be continuously iterated. With the acceleration of software development and agile development, the subscription model has emerged because users are not just purchasing the right to use the software but also ongoing services and updates.
 
-For open-source software companies, what they provide is not just the initial code or related products but also the ability to continuously iterate. Some entrepreneurs believe that those who purchase open-source projects are essentially buying the team’s ability to iterate and their capacity for agile development. This is the true essence behind the software. 
+**For open-source software companies, what they provide is not just the initial code or related products but also the ability to continuously iterate.** Some entrepreneurs believe that those who purchase open-source projects are essentially buying the team’s ability to iterate and their capacity for agile development. This is the true essence behind the software. 
 
-![image](https://hackmd.io/_uploads/r1LXUuEuyx.png)
+![image](/image/commercialization/r1LXUuEuyx.png)
+
 
 Returning to the earlier discussion, if your intermediate layer needs to have characteristics similar to HashiCorp, it must continuously possess the ability to iterate and expand. Interestingly, the upper-layer applications are actually undergoing transformation and disruption. From my perspective, the core issue of what was previously referred to as "SaaS"—software as a service—lies in how to distinguish between "service" and "software." Many companies provide SaaS, but what customers are really purchasing is still the software. The key is how to enable users to master and utilize that software.
 
@@ -136,17 +143,18 @@ However, programmers and salespeople are different. For the developer ecosystem,
 
 After reaching customers, the key is how to convert them into loyal users and uncover their commercial value. Nowadays, customers not only need backup software but also expect companies to have the ability to continuously iterate on their products, provide stable systems, and deliver reliable services. Thus, open source is not the end of marketing but rather a starting point. By gaining more examples through open source, the question becomes how to use these smoother communication and engagement opportunities to ensure the success of follow-up work, rather than skipping subsequent steps. For any company, open source actually involves higher cost inputs. Although from a financial perspective, this breakdown may seem challenging, it still belongs to the development domain. From this perspective, the key is how to optimize the balance between input and output, turning it into an effective sales or distribution channel. Once market coverage expands, if these opportunities are not effectively utilized, all efforts become meaningless.
 
-Therefore, I believe that for companies, whether in the early stages or at a mature phase, investing in open source is necessary. In the early stages, brand awareness may be low, and exposure opportunities may be limited. Even so, a small number of exposure opportunities can help you find seed users. Even for companies that are already very mature, these opportunities remain extremely valuable.
+**Therefore, I believe that for companies, whether in the early stages or at a mature phase, investing in open source is necessary. In the early stages, brand awareness may be low, and exposure opportunities may be limited. Even so, a small number of exposure opportunities can help you find seed users. Even for companies that are already very mature, these opportunities remain extremely valuable.**
 
 Looking at large companies, whether it’s Confluent or DataBricks, these enterprises participate in various conferences every year. During these events, they provide opportunities to engage with users. Interaction is needed at every stage. However, the key is not just holding conferences but whether you truly hear user feedback during these events, identify their needs, and use this information to help your product continuously iterate.
 
 Whether it’s a service or a product, I believe this is the essence of open source—that open source is an added value. When investing in software companies, I don’t add points simply because they are open source, nor do I deduct points if they are not. Instead, if a team chooses to use open source as its strategy, it is a tool and a weapon. The key lies in how effectively it is utilized and executed. You need to provide some evidence to prove that you have this awareness. This is my response to your earlier question about how open source creates value at different stages of a company. Personally, this is my perspective.
 
+
 ### 1.10 Open source is an investment for companies. For early-stage companies, how can they balance this investment?
 
 If you are currently a startup, such as a development team of around ten people, with eight or nine of them focused on development, they may lack the necessary skills to carry out tasks like business development, attending conferences to share insights, or collaborating with the sales department. These responsibilities present a challenge for development teams in open-source projects to balance their workload. You need to decide how much time to allocate to sharing and interaction versus how much time to dedicate to coding.
 
-However, we do not simply view open source as a customer acquisition tool; instead, we consider it as part of the production process. Due to the domestic business environment, when large companies intend to purchase our products, they require a more stable version and may even expect us to address specific issues for them. As a result, we ask these large customers to adapt to our open-source version as much as possible, synchronize bug fixes, and optimize functionality. Our goal is to provide excellent customer service and generate more revenue from these customers.
+**However, we do not simply view open source as a customer acquisition tool; instead, we consider it as part of the production process.** Due to the domestic business environment, when large companies intend to purchase our products, they require a more stable version and may even expect us to address specific issues for them. As a result, we ask these large customers to adapt to our open-source version as much as possible, synchronize bug fixes, and optimize functionality. Our goal is to provide excellent customer service and generate more revenue from these customers.
 
 I believe that whether domestically or abroad, large customers have specific needs. For example, Snowflake invests heavily in large customers, both in terms of sales and service. At this level, the role of the product manager becomes particularly important.
 
@@ -155,6 +163,8 @@ When feedback is returned, we discuss which issues must be addressed because mai
 Personally, I believe that the company's CEO, as the top leader, needs to possess the capabilities of a so-called "chief product manager" to a large extent. As the person steering the ship, the CEO determines the company's development direction. Of course, this balance is ultimately decided by the CEO. At certain stages, the CEO may believe that in the current business environment, simply serving large customers well is sufficient. In this case, the open-source project may become more of a byproduct, with more effort focused on meeting the customized needs of large customers. However, if my core goal is to create a replicable, distributable product, I may choose to focus on refining the open-source project during certain phases.
 
 Therefore, someone needs to take the lead. While the CEO can take responsibility for the product, given the CEO's heavy workload, I believe there still needs to be someone like the CEO who dedicates enough effort in this area. This is my personal perspective.
+
+
 
 ## 2. When benchmarking against the U.S. loses its relevance, Chinese open source should find its own rhythm
 ### Guest Speaker: Liu Jingyuan (Delian Capital)
@@ -171,11 +181,12 @@ We believe that they ultimately succeeded, going through a successful transition
 
 In the investment market, another factor is actually determined by supply and demand. At certain stages, investors often feel compelled to invest in specific categories of open-source projects, particularly those with a technical focus. In reality, most open-source products have evolved into infrastructure products. 
 
-![image](https://hackmd.io/_uploads/rk9QW_EdJg.png)
+![image](/image/commercialization/rk9QW_EdJg.png)
+
 
 For pure SaaS application products, open-source components are relatively scarce. As a result, the development cycles for infrastructure products are typically longer. The barriers to entry for starting such projects are inherently high, so the number of founders capable of launching such projects is limited. This leads to a scarcity of such projects in the market, which in turn causes competition among investors for the limited number of projects, driving up asset prices. For example, in the case of real-time data warehouses like StarRocks, there are usually only two or three such projects, and I must invest in the one I consider the best. In such situations, numerous institutions compete for the few high-quality projects, leading to rising prices. I believe this high pricing is primarily reflected in two aspects: the scarcity of the projects themselves and the intense competition among institutions.
 
-Later, did capital markets realize this? I think PingCap is a good example. Because it has always been a leader in the industry, it has garnered widespread confidence. Around this time, institutions began to realize that there might be overly high expectations for open-source infrastructure products, or that simply benchmarking against similar U.S. products might not be applicable.
+Later, did capital markets realize this? I think PingCap is a good example. Because it has always been a leader in the industry, it has garnered widespread confidence. **Around this time, institutions began to realize that there might be overly high expectations for open-source infrastructure products, or that simply benchmarking against similar U.S. products might not be applicable.**
 
 The primary reason is that after investing, they found that revenue growth was not as expected. After making an investment, we typically expect the company to exhibit a certain conversion rate and growth curve. However, when we found that the company did not change as quickly as expected post-investment, it might still be focused on technical iteration. This was one scenario. Later, we noticed that even though the company began attempting commercialization, the actual pace of commercialization did not meet expectations. Revenue did not significantly increase, and in some cases, there was no noticeable growth even after several years. The company showed a trend of slow growth, lacking the explosive growth that was anticipated.
 
@@ -187,13 +198,14 @@ Moreover, an overly cautious financial strategy may impact business development,
 
 I believe this issue can be divided into two parts for discussion. First, how investors view this process. Second, what expectations investors have for the project itself. If investors originally expected the project to have reached a commercialization inflection point, meaning there would be relatively fast growth afterward, they might feel disappointed if the growth rate does not meet expectations. This is essentially an issue of expectation management.
 
-![image](https://hackmd.io/_uploads/S1-oM_Nuyx.png)
+![image](/image/commercialization/S1-oM_Nuyx.png)
+
 
 The second issue is closely related to the complexity of the product itself and also to the investors' understanding. For example, if your product falls under the IaaS category, do not expect it to seamlessly serve large-scale customers after just three to five years of development. This is unrealistic, as the problems may lie in poor performance, insufficient stability, or inadequate cost control. Therefore, it is difficult to achieve success in the market in one leap. For mid-layer products, such as databases, data warehouses, or real-time data warehouses, the technical complexity is evident. Developing such products indeed requires a long period of refinement in collaboration with leading customers to address all potential issues and achieve commercialization for the target customer group. Clearly, for some more complex products, small companies are not the ideal customer base.
 
 This is where the difficulty lies: the product must target medium and large customers from the very beginning. For instance, for a database that is primarily distributed and transactional with secondary analytical capabilities, we know who the target customers are. How many customers have distributed needs? They must be of a certain scale. Small customers do not have distributed needs; a single machine is sufficient for them, so they do not require such a product.
 
-Therefore, I believe investors first need to have a reasonable understanding and assessment of the difficulty of the projects they are investing in. Second, during the fundraising process, companies need to communicate with investors to manage expectations properly. This means that companies need to honestly share their development trajectory and seek investors who can understand and agree with this trajectory to collaborate with. In this way, both parties can work together more smoothly and comfortably over a longer period.
+**Therefore, I believe investors first need to have a reasonable understanding and assessment of the difficulty of the projects they are investing in. Second, during the fundraising process, companies need to communicate with investors to manage expectations properly. This means that companies need to honestly share their development trajectory and seek investors who can understand and agree with this trajectory to collaborate with.** In this way, both parties can work together more smoothly and comfortably over a longer period.
 
 ### 2.3 Would this impact investment institutions' willingness to invest in open-source projects or infrastructure software projects?
 
@@ -219,7 +231,9 @@ This might be related to systemic procurement tendencies influenced by budgetary
 
 Since commercial software is usually priced higher, the market value of open-source software is difficult for customers to assess. Customers may question why they need to pay for software when there are free options available. They often overlook the actual value that open-source software can bring and that it is reasonable to pay a proportionate fee for it. Overall, the domestic environment for paid software and the system for evaluating the value of open-source software remain unhealthy.
 
+
 ### 2.5 What key aspects should be focused on in the commercialization process of open-source software?
+
 When commercializing open source products, the primary concern is ensuring that the subsequent maintenance system can keep pace. Essentially, you are offering a freemium service, and this aspect must be executed well. Customers should not pay for a service that performs indistinguishably from the free, open source version.
 
 **Thus, the first priority is to develop a systematic strategy for the freemium model. The second critical point is to address key pain points in the customer’s production workflow.**
@@ -227,9 +241,11 @@ When commercializing open source products, the primary concern is ensuring that 
 I recall that Fit2Cloud once proposed a perspective (though the exact wording escapes me) emphasizing that core IT personnel across different functions—such as operations, testing, and security teams—should each have access to the best tools within their respective domains. This approach hinges on two principles: Market Demand: The product category must target a clear and urgent need. Product Excellence: The tool must be superior. Mediocre products may only survive as open source, severely limiting monetization potential. Additionally, pricing should be moderate to avoid deterring users. A rigorous cost-benefit analysis is essential, factoring in not just development iterations but also the expenses of building operational and post-sales support systems. Equally important is setting a reasonable price range for customers, which requires careful evaluation.
 
 ### 2.6 How should open-source enterprises evaluate whether to invest resources in international expansion?
-Indeed, we should not set limits on ourselves. I firmly believe that if a team is confident in its product capabilities from the very beginning, it can fully adopt a global strategy right from the start. I think "Go Global" is indeed a challenging issue. For domestic companies, it seems they struggle to truly enter the international market. However, venturing into international markets also brings many challenges. 
+
+Indeed, we should not set limits on ourselves. **I firmly believe that if a team is confident in its product capabilities from the very beginning, it can fully adopt a global strategy right from the start.** I think "Go Global" is indeed a challenging issue. For domestic companies, it seems they struggle to truly enter the international market. However, venturing into international markets also brings many challenges. 
 
 ![6-3 Software Export Trade Volume](https://hackmd.io/_uploads/Sk8tziJ01g.png)
+
 
 Some early pioneers among domestic software companies going overseas have indeed provided valuable references for overseas customers and markets. Although their overseas revenue is currently quite substantial, it seems to have fallen short of their initial expectations. Therefore, for technology software companies aiming to expand internationally, they still face significant resistance. Since SLG (strategy and long-term growth) is required, this process cannot be completed quickly.
 
@@ -241,7 +257,7 @@ If your primary customer base consists of mid-tier and higher-level companies, t
 
 ### 2.8 What can be learned from rapidly growing companies or projects?
 
-Current large models need to establish a bridge with applications. Especially in enterprise-level applications, many consumer-facing (C-end) products may only require building a front-end on top of the model. However, for business-facing (B-end) applications and functionalities, most cannot directly rely on the model to achieve their goals, which is an inevitable trend in industry development. This market is entirely new and holds great potential for the future. Both in terms of time dimension and overall scale, it constitutes a significant market. Moreover, as with previous logic, although the market is vast, the key lies in whether one can capture market share. To achieve this, it is crucial to clearly understand customer needs and strive to meet these needs in the best possible way.
+Current large models need to establish a bridge with applications. Especially in enterprise-level applications, many consumer-facing (C-end) products may only require building a front-end on top of the model. However, for business-facing (B-end) applications and functionalities, most cannot directly rely on the model to achieve their goals, which is an inevitable trend in industry development. This market is entirely new and holds great potential for the future. Both in terms of time dimension and overall scale, it constitutes a significant market. **Moreover, as with previous logic, although the market is vast, the key lies in whether one can capture market share. To achieve this, it is crucial to clearly understand customer needs and strive to meet these needs in the best possible way.**
 
 ### 2.9 How can product design align with current real-world needs while avoiding becoming merely a transitional solution?
 
@@ -249,7 +265,7 @@ The point you mentioned, I believe, is something every organization pays close a
 
 For smaller open-source projects, on one hand, they often lack the time and resources to treat these projects as independent and sustainable businesses, making effective investment and improvements challenging. On the other hand, many founders may lack a higher-level vision, failing to develop these projects into more robust services. I feel regretful for these products. But in reality, every year, many similar products lose their vitality during their growth process.
 
-In such cases, the key lies in evaluating the alignment between a team's overall resource endowment and the requirements of the proposed project. If the resources required for the project far exceed what the team’s current configuration and capabilities can provide, but the entry point is feasible, I personally think that early collaboration with major companies could be an effective strategy. Launching the product can be a relatively straightforward approach, while being acquired by a major company represents a deeper level of involvement. During the acquisition process, we should strive to maintain a certain degree of independence to ensure the open-source project can continue operating and receive a certain level of resource support each year. This would be an ideal form of collaboration. For those unique and niche products, relying on the support of large platforms might be a better choice.
+In such cases, the key lies in evaluating the alignment between a team's overall resource endowment and the requirements of the proposed project. If the resources required for the project far exceed what the team’s current configuration and capabilities can provide, but the entry point is feasible, **I personally think that early collaboration with major companies could be an effective strategy. Launching the product can be a relatively straightforward approach, while being acquired by a major company represents a deeper level of involvement. During the acquisition process, we should strive to maintain a certain degree of independence to ensure the open-source project can continue operating and receive a certain level of resource support each year.** This would be an ideal form of collaboration. For those unique and niche products, relying on the support of large platforms might be a better choice.
 
 ### 2.10 What examples do you consider to be healthy open-source projects?
 
@@ -259,13 +275,14 @@ The one we have interacted with the most in the past is probably Red Hat. It is 
 
 I want to talk about some projects that I believe have not developed as expected. Where exactly does the problem lie? For example, some companies focus too much on breakthroughs in a single technology but may overlook the nature of market demand. In the current economic environment, such an approach is quite risky unless their projects are purely for public benefit and they are completely unconcerned about whether the product has practical value or whether anyone is willing to pay for it.
 
-In some of the projects I’ve been involved in, it feels like holding a hammer and looking for nails. Due to their exceptional technical capabilities, they developed a very powerful hammer. However, this hammer might be over-engineered for most users—customers don’t need such a powerful tool; they need a more standard version of the hammer. When a product is over-engineered, people tend to opt for more popular and simpler versions. As a result, the market fails to form, which is clearly very dangerous and concerning.
+In some of the projects I’ve been involved in, it feels like holding a hammer and looking for nails. **Due to their exceptional technical capabilities, they developed a very powerful hammer. However, this hammer might be over-engineered for most users—customers don’t need such a powerful tool; they need a more standard version of the hammer. When a product is over-engineered, people tend to opt for more popular and simpler versions. As a result, the market fails to form, which is clearly very dangerous and concerning.**
 
 I have another point to add. You mentioned some underperforming open-source projects, and indeed, there are also some founders—this is a personal expectation of mine. Currently, many open-source software projects in China that aim to commercialize are led by founders with technical backgrounds. Therefore, if you want to go further than others, it’s best to find a co-founder with a strong business background to work with you on founding and advancing the project. With your technical expertise, the project might have a better chance of success. This is because founders with purely technical backgrounds often lack experience in navigating complex or harsh business environments. Trying to do everything alone can be quite challenging.
 
+
 ### 2.12 How can a project be assessed and evaluated? What are the key reference criteria?
 
-At different stages, the evaluation metrics may vary. For example, in the early stages of a project, since we are the first-round investors and there is no revenue to refer to at this stage, we primarily focus on whether the product meets the basic needs of customers. As the project progresses, we pay attention to the operation of the community. It may not be until the project reaches a certain stage that financial and performance data become the main focus. In the early stages of a project, these financial and performance metrics are not the priority. I believe that regardless of the stage of project development, as long as the product remains open source, more attention should be given to the operation of the community. Of course, this doesn’t mean all efforts should be focused solely on it, but rather that resources should be reasonably allocated.
+At different stages, the evaluation metrics may vary. **For example, in the early stages of a project, since we are the first-round investors and there is no revenue to refer to at this stage, we primarily focus on whether the product meets the basic needs of customers. As the project progresses, we pay attention to the operation of the community. It may not be until the project reaches a certain stage that financial and performance data become the main focus.** In the early stages of a project, these financial and performance metrics are not the priority. I believe that regardless of the stage of project development, as long as the product remains open source, more attention should be given to the operation of the community. Of course, this doesn’t mean all efforts should be focused solely on it, but rather that resources should be reasonably allocated.
 
 In the later commercial stages of the project, we focus on its customer base. However, I think that during the first year or close to the first year of the project, we do not place significant emphasis on its commercial aspects. Our main focus is on the quality of community operations, as the project is still in the process of optimizing its performance at that time.
 
@@ -279,13 +296,15 @@ Typically, we look at some standard metrics, such as pricing models, whether pay
 
 *The interview also touched on the shortcomings of Chinese open-source projects in commercialization and the bubble phenomenon in the capital market, pointing out that the critical issue for open-source projects is how to sustain development after obtaining initial funding. Ding Ning stressed that long-term product planning aimed at future enterprise budgets is particularly important for startups. Product design must balance the current market budget scale with future demand trends to ensure the company's long-term viability and growth potential. Once a company enters the market, revenue becomes the simplest and clearest indicator to measure whether the product meets demand, whether the technology is robust, and how well the organization is managed.*
 
+
 ### 3.1 When will the next cycle be for open-source software to regain capital attention after the current downturn?
 
 I believe several scenarios may emerge in the future:
 
-One possibility is that Databricks goes public, achieving a market valuation of $100 billion within the first week of its IPO. This phenomenon would then attract global market attention, and it might ultimately be attributed to the company's "open-source" nature. Given the significant difference where Snowflake's growth rate had already dropped below 30% when it reached $3 billion in revenue, but Databricks, with $2 billion in revenue, still maintains a growth rate of around 70%, people would be unsure about the specific reasons. As the market speculates on what distinct practices set Databricks apart from Snowflake, the conclusion might be drawn that the reason lies in "open source." 
+One possibility is that Databricks goes public, achieving a market valuation of $100 billion within the first week of its IPO. This phenomenon would then attract global market attention, and it might ultimately be attributed to the company's "open-source" nature. Given the significant difference where Snowflake's growth rate had already dropped below 30% when it reached $3 billion in revenue, but Databricks, with $2 billion in revenue, still maintains a growth rate of around 70%, people would be unsure about the specific reasons. As the market speculates on what distinct practices set Databricks apart from Snowflake, the conclusion might be drawn that the reason lies in "open source".
 
-![image](https://hackmd.io/_uploads/SyiVPO4Okg.png)
+![image](/image/commercialization/SyiVPO4Okg.png)
+
 
 Another possibility, based on my observations, is that many enterprise software companies—especially those that have achieved strong commercialization in North America—will realize that open source is indeed a critical factor in their commercialization process. Open source is not devoid of commercial value. While simply hyping up the number of stars on a repository has little correlation with commercial value, the impact of open source on improving the efficiency of software commercialization is evident. Open source acts more like an amplifier for a product’s commercialization capability. If a product inherently meets demand and fits within budgets, open source will amplify that value. However, if a product lacks a budget or fails to meet enterprise needs, then even with open source, it may receive widespread attention but fail to generate revenue—many people might use it, but few enterprises would be willing to pay for it.
 
@@ -293,9 +312,10 @@ Another possibility, based on my observations, is that many enterprise software 
 
 Here is a positive example of benefiting from open source: During the past year or so of the AI FOMO period, an analytical database startup in the open-source infrastructure field in the United States achieved revenue growth far surpassing most AI startups in China and even many in the U.S. The company generated considerable revenue with very minimal sales efforts and also gained dozens of well-known top-tier companies in North America as open-source users, most of whom have already become paying customers. If the company had been using closed-source software, it might have had to follow a "rural encircles urban" strategy, starting with small and medium-sized customers. However, because of open source, it was able to secure the world's leading enterprises as its software users from day one.
 
-In the past, Chinese open-source software companies were rarely perceived as achieving large-scale commercialization. This was mainly due to unclear product positioning and the insufficient organizational capabilities of their teams, not because of any fault with open source itself. If you give the "open source" tool or weapon to a strong founding team, once they break through the early commercialization threshold, they can then enjoy the dividends brought by open source. However, most founding teams in the past were unable to cross that commercialization threshold and got stuck before reaching it. As a result, most companies failed at the very first step. Over the past few years, we’ve seen many teams hyping the "open source" concept, but their real intent was just to secure funding, without genuinely understanding how to leverage open source to accelerate commercialization.
+**In the past, Chinese open-source software companies were rarely perceived as achieving large-scale commercialization. This was mainly due to unclear product positioning and the insufficient organizational capabilities of their teams, not because of any fault with open source itself. If you give the "open source" tool or weapon to a strong founding team, once they break through the early commercialization threshold, they can then enjoy the dividends brought by open source.** However, most founding teams in the past were unable to cross that commercialization threshold and got stuck before reaching it. As a result, most companies failed at the very first step. Over the past few years, we’ve seen many teams hyping the "open source" concept, but their real intent was just to secure funding, without genuinely understanding how to leverage open source to accelerate commercialization.
 
 Therefore, China does not lack application scenarios or technical capabilities; what we lack is a favorable business environment and a proper understanding of open source. Thus, while it is meaningful to discuss China's open-source technology, when it comes to discussing the commercialization of open source in China, the reality is that in the Chinese market, open source is only related to refining and iterating products, and has little to do with commercialization. When open source and commercialization are discussed together, it is essentially about the software markets in developed countries with high per capita GDP.
+
 
 ### 3.3 How should companies balance their resource investment in open source at different stages?
 
@@ -305,7 +325,8 @@ However, most open-source software companies in China have already deviated from
 
 They have overlooked the critical questions: Why would customers purchase their product? How much budget have customers allocated for them?
 
-Without a clear budget and purpose, even if a project garners a million stars, it will be of no use. I believe the core premise for a company making an open-source decision is this: Even if I open source the code, I can still sign million-dollar subscription contracts with individual customers in the early stages of the company.
+**Without a clear budget and purpose, even if a project garners a million stars, it will be of no use. I believe the core premise for a company making an open-source decision is this: Even if I open source the code, I can still sign million-dollar subscription contracts with individual customers in the early stages of the company.**
+
 
 ### 3.4 Some projects secure ample funding during periods of high capital interest but still struggle with stagnant growth. How can they break out of this predicament?
 
@@ -313,7 +334,7 @@ As long as the team has organizational capability, transformation is always poss
 
 ### 3.5 How can an infrastructure software company determine whether its technology has the potential to continue evolving in its respective field?
 
-First, if a product or technology can achieve sales without relying on open source and has the potential to secure a million-dollar subscription customer from the very first deal, then it is worth considering further investment in open source.
+**First, if a product or technology can achieve sales without relying on open source and has the potential to secure a million-dollar subscription customer from the very first deal, then it is worth considering further investment in open source.**
 
 I believe a million-dollar subscription per customer is a reasonable evaluation standard because, in the enterprise software industry, this is not considered a significant expense. Currently, leading open-source projects such as PingCap, StarRocks, and EMQ all have multiple overseas customers with annual subscriptions worth millions of dollars.
 
@@ -343,7 +364,8 @@ This quagmire has two aspects. First, continuous R&D investment is required. Cus
 
 Secondly, in terms of cost and compliance requirements, small companies find it difficult to compete with large enterprises. Regarding cost reduction and efficiency improvement, I believe this is indeed a viable entry point, especially in the current economic environment. However, cost savings alone are not enough—speed and compliance at the product level are also necessary. 
 
-![image](https://hackmd.io/_uploads/SJg9JOONdye.png)
+![image](/image/commercialization/SJg9JOONdye.png)
+
 
 For mid-sized companies, I think they can actually leverage globalization to achieve many goals. First, the product must be excellent enough to make mainstream U.S. users choose it over domestic alternatives. This not only tests the strength of the product itself but also places high demands on overall business execution capabilities. Second, it is essential to explore markets that European and American companies are reluctant to touch or tend to overlook, such as Japan, the Middle East, and Southeast Asia. Actively expanding into these markets makes a lot of sense.
 
@@ -359,7 +381,7 @@ Once data and voice technologies reach maturity, innovation in the AI field beco
 
 I believe there is more than one path up the mountain. This includes decisions such as which protocol to use for open source or at what stage to choose open source. We often see many code forks and changes in protocols, and these changes actually reflect the commercial needs of companies. When making decisions, business demands are always the primary consideration.
 
-In this process, the purpose of open source is multifaceted: first, to acquire users; second, to refine the product; and finally, possibly to seek support from external development teams. These three aspects are usually prioritized in the minds of founders. Therefore, whether to open source early, in the middle stages, or to start closed source and then open source, there isn’t a fixed requirement. However, I believe there are a few common understandings that are necessary. First, we should categorize software globally into AI, non-AI, and software at the forefront of AI. In reality, pre-AI software exists in a very mature world—it is already highly developed. Users also have a rational attitude towards open source; they seek the best product, regardless of whether it is open source or not. At the same time, their expectations for the best product are very high, which leads to delays in early-stage investments.
+**In this process, the purpose of open source is multifaceted: first, to acquire users; second, to refine the product; and finally, possibly to seek support from external development teams. These three aspects are usually prioritized in the minds of founders.** Therefore, whether to open source early, in the middle stages, or to start closed source and then open source, there isn’t a fixed requirement. However, I believe there are a few common understandings that are necessary. First, we should categorize software globally into AI, non-AI, and software at the forefront of AI. In reality, pre-AI software exists in a very mature world—it is already highly developed. Users also have a rational attitude towards open source; they seek the best product, regardless of whether it is open source or not. At the same time, their expectations for the best product are very high, which leads to delays in early-stage investments.
 
 Regarding the various aspects we’ve discussed in the big data field, I think the current market has extremely high demands for stability. Compared to ten years ago, when people were less concerned about software stability and could accept manual intervention in operations or rely on patching to keep systems running, the situation has changed. If absolute stability cannot be guaranteed, it might be an issue with the internal engineers on the client side when it comes to decision-making or execution. As a result, their requirements for the stability of open-source software have risen to this level.
 
@@ -369,7 +391,7 @@ To summarize, for infrastructure products, large, mature, and historically neede
 
 ### 4.4 How should companies determine which parts to open source, as well as the extent and method of open-sourcing?
 
-I firmly believe that core technologies should be open source, while products should remain closed source. The primary value of a product lies in the accumulation of man-hours, whereas the greatest value of core technology is in its design and know-how—knowledge and cognition—which, in the internet age, are essentially free because they spread very quickly. If a certain cognition or method is not widely recognized, it cannot form a barrier or advantage. Therefore, I believe that if the essence of something lies in cognition, know-how, design, or frameworks, it is fundamentally akin to books, which will likely all be freely available in the future.
+**I firmly believe that core technologies should be open source, while products should remain closed source. The primary value of a product lies in the accumulation of man-hours, whereas the greatest value of core technology is in its design and know-how—knowledge and cognition—which, in the internet age, are essentially free because they spread very quickly.** If a certain cognition or method is not widely recognized, it cannot form a barrier or advantage. Therefore, I believe that if the essence of something lies in cognition, know-how, design, or frameworks, it is fundamentally akin to books, which will likely all be freely available in the future.
 
 The concept of "copyleft" exists because of "copyright." As I mentioned earlier, if a product requires many outstanding engineers to spend months or even years accumulating effort—similar to building a house—you cannot give the house away for free, but you can provide the design blueprints for free. This type of software, due to the man-hours behind it, should be treated as such. Furthermore, it may also meet some of the paid needs of commercial users, so charging for it is reasonable. If we are to discuss the open-source decisions of commercial companies, Databricks is undoubtedly the best example.
 
@@ -387,7 +409,7 @@ The type of technical and operational talent I greatly admire are those who, due
 
 ### 4.6 In the current macro environment, what promising aspects of infrastructure software are still worth investing in?
 
-Investors primarily focus on commercial value. They have recognized the value of infrastructure, having previously invested in data infrastructure and cloud infrastructure. I believe AI infrastructure will also be very successful. First, I hold a positive view of AI and believe that current large models have already demonstrated powerful capabilities and usefulness—the foundation is already very practical. Now, people need to realize that it is still accelerating in growth and consider whether it can become even more powerful. Therefore, I have a positive attitude toward infrastructure. From the perspectives of economic value, social impact, and technological advancement, I think it is very promising.
+Investors primarily focus on commercial value. They have recognized the value of infrastructure, having previously invested in data infrastructure and cloud infrastructure. I believe AI infrastructure will also be very successful. First, I hold a positive view of AI and believe that current large models have already demonstrated powerful capabilities and usefulness—the foundation is already very practical. Now, people need to realize that it is still accelerating in growth and consider whether it can become even more powerful. **Therefore, I have a positive attitude toward infrastructure. From the perspectives of economic value, social impact, and technological advancement, I think it is very promising.**
 
 I believe no startup can last forever, because entrepreneurship itself is extremely difficult and filled with anxiety. Very few people can endure it like running a marathon, so they need to achieve phased results. However, regarding the second and third points, I think people have indeed learned a lesson: in the AI field, technological leadership does not directly equate to company value. In the more mature data and cloud computing markets, technological leadership must be translated into the aspects we previously discussed.
 
@@ -397,15 +419,16 @@ Technological leadership must translate into stable and mature product applicati
 
 I believe that since our orders are usually more complex, they differ from the trend-driven growth seen in SaaS companies.
 
-For technical software and lower-level software, the number of customers is accumulated step by step. Secondly, customers will evaluate in the second or third year whether to continue purchasing more. We track this through ARR, right? But you will notice that, first, the difference between ARR and license subscriptions lies in the fact that ARR can be a one-time purchase or paid annually, but ARR can actually increase annually, much like license subscriptions. Moreover, good infrastructure inherently grows year by year, and this growth is typically evaluated at 5 to 10 times.
+For technical software and lower-level software, the number of customers is accumulated step by step. Secondly, customers will evaluate in the second or third year whether to continue purchasing more. We track this through ARR, right? But you will notice that, first, the difference between ARR and license subscriptions lies in the fact that ARR can be a one-time purchase or paid annually, but ARR can actually increase annually, much like license subscriptions. **Moreover, good infrastructure inherently grows year by year, and this growth is typically evaluated at 5 to 10 times.**
+
 
 ### 4.8 Which companies have successfully navigated market cycles in an ideal and sustainable way?
 
 I believe the ideal scenario is to have a company like Databricks and commit 5 to 10 years to its development. Additionally, the commercialized product needs to be rich, easy to use, and of high value. Moreover, the execution of sales and marketing must be flawless. Even in cases of conflict, it remains a small database—Database is Kafka. I think Confluent is currently better than Elastic and MongoDB because its development is more aligned with the times. If it had only focused on developing a single product and used that to build an enterprise-oriented product to generate profit, many companies might stagnate.
 
-![image](https://hackmd.io/_uploads/HkFOZ_Vuyx.png)
+![image](/image/commercialization/HkFOZ_Vuyx.png)
 
-For example, Elastic and MongoDB. But the best example is Databricks, which has continued to innovate and driven significant progress in the software industry through open-source approaches.
+**For example, Elastic and MongoDB. But the best example is Databricks, which has continued to innovate and driven significant progress in the software industry through open-source approaches.**
 
 Especially in a highly innovative field like AI, people’s understanding is still unclear, and a top-down approach may not be applicable. In such cases, adopting a bottom-up approach, achieved through emergent mechanisms, seems more appropriate.
 
