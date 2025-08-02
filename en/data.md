@@ -239,7 +239,7 @@ Further analysis of Chinese developers' distribution shows that the total number
 #### **1.4.1 使用开源许可证的仓库数量**
 统计数据显示，GitHub 活跃仓库中采用的开源许可证分布如下：
 
-![license_distribute](./public/image/data/chapter_1/license_distribute.png)
+![license_distribute](/image/data/chapter_1/license_distribute.png)
 <center>图 1.12 使用开源许可证的仓库数量占比 </center>  
 
 **主要观察：**
@@ -254,7 +254,7 @@ Further analysis of Chinese developers' distribution shows that the total number
 #### **1.4.2 开源许可证种类变化趋势**
 分析了开源许可证种类的增长趋势，结果如下图所示：
 
-![license_type_count_trend](./public/image/data/chapter_1/license_type_count_trend.png)
+![license_type_count_trend](/image/data/chapter_1/license_type_count_trend.png)
 <center>图 1.13 开源许可证种类数量变化趋势 </center>  
 
 **主要观察：**
@@ -268,7 +268,7 @@ Further analysis of Chinese developers' distribution shows that the total number
 2023 年，约有 **770 万个活跃仓库**使用了各种开源许可证，占所有活跃仓库的 8.76%。以下是对主要许可证的数量变化趋势分析：
 
 **1. MIT 许可证数量变化趋势**  
-![MIT_repo_count_trend](./public/image/data/chapter_1/MIT_repo_count_trend.png)
+![MIT_repo_count_trend](/image/data/chapter_1/MIT_repo_count_trend.png)
 <center>图 1.14 使用 MIT 许可证的仓库数量变化趋势 </center>  
 
 **发现：**
@@ -277,7 +277,7 @@ Further analysis of Chinese developers' distribution shows that the total number
 - 总体来看，MIT 许可证的使用减少反映了开源社区对项目代码属性保护的需求逐渐增强。
 
 **2. 其他主要许可证数量变化趋势**  
-![Var_license_repo_count_trend](./public/image/data/chapter_1/Var_license_repo_count_trend.png)
+![Var_license_repo_count_trend](/image/data/chapter_1/Var_license_repo_count_trend.png)
 <center>图 1.15 使用其他许可证的仓库数量变化趋势 </center>  
 
 **发现：**
@@ -289,7 +289,7 @@ Further analysis of Chinese developers' distribution shows that the total number
 #### **1.4.4 使用木兰系列许可证仓库数量变化趋势**
 以下是对木兰系列许可证（包括“木兰宽松许可证”和“木兰公共许可证”）的使用趋势分析：
 
-![Mulan_repo_count_trend](./public/image/data/chapter_1/Mulan_repo_count_trend.png)
+![Mulan_repo_count_trend](/image/data/chapter_1/Mulan_repo_count_trend.png)
 <center>图 1.16 使用木兰系列许可证的活跃仓库数量累加图 </center>  
 
 **主要观察：**
@@ -551,7 +551,7 @@ Overall, these trends demonstrate the diversity and competitiveness of the domes
 
 
 <!-- ### 3.5 2024年度全球企业的活跃度前10
-![image](./public/image/data/chapter_3/rklKk5XIye.png)
+![image](/image/data/chapter_3/rklKk5XIye.png)
 <center>图 3.5 2024年度全球企业的活跃度前10 </center>
 <br>
 
@@ -567,7 +567,7 @@ Overall, these trends demonstrate the diversity and competitiveness of the domes
 * 从整体上看，这份 OpenRank 榜单反映了全球开源生态中的多样化和竞争格局，以及企业对开源的日益重视。
 
 ### 3.6 2024年度全球企业的OpenRank前10
-![image](./public/image/data/chapter_3/S1pc7aQLkx.png)
+![image](/image/data/chapter_3/S1pc7aQLkx.png)
 <center>图 3.6 2024年度全球企业的OpenRank前10 </center>
 <br>
 
@@ -581,7 +581,7 @@ Overall, these trends demonstrate the diversity and competitiveness of the domes
 
 ### 3.7 2024年度中国企业的活跃度前10
 
-![image](./public/image/data/chapter_3/rkA0CtQU1g.png)
+![image](/image/data/chapter_3/rkA0CtQU1g.png)
 <center>图 3.7 2024年度中国企业的活跃度前10 </center>
 <br>
 
@@ -601,7 +601,7 @@ Overall, these trends demonstrate the diversity and competitiveness of the domes
 * 数据表明，中国企业在开源领域不仅注重贡献代码，还积极参与社区互动和治理，推动了全球开源生态的发展。
 
 ### 3.8 2024年度中国企业的OpenRank前10
-![image](./public/image/data/chapter_3/BkFQG6XI1l.png)
+![image](/image/data/chapter_3/BkFQG6XI1l.png)
 <center>图 3.8 2024年度中国企业的OpenRank前10 </center>
 <br>
 

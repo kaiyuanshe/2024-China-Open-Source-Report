@@ -280,7 +280,7 @@ The chart below takes only a selection of products globally as of the second qua
 - **Acquisitions Surge**
     - Nvidia acquired Deci AI for $300 million
     - Other acquisitions:
-    <!-- ![image](./public/image/ossAI/r13iF7bO1e.png) -->
+    <!-- ![image](/image/ossAI/r13iF7bO1e.png) -->
     <center> Source: Founder Park Research Center </center>
     **2024 AI Company Acquisition Statistics**
 | **Report Date** | **Company** | **Valuation** | **Description** | **Acquisition News** |
@@ -402,7 +402,7 @@ After a year of consolidation, the industry is transitioning from chaos to stabi
 **Top Domestic Large AI Models** 
 Companies with Over 1 Billion RMB in Funding
 
-<!-- ![image](./public/image/ossAI/BkamlN-_Jx.png) -->
+<!-- ![image](/image/ossAI/BkamlN-_Jx.png) -->
 | Company | 2024 Financing / Valuation | Total Raised Funds | Investors |
 | -------- | -------- | -------- | -------- |
 | Zhipu AI (智谱 AI) | March: Several billion RMB financing; June: Over $400M financing; September: Several billion RMB financing, with a total investment exceeding 20 billion RMB; December: $301M financing | Over 50 billion RMB | Beijing AI Industry Investment Fund, Mubadala Capital (UAE), Prosperity7, Keywin Capital, Junlian Capital, and other institutional investors |
@@ -418,7 +418,7 @@ Companies with Over 1 Billion RMB in Funding
 
 **Major Product Lines of the Six Emerging AI Model Companies**
 
-![image](./public/image/ossAI/HJX1eV-_kx.png)
+![image](/image/ossAI/HJX1eV-_kx.png)
 
 | Company | To C Products | To B Products & Solutions |
 | -------- | -------- | -------- |
