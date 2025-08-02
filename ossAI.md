@@ -48,17 +48,17 @@ tags: [2024 中国开源年度报告]
 
 下图只取了截至 2024 年第二季度为止，全球范围内部分产品：
 
-![image](./public/image/ossAI/HJHilcAD1l.png)
+![image](/image/ossAI/HJHilcAD1l.png)
 
 > <center> https://synaptic.com/resources/open-source-ai-2024 </center>
 
 ### **2.2 2024 人工智能时间线**
 
 - **开源模型 - 55 个**
-![image](./public/image/ossAI/S16M_0J_yl.png)
+![image](/image/ossAI/S16M_0J_yl.png)
 
 - **纯 API 模型 - 63 个**
-![image](./public/image/ossAI/HJ1Ed0ku1x.png)
+![image](/image/ossAI/HJ1Ed0ku1x.png)
 
 
     > <center> https://huggingface.co/spaces/reach-vb/2024-ai-timeline </center>
@@ -71,13 +71,13 @@ tags: [2024 中国开源年度报告]
     OpenAI 的早期领先优势正在缩小，Claude（Anthropic 公司的 AI 助手）和 Gemini（谷歌的 AI 模型）等模型正在迎头赶上。 ”在这一年的大部分时间里，基准测试和社区排行榜都指向 GPT-4 与其他最佳模型之间存在显著差距。然而，Claude 3.5 Sonnet、Gemini 1.5 和 Grok 2（特斯拉的 AI 模型）已经几乎消除了这一差距，模型性能现在开始趋同”。
 
 
-    ![Foundational Model Performance (Lmsys Leaderboard)](./public/image/ossAI/ryScvbZukl.png)
+    ![Foundational Model Performance (Lmsys Leaderboard)](/image/ossAI/ryScvbZukl.png)
     > <center> Foundational Model Performance (Lmsys Leaderboard) - Hugging Face </center>
 
 - **开源模型的崛起**
     Meta 的 Llama 系列已显著缩小了与专有模型的性能差距。 ”这标志着开源模型首次缩小了与闭源前沿模型的差距”。如 Mistral、Vicuna、Yi 等，在某些方面已经赶超封闭模型。 例如，Mixtral 8x7B 在 Elo 和 MMLU 测评中的得分超越了 GPT-3.5。
 
-    ![Foundational Model Performance (Open-LLM-Leaderboard)](./public/image/ossAI/SJiIqbW_1e.png)
+    ![Foundational Model Performance (Open-LLM-Leaderboard)](/image/ossAI/SJiIqbW_1e.png)
 
     > <center> Foundational Model Performance (Open-LLM-Leaderboard)-Hugging Face </center>
 
@@ -92,9 +92,9 @@ tags: [2024 中国开源年度报告]
         - LeRobot：提供面向现实世界机器人应用的模型、数据集和工具，致力于让机器人技术更容易访问和使用）
         - MindsDB：由 NVIDIA 支持的平台，专注于帮助企业利用数据构建 AI 模型，简化数据源与 AI/ML 工具的连接，为企业带来高效解决方案）等新兴项目在 2024 年迅速获得关注。 
 
-        ![Open Source AI Github Tracction](./public/image/ossAI/HJ_TzzWO1g.jpg)
+        ![Open Source AI Github Tracction](/image/ossAI/HJ_TzzWO1g.jpg)
 
-        ![Open Source AI Foundation Models Hugging Face Traction](./public/image/ossAI/HkwoXGbd1g.png)
+        ![Open Source AI Foundation Models Hugging Face Traction](/image/ossAI/HkwoXGbd1g.png)
 
 - **模型基准测试的挑战**
 
@@ -110,7 +110,7 @@ tags: [2024 中国开源年度报告]
     - 数据可能泄露--如果模型是在测试集上训练的，结果可能会被夸大。数据集污染和基准测试中的错误正在影响进展评估并引发安全担忧。”研究人员越来越多地关注数据集污染问题”。”一些最流行的基准测试中存在惊人的高错误率，这可能导致我们低估了某些模型的能力，并带来安全隐患。
 
     **评价指标**
-    ![image](./public/image/ossAI/HJGAKR1OJl.png)
+    ![image](/image/ossAI/HJGAKR1OJl.png)
     > <center> https://x.com/i2ichardlin/status/1869125541212700797 </center>
 
 - **关注推理计算**
@@ -132,7 +132,7 @@ tags: [2024 中国开源年度报告]
 - **特定科学领域的进展**
     AI 在多个科学领域都带来了令人惊叹的进展，比如预测蛋白质结构、发现新药、基因编辑、材料研发以及机器人和医学领域的创新，甚至还能在医疗影像中生成合成数据。这些突破展示了 AI 的广泛应用潜力，为跨学科研究和创新注入了活力。最近诺贝尔物理学和化学奖的颁布，就是 AI 助力科学发展的最佳例子！
 
-    ![image](./public/image/ossAI/H1ubqiRwke.png)
+    ![image](/image/ossAI/H1ubqiRwke.png)
     > <center> 2024 诺贝尔物理奖得主 </center>
 
 - **规划和推理限制**
@@ -144,7 +144,7 @@ tags: [2024 中国开源年度报告]
 
     <!-- <center>**OpenAI o1 Racing**</center> -->
 
-    ![image](./public/image/ossAI/HJsf0Cedkl.png)
+    ![image](/image/ossAI/HJsf0Cedkl.png)
 
     > <center> https://wx4.sinaimg.cn/mw690/8c803935ly1hxtqbzoxnhj21jk2bch8n.jpg </center>
 
@@ -159,21 +159,21 @@ tags: [2024 中国开源年度报告]
     - **深度求索（DeepSeek）**
         - **DeepSeek-V3** 在非顶尖硬件配置基础上，用远低于国际科技巨头成本，通过结构创新开发出了一个性能叫板 GPT-4o 便宜且好用的 AI 大模型，而且还是开源的！
         - **DeepSeek-V3** 多项评测成绩超越了 Qwen2.5-72B 和 Llama-3.1-405B 等其他开源模型，并在性能上和世界顶尖的闭源模型 GPT-4o 以及 Claude-3.5-Sonnet 不分伯仲。虽然目前开源的版本尚不支持多模态输入输出，但是值得期待。
-        ![image](./public/image/ossAI/SJcQq8kOkg.png)
+        ![image](/image/ossAI/SJcQq8kOkg.png)
         - 更令人惊艳的是，**DeepSeek-V3** 整个训练仅花费 557.6 万美元，这比 OpenAI、Meta 等用于预训练大型语言模型动辄数亿美元的成本要低得多。
-            ![image](./public/image/ossAI/SkfPqL1dJl.png)
+            ![image](/image/ossAI/SkfPqL1dJl.png)
         - 2025 年 1 月 20 日发布 **DeepSeek-R1** 推理模型，在多个基准测试中表现出色，尤其是在数学和程序开发领域，部分性能已达到与 OpenAI 的 o1 模型相当的水平。其特别之处在于采用了强化学习（Reinforcement Learning）作为核心训练方法，突破了传统对大规模标注数据的依赖。通过这种方式，**DeepSeek-R1** 展现了强大的推理能力，包括关联思考和自我验证等特性。
         - 以开源、便宜 20 倍的 “身价” 与 ChatGPT-4o（2024.11.20）并列
-        ![image](./public/image/ossAI/SkOUTMMOke.png)
+        ![image](/image/ossAI/SkOUTMMOke.png)
         - 在复杂提示词/风格控制榜单上，**DeepSeek-R1** 位列第一
-        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](./public/image/ossAI/H1r5ofMuyl.jpg)
+        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](/image/ossAI/H1r5ofMuyl.jpg)
         - 目前结果来看，**DeepSeek-R1** 在各个维度上都保持领先。
-        ![DeepSeek R1 Overall Comparison](./public/image/ossAI/rJovoMGd1g.jpg)
+        ![DeepSeek R1 Overall Comparison](/image/ossAI/rJovoMGd1g.jpg)
 
 
         - 在衡量模型编程开发能力的 WebDev 分榜上，**DeepSeek-R1** 位列第二，与闭源的 Claude 3.5 Sonnet 相差不到 40 分。
 
-        ![DeepSeek R1 WebDev Leaderboard](./public/image/ossAI/S1Cx2zzuJg.jpg)
+        ![DeepSeek R1 WebDev Leaderboard](/image/ossAI/S1Cx2zzuJg.jpg)
 
 
     - 月之暗面在蛇年春节前推出了 **Kimi k1.5** 多模态思考模型，轰动武林，惊动万教。 **Kimi k1.5** 在短链推理和多模态处理方面展现出色，而 OpenAI o1 则在长链推理和广泛应用场景中保持强劲表现。两者各有千秋，适用于不同的应用需求。
@@ -234,13 +234,13 @@ tags: [2024 中国开源年度报告]
 
         下图展示了 2024 年中至年底 AI 视频技术的关键节点和版本迭代的轨迹，表明了开源与闭源并行推进的趋势，以及技术落地和应用的逐步成熟。
 
-        ![image](./public/image/ossAI/SyLtBGWdkg.png)
+        ![image](/image/ossAI/SyLtBGWdkg.png)
         > https://ailab-cvc.github.io/VideoGen-Eval/
 
     - **AI 编程**
         从下图可知，AI 编程已经逐渐成为主流。知名的 AI 编程工具：在国际上有 Cusor 和 Devin，国内则有字节豆包 MarsCode、阿里通义灵码、百度文心快码等。
 
-        ![image](./public/image/ossAI/r1G1QQbOJg.png)
+        ![image](/image/ossAI/r1G1QQbOJg.png)
 
     - **AI 搜索**
         以 Perplexity 为首的新创公司，利用 AI 来为搜索精准地总结，免除了用户搜索后被数百条链接淹没，在短时间内吸引了全球大量用户，其估值高达 90 亿美元。Google、Bing、ChatGPT 4o 也在 AI 搜索领域发力，未来竞争的精彩程度可期。
@@ -273,14 +273,14 @@ tags: [2024 中国开源年度报告]
     
     2024 年夏季（S24）创业营的所有 AI 项目，充分体现了硅谷 AI 创业的热潮正持续升温！
 
-    ![image](./public/image/ossAI/HJ5HYGWukx.png)
+    ![image](/image/ossAI/HJ5HYGWukx.png)
 
     > https://www.ycombinator.com/companies?batch=S24；
  
 - **收购大增**
     - Nvidia 以 3 亿美元 收购 Deci AI
     - 其它收购：
-    ![image](./public/image/ossAI/r13iF7bO1e.png)
+    ![image](/image/ossAI/r13iF7bO1e.png)
     <!-- <center> Source: Founder Park Research Center </center> -->
     <!-- **2024 AI Company Acquisition Statistics** -->
 <!-- | **Report Date** | **Company** | **Valuation** | **Description** | **Acquisition News** |
@@ -300,7 +300,7 @@ tags: [2024 中国开源年度报告]
 
     创业维艰，AI 尤难：著名的 AI Graveyard 快速地记录了大批的阵亡 AI 新创企业。但是，我们可以预期，未来仍会有大批的创业家及投资机构前仆后继地投入 AI 创新事业中。AI 创业家不死，他们只是陆续凋零！
 
-    ![image](./public/image/ossAI/HkxgAQW_1x.png)
+    ![image](/image/ossAI/HkxgAQW_1x.png)
     > 来源：https://dang.ai/ai-graveyard
 
 ### 3.3 政策 人工智能的监管、经济影响和不断演变的人工智能地缘政治
@@ -402,7 +402,7 @@ tags: [2024 中国开源年度报告]
 <!-- **Top Domestic Large AI Models** 
 Companies with Over 1 Billion RMB in Funding -->
 
-![image](./public/image/ossAI/BkamlN-_Jx.png)
+![image](/image/ossAI/BkamlN-_Jx.png)
 <!-- | Company | 2024 Financing / Valuation | Total Raised Funds | Investors |
 | -------- | -------- | -------- | -------- |
 | Zhipu AI (智谱 AI) | March: Several billion RMB financing; June: Over $400M financing; September: Several billion RMB financing, with a total investment exceeding 20 billion RMB; December: $301M financing | Over 50 billion RMB | Beijing AI Industry Investment Fund, Mubadala Capital (UAE), Prosperity7, Keywin Capital, Junlian Capital, and other institutional investors |
@@ -418,7 +418,7 @@ Companies with Over 1 Billion RMB in Funding -->
 
 <!-- **Major Product Lines of the Six Emerging AI Model Companies** -->
 
-![image](./public/image/ossAI/HJX1eV-_kx.png)
+![image](/image/ossAI/HJX1eV-_kx.png)
 
 <!-- | Company | To C Products | To B Products & Solutions |
 | -------- | -------- | -------- |
@@ -435,10 +435,10 @@ Companies with Over 1 Billion RMB in Funding -->
 
 从 DeepSeek 惊人的性能与超低的价格打响了全球的价格大战，字节跳动的豆包，阿里巴巴的 Qwen 也立即跟上，刀刀见骨，甚至打到了负毛利！
 
-![image](./public/image/ossAI/Hy70wzWdkl.png)
+![image](/image/ossAI/Hy70wzWdkl.png)
 <!-- > <center> Note: Estimated input price - CNY$ per thousand tokens </center> -->
 
-![中国与国际AI厂商的主力模型推理价格对比](./public/image/ossAI/HJR3UG-dyx.jpg)
+![中国与国际AI厂商的主力模型推理价格对比](/image/ossAI/HJR3UG-dyx.jpg)
 <!-- > <center>Inference Price Comparison of Leading Models from Chinese and International Companies</center> -->
 
 ## 五. 世界模型与空间智能
@@ -458,7 +458,7 @@ Companies with Over 1 Billion RMB in Funding -->
 6. **短期记忆模块**：追踪当前状态和相关的成本信息，确保 AI 不“短路”。  
 
 这套模块像是一个小团队，分工合作，帮助 AI 更好地理解和应对世界的动态变化！
-![image](./public/image/ossAI/rJlXM2APke.png)
+![image](/image/ossAI/rJlXM2APke.png)
 
 ### 5.2 空间智能
 
@@ -473,7 +473,7 @@ Companies with Over 1 Billion RMB in Funding -->
 
     按照日本的规划，到 2030 年，东京将成为一个完全数字孪生的城市，从交通到能源都能实现无缝的信息整合。届时，越来越多的建筑、房屋和工厂都将被转化为虚拟数据，推动城市管理和规划的全面升级！
     
-    ![东京智能空间](./public/image/ossAI/BJ60emz_kg.jpg)
+    ![东京智能空间](/image/ossAI/BJ60emz_kg.jpg)
 
 - **交通管理与自动驾驶**
     - **新南威尔士州交通管理**
@@ -483,7 +483,7 @@ Companies with Over 1 Billion RMB in Funding -->
 
         具体来说，通过在路口部署具有 “通感算” 功能的 AI 数字道路基站，再配合 AI 路侧边缘计算系统（AI-MRS），交通管理者可以实时获取路口周围 300 米范围内所有交通参与者的动态信息。基于这些数据，系统可以即时构建一个数字孪生模型，为范围内的所有车辆提供精准、实时的服务，从而让交通更智能、更高效！
 
-        ![中国智能化路车云](./public/image/ossAI/B1fUbmzu1e.jpg)
+        ![中国智能化路车云](/image/ossAI/B1fUbmzu1e.jpg)
         <!-- > <center>China's Intelligent Vehicle-Road-Cloud Integration</center> -->
 
 - **医疗领域**
@@ -505,7 +505,7 @@ Companies with Over 1 Billion RMB in Funding -->
 具身智能的内涵体现在物理互动、泛化适应、自主进化等三大方面，强调了智能系统设计开发的动态性和复杂性。
 
 <!-- **Embodied Intelligence System Framework** -->
-![具身智能系统框架](./public/image/ossAI/ry5T7VQd1x.jpg)
+![具身智能系统框架](/image/ossAI/ry5T7VQd1x.jpg)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 ### 6.2 关键技术与进展
@@ -515,7 +515,7 @@ Companies with Over 1 Billion RMB in Funding -->
 在具身智能中，机器人需要具备 “感知-学习-决策-行动” 四大核心能力模块。简单来说，就是 “能看懂、会思考、能决定、还会动”。为了实现这一套高效的闭环，机器人需要将各种技术在自身完美结合起来，不同模块也有多种技术路径可选。这种技术协同，就像把拼图一块块拼成一个完整的智慧机器人。
 
 <!-- **<center>Key Technologies of Embodied Intelligent Robots</center>** -->
-![具身智能机器人的关键技术](./public/image/ossAI/H1MqNNXdyg.png)
+![具身智能机器人的关键技术](/image/ossAI/H1MqNNXdyg.png)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 ### 6.3 产业生态与构成
@@ -523,7 +523,7 @@ Companies with Over 1 Billion RMB in Funding -->
 具身智能机器人要想适应各种丰富的应用场景，离不开多种技术和产品的支持，同时也需要将这些复杂的系统无缝整合在一起。而要让整个产业生态健康发展，还得靠各路市场玩家一起努力、通力合作，才能真正把这条路走得更远更稳。
 
 **<center>Embodied Intelligent Robot Industry Ecosystem</center>**
-![具身智能机器人产业生态](./public/image/ossAI/Syb-8NX_Je.png)
+![具身智能机器人产业生态](/image/ossAI/Syb-8NX_Je.png)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 具身智能机器人就像一部高精尖的机器，硬件和软件是它的两大支柱。硬件方面，包括零部件、基础设施和机器人的本体，这些是它的 “骨骼” 和 “肌肉”。而软件方面，则是它的 “大脑” 和 “神经系统”，比如机器人操作系统、仿真平台、数据集、AI 大模型、视觉感知算法、运动控制算法等，都是让它 “活” 起来的关键。
@@ -539,7 +539,7 @@ Companies with Over 1 Billion RMB in Funding -->
 简单来说，就是一个方向走专业路线，另一个方向走全能路线。
 
 <!-- **<center> Two Development Paths of Embodied Intelligent Robots</center>** -->
-![具身智能机器人两大发展路径](./public/image/ossAI/ByKQd4mdyg.jpg)
+![具身智能机器人两大发展路径](/image/ossAI/ByKQd4mdyg.jpg)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 ### 6.5 技术供应商关注重点
@@ -578,7 +578,7 @@ Companies with Over 1 Billion RMB in Funding -->
     智元机器人通过**全栈开源**的方式，为行业带来了极大的推动力。他们不仅开放了核心算法和代码，还提供了硬件设计方案（灵犀X1），更进一步开源了全球首个基于真实场景的百万真机数据集 AgiBot World（该数据集的规模和质量显著超过了现有的类似数据集，例如 Google Open X-Embodiment 数据集，具有十倍的长距离数据规模和百倍的场景覆盖率），形成了一个完整的开源生态。这样的开放性，让更多开发者和企业可以低成本地参与到具身智能机器人的开发中，加速了技术的普及和创新。
 <br>
 
-![智元灵犀 X1 全栈开源机器人](./public/image/ossAI/ryMdIB7_1e.png)
+![智元灵犀 X1 全栈开源机器人](/image/ossAI/ryMdIB7_1e.png)
 
 <center> 智元灵犀 X1 全栈开源机器人</center> 
 
@@ -609,17 +609,17 @@ Genesis 是一个结合了生成模型能力的具身智能研究平台，这个
 
 始于 20 世纪 50 年代，从基于规则、行为确定的简单系统发展到能处理不确定性、具有学习和适应能力的复杂系统，得益于计算能力提升、数据增长和算法突破，如大模型和机器学习技术的发展。
 
-![image](./public/image/ossAI/Bkti9PQ_kx.png)
+![image](/image/ossAI/Bkti9PQ_kx.png)
 
 ### 7.2 定义与核心组件
 
 - AI Agent 是能感知环境并自主决策、采取行动以实现目标的自主系统，由传感器、效应器、控制中心等核心组件构成，可在物理或数字环境中运行，通过接收用户输入、感知环境、决策规划、执行动作来改变环境。
 
-    ![WEF-Core Components of an Agent](./public/image/ossAI/SkvhhPQ_Jx.png)
+    ![WEF-Core Components of an Agent](/image/ossAI/SkvhhPQ_Jx.png)
 
 - 2024 是 AI Agent 的爆发之年，也是产品逐步从 Copilot 模式转向 AI Agent 的探索之年。因此市场中往往也会把自动化程度高的 Copilot 产品作为泛化的 Agent 概念产品。Copilot 与 Agent 最大的区别在于 “自主规划” 的能力：Copilot 的模式需要人的指挥；而 Agent 则是直接面对目标任务，具有自主记忆、推理、规划和执行的全自动能力，因此终极形态的 AI Agent 只需要用户的起始指令和结果的反馈，过程中并不需要人的介入。
 
-    ![Chatbot-Copilot-AI Agent](./public/image/ossAI/rJTMI_7OJl.png)
+    ![Chatbot-Copilot-AI Agent](/image/ossAI/rJTMI_7OJl.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 <br>
 
@@ -639,30 +639,30 @@ Genesis 是一个结合了生成模型能力的具身智能研究平台，这个
 
 1. **先进 AI 代理**（Advanced AI agent）： 具备强大自主性、基于大型模型且包含多个组成部分，能够处理复杂任务并持续学习的AI 实体。
 
-    ![image](./public/image/ossAI/SyFEsPQuyg.png)
+    ![image](/image/ossAI/SyFEsPQuyg.png)
 
 2. **AI 代理系统**（AI agent system）： 由多个功能不同的 AI 代理协同工作，以完成更复杂任务的系统。 
 
 3. **多代理系统**（Multi-agent system，MAS）：是整合多个智能自主体（包括 AI 代理、AI 代理系统和人类使用者），通过不同设计，进行互动和协作，从而实现共同目标的系统，如自动驾驶汽车系统。MAS 由多个独立智能体或智能体系统协作，有网络和监督等架构类型，可提高效率和能力，但面临智能体间通信和互操作性挑战，如交通管理中的 MAS 应用。
 
-    ![image](./public/image/ossAI/BkeDowm_yx.png)
+    ![image](/image/ossAI/BkeDowm_yx.png)
 
 4. **人工智能代理、人工智能代理系统和多代理系统之间的结构和关系**
 
-    ![WEF-Structure of a multi-Agent Systems](./public/image/ossAI/HJgpVRwQOyx.png)
+    ![WEF-Structure of a multi-Agent Systems](/image/ossAI/HJgpVRwQOyx.png)
 
 ### 7.4 工作范式被颠覆
 
 - Agent 的商业价值围绕工作范式差别展开，工作范式的改变则意味着新的智能时代开启。
 
     <!-- **<center>AI Agent Capability Requirements by Automation Level** -->
-    ![AI Agent 自动化等级](./public/image/ossAI/SJera_Q_ke.png)
+    ![AI Agent 自动化等级](/image/ossAI/SJera_Q_ke.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 
 
 - **面向过程 vs. 面向目标**
 
-    ![AI Agent 造成工作方式转移](./public/image/ossAI/BJINR_QOkg.png)
+    ![AI Agent 造成工作方式转移](/image/ossAI/BJINR_QOkg.png)
     > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 <br>
 
@@ -675,7 +675,7 @@ AI Agent 在多个领域展现出广泛应用潜力，包括：
 - 教育: 支持个性化学习。 
 - ...
 
-![AI Agent 应用领域](./public/image/ossAI/ryOnktX_1e.png)
+![AI Agent 应用领域](/image/ossAI/ryOnktX_1e.png)
 
 > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 
@@ -685,7 +685,7 @@ AI Agent 在多个领域展现出广泛应用潜力，包括：
 - 中国当下的 AI Agent 市场已经迎来丰富的参与者，包括互联网大厂类、生成 AI 类、企业服务 SaaS 类、创业类、3C 类等多类型企业，这些企业依据自身技术或行业知识迅速切入市场，通过先手占据更好的生态占位；并且越来越多的企业正在进行产品打磨与场景探索。
 - 随着这些先行者的商业价值逐步展现，中国 AI Agent 的多样性将进一步丰富，投入 AI Agent 的企业数量将迎来爆发。
 
-![中国 AI Agent 生态图谱 v1.0](./public/image/ossAI/r1juWY7OJg.png)
+![中国 AI Agent 生态图谱 v1.0](/image/ossAI/r1juWY7OJg.png)
 > <center> 甲子光年智库 - 中国 AI Agent 行业研究报告</center>
 
 - 一些值得关注的互联网大厂与新兴提供商
