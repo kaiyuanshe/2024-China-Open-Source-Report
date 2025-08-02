@@ -8,10 +8,10 @@ hero:
   tagline: "KAIYUANSHE, in collaboration with multiple communities and organizations, has been releasing an annual comprehensive report on China's open-source industry for nearly a decade, providing longitudinal insights into the ecosystem."
   actions:
     - theme: brand
-      text: 立即阅读 2024 年度报告
+      text: Read the 2024 Annual Report Now
       link: /en/preface
     - theme: alt
-      text: 往年报告
+      text: Previous reports
       link: https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd
 
 features:
