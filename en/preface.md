@@ -1,11 +1,11 @@
 ---
-title: 0.3 Preface
+title: 3. Preface
 tags: [2024 China Open Source Report]
-
+Author: Nadia Jiang,
+Translator & Reviewer: Ted Liu
 ---
 
 # Preface
-Author: Nadia Jiang, Translator & Reviewer: Ted Liu
 
 Since 2015, when Kaiyuanshe first released the "China Open-Source Ecosystem Report," the **"China Open-Source Annual Report"** has now reached its **10th year**. Except for a brief pause in 2017, Kaiyuanshe has consistently followed an open collaboration approach, inviting partners from academia, industry, and the open-source community to contribute. Each year, as the new chapter of open source unfolds, the report provides insights into the past year’s trends, offering a comprehensive panorama of China’s open-source ecosystem.
 

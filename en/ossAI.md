@@ -1,53 +1,37 @@
 ---
-title: 4. Open Source AI
+title: Open Source AI
 tags: [2024 China Open Source Report]
 
 ---
 
 # Open Source AI
+
 Author: Biaowei Zhuang & Ted Liu, Translator & Reviewer: Ted Liu
 
 ## 1. Overview
+
 Since the groundbreaking emergence of ChatGPT at the end of 2022, 2023 has been a pivotal year for the development of artificial intelligence. By 2024, the explosive growth of open-source AI has completely rewritten industry rules—shifting from technological monopolies to collective innovation, from lab-driven research to real-world industrial applications. An AI paradigm shift, led by open source, has officially arrived. As a result, the **2024 China Open Source Annual Report** has decided to dedicate a separate section, **'Open Source AI'**, to provide readers with a more comprehensive perspective on this transformative movement.
 
 On July 27, 2024, Meta CEO Mark Zuckerberg published a groundbreaking article titled **"AI is approaching an open-source inflection point."** He emphasized the profound impact of open-source AI on the entire industry, stating that as AI technology advances and community collaboration strengthens, open source will be the key driver of innovation and the widespread adoption of AI. The key points in his article provide a strong summary of the current state and development trends of open-source AI:
 
-- **The Rise of Open-Source AI**  
-An increasing number of companies and research institutions are releasing open-source AI models and tools, a trend that is transforming the industry's competitive landscape. Open source is driving technological democratization, allowing more developers and enterprises to access and utilize cutting-edge AI technology.
+- **The Rise of Open-Source AI** An increasing number of companies and research institutions are releasing open-source AI models and tools, a trend that is transforming the industry's competitive landscape. Open source is driving technological democratization, allowing more developers and enterprises to access and utilize cutting-edge AI technology.
+- **Balancing Business and Technology** Enterprises leverage open-source AI to attract developer ecosystems while integrating proprietary and open-source technologies to build unique competitive advantages. This dual-track strategy allows companies to benefit from open source while maintaining the competitiveness of their core technologies.
+- **The Importance of Community and Collaboration** The key to the success of open-source AI lies in an active developer community and a culture of collaboration. These communities provide strong support for model improvements, bug fixes, and new feature development, significantly accelerating the pace of AI innovation.
+- **Ethics and Transparency** Open-source AI introduces new possibilities for transparency and accountability in AI technology. Open-source code makes the training and decision-making processes of models more transparent, helping to address bias and ethical concerns.
+- **Future Challenges** Despite its vast potential, open-source AI faces several challenges, including copyright protection, data privacy, security vulnerabilities, and commercial sustainability. The industry must find solutions to these issues to fully unlock the potential of open-source AI.
 
-- **Balancing Business and Technology**  
-Enterprises leverage open-source AI to attract developer ecosystems while integrating proprietary and open-source technologies to build unique competitive advantages. This dual-track strategy allows companies to benefit from open source while maintaining the competitiveness of their core technologies.
+As Zuckerberg asserted, **"Open Source AI is the Path Forward."** In 2024, open-source models like Llama and Mistral are rapidly approaching—and even surpassing—proprietary benchmarks. Chinese teams such as DeepSeek, Tongyi Qianwen (Qwen), and Zhipu are reshaping the global landscape with their **"radical openness"** and **"cost revolution."** Platforms like Hugging Face and GitHub are bringing together hundreds of thousands of developers, making collaboration and knowledge-sharing the cornerstone of technological democratization. Open source is not just about making code accessible—it represents a **redefinition of technological beliefs.** It transforms innovation from being confined to research labs to reaching everyday life, shifting AI from corporate monopolies to a movement of collective creation.
 
-- **The Importance of Community and Collaboration**  
-The key to the success of open-source AI lies in an active developer community and a culture of collaboration. These communities provide strong support for model improvements, bug fixes, and new feature development, significantly accelerating the pace of AI innovation.
-
-- **Ethics and Transparency**  
-Open-source AI introduces new possibilities for transparency and accountability in AI technology. Open-source code makes the training and decision-making processes of models more transparent, helping to address bias and ethical concerns.
-
-- **Future Challenges**  
-Despite its vast potential, open-source AI faces several challenges, including copyright protection, data privacy, security vulnerabilities, and commercial sustainability. The industry must find solutions to these issues to fully unlock the potential of open-source AI.
-
-As Zuckerberg asserted, **"Open Source AI is the Path Forward."** In 2024, open-source models like Llama and Mistral are rapidly approaching—and even surpassing—proprietary benchmarks. Chinese teams such as DeepSeek, Tongyi Qianwen (Qwen), and Zhipu are reshaping the global landscape with their **"radical openness"** and **"cost revolution."** Platforms like Hugging Face and GitHub are bringing together hundreds of thousands of developers, making collaboration and knowledge-sharing the cornerstone of technological democratization.  
-
-Open source is not just about making code accessible—it represents a **redefinition of technological beliefs.** It transforms innovation from being confined to research labs to reaching everyday life, shifting AI from corporate monopolies to a movement of collective creation.
-
-However, the rapid surge in technology also brings **unprecedented challenges.** Behind the increasing convergence in performance lies the failure of benchmark testing and growing concerns over data contamination. The **low cost and high availability** of open-source models have triggered an intense global AI price war. NVIDIA’s **chip dominance** and the **EU’s strict regulations** reflect the complex entanglement between technology and power. Meanwhile, the **misuse of synthetic data** and the **proliferation of deepfakes** continuously raise alarms over ethics and security.  
-
-This leads us to an inevitable question: **As AI approaches human-level capabilities, are we truly prepared to coexist with it?**
+However, the rapid surge in technology also brings **unprecedented challenges.** Behind the increasing convergence in performance lies the failure of benchmark testing and growing concerns over data contamination. The **low cost and high availability** of open-source models have triggered an intense global AI price war. NVIDIA’s **chip dominance** and the **EU’s strict regulations** reflect the complex entanglement between technology and power. Meanwhile, the **misuse of synthetic data** and the **proliferation of deepfakes** continuously raise alarms over ethics and security. This leads us to an inevitable question: **As AI approaches human-level capabilities, are we truly prepared to coexist with it?**
 
 To enhance the reader's experience, the editors of this chapter have opted **not** to use the traditional news listing format. Instead, they have synthesized insights from multiple domestic and international reports and in-depth analyses, blending **a global perspective with local insights.** This chapter systematically unpacks the contradictions and hopes of our era—**from technological breakthroughs and commercial battles to policy struggles and ethical reflections.** In the following sections, you will discover:
 
 - **How Open Source is Breaking Technological Monopolies** Bringing Llama 3 and GPT-4o into direct competition on performance rankings;
-
 - **Lightweight Models and Multimodality** Why they have become the key to AI deployment and real-world applications;
-
 - **Embodied Intelligence and AI Agents** – How they are redefining the boundaries of human-machine collaboration.
-
 - **The Power of Chinese Open-Source AI** How it is leveraging price wars and full-scale open sourcing to break through the competition.
 
-As we stand at the doorstep of 2025, AI technology is reaching a critical open-source inflection point. The future industry leaders will be those who can strike the optimal balance between open source and commercialization. By embracing open source, AI has the potential to accelerate real-world applications while driving the entire industry toward a more open and inclusive future.  
-
-Now, more than ever, we must remain clear-eyed: the vast horizon of open-source AI should not be a battleground for a few tech giants but a collective intelligence ecosystem built and shared by all.
+As we stand at the doorstep of 2025, AI technology is reaching a critical open-source inflection point. The future industry leaders will be those who can strike the optimal balance between open source and commercialization. By embracing open source, AI has the potential to accelerate real-world applications while driving the entire industry toward a more open and inclusive future.Now, more than ever, we must remain clear-eyed: the vast horizon of open-source AI should not be a battleground for a few tech giants but a collective intelligence ecosystem built and shared by all.
 
 May this report serve as a guiding light, illuminating both reason and warmth in the tide of technological progress.
 
@@ -56,7 +40,6 @@ May this report serve as a guiding light, illuminating both reason and warmth in
 ### 2.1 2024 Open-Source AI Panorama
 
 There are different classifications for AI technology stacks and no industry standards, so this section uses some reported classifications for readers' reference. 
-
 - Foundation Model 
 - Model Deployment and Inference
 - Development Tools
@@ -65,23 +48,20 @@ There are different classifications for AI technology stacks and no industry sta
 
 The chart below takes only a selection of products globally as of the second quarter of 2024:
 
-![image](https://hackmd.io/_uploads/HJHilcAD1l.png)
+![image](/image/ossAI/HJHilcAD1l.png)
 
-<center> https://synaptic.com/resources/open-source-ai-2024 </center>
-<br>
+> <center> https://synaptic.com/resources/open-source-ai-2024 </center>
 
 ### 2.2 2024 Artificial Intelligence Timeline
 
 - **Open Source Models - 55**
-
-![image](https://hackmd.io/_uploads/S16M_0J_yl.png)
+![image](/image/ossAI/S16M_0J_yl.png)
 
 - **API-Only Models - 63**
-
 ![image](https://hackmd.io/_uploads/HJ1Ed0ku1x.png)
 
-> <center> https://huggingface.co/spaces/reach-vb/2024-ai-timeline </center>
-<br>
+
+    > <center> https://huggingface.co/spaces/reach-vb/2024-ai-timeline </center>
 
 ## 3. 2024 Artificial Intelligence Panorama Report
 
@@ -90,13 +70,14 @@ The chart below takes only a selection of products globally as of the second qua
 - **Performance Convergence**
     OpenAI's early lead is narrowing, with models like Claude (Anthropic's AI model) and Gemini (Google's AI model) catching up. For most of the year, benchmarks and community leaderboards indicated a significant gap between GPT-4 and other top models. However, Claude 3.5 Sonnet, Gemini 1.5, and Grok 2 (Tesla's AI model) have nearly closed this gap, and model performance is now beginning to converge.
 
-    ![Foundational Model Performance (Lmsys Leaderboard)](https://hackmd.io/_uploads/ryScvbZukl.png)
+
+    ![Foundational Model Performance (Lmsys Leaderboard)](/image/ossAI/ryScvbZukl.png)
     > <center> Foundational Model Performance (Lmsys Leaderboard) - Hugging Face </center>
 
 - **The Rise of Open Source Models**
     Meta's Llama series has significantly narrowed the performance gap with proprietary models. "This marks the first time that open-source models have closed the gap with the cutting-edge closed-source models." For instance, models like Mistral, Vicuna, and Yi have surpassed closed models in certain aspects. For example, Mixtral 8x7B has outperformed GPT-3.5 in both Elo and MMLU evaluations.
 
-    ![Foundational Model Performance (Open-LLM-Leaderboard)](https://hackmd.io/_uploads/SJiIqbW_1e.png)
+    ![Foundational Model Performance (Open-LLM-Leaderboard)](/image/ossAI/SJiIqbW_1e.png)
 
     > <center> Foundational Model Performance (Open-LLM-Leaderboard)-Hugging Face </center>
 
@@ -111,9 +92,9 @@ The chart below takes only a selection of products globally as of the second qua
         - LeRobot: Offering models, datasets, and tools for real-world robotics applications, dedicated to making robotics more accessible and user-friendly.
         - MindsDB, an NVIDIA-backed platform focused on enabling businesses to build AI models using data and simplifying the integration of data sources with AI/ML tools, along with other emerging projects, rapidly gained traction in 2024.
 
-        ![Open Source AI Github Tracction](https://hackmd.io/_uploads/HJ_TzzWO1g.jpg)
+        ![Open Source AI Github Tracction](/image/ossAI/HJ_TzzWO1g.jpg)
 
-        ![Open Source AI Foundation Models Hugging Face Traction](https://hackmd.io/_uploads/HkwoXGbd1g.png)
+        ![Open Source AI Foundation Models Hugging Face Traction](/image/ossAI/HkwoXGbd1g.png)
 
 - **The Challenges of Model Benchmarking**
 
@@ -124,15 +105,12 @@ The chart below takes only a selection of products globally as of the second qua
     - **Standardization**: With a fair competitive environment, anyone can verify the vendor's claims. If a new LLM claims to have world-class mathematical reasoning abilities, you can check whether it passed the GSM8K or MATH exams.
 
     Benchmarking is essentially a set of specially designed "exam questions," which could be multiple-choice, programming problems, or conversational tasks. Each question has a clear correct answer or scoring standard. We "bring the large model into the exam room" and have it answer these questions. Then, we score it based on how many it answers correctly (or other performance metrics) and compare it with other models on the leaderboard. A high score represents the model's strengths, while a low score tells us which areas need improvement. It's like giving AI a comprehensive report card!
-
     - Some benchmarks can become "easier" over time as models improve, thus losing their predictive value.
-
     - Benchmarks rarely simulate the chaotic conditions of the real world. For business use cases, custom tests are better than relying solely on public leaderboards.
-
     - Data leakage is a concern—if a model is trained on the test set, the results may be inflated. Dataset contamination and errors in benchmark testing are affecting progress evaluations and raising security concerns. "Researchers are increasingly focusing on the issue of dataset contamination." "Some of the most popular benchmarks have surprisingly high error rates, which could lead to underestimating the capabilities of certain models and pose security risks."
 
     **Evaluation Metrics**
-    ![image](https://hackmd.io/_uploads/HJGAKR1OJl.png)
+    ![image](/image/ossAI/HJGAKR1OJl.png)
     > <center> https://x.com/i2ichardlin/status/1869125541212700797 </center>
 
 - **Focus on Reasoning Computation**
@@ -154,8 +132,8 @@ The chart below takes only a selection of products globally as of the second qua
 - **Advances in specific scientific fields**
     AI has brought astonishing advancements across multiple scientific fields, such as predicting protein structures, discovering new drugs, gene editing, materials research, and innovations in robotics and medicine. It can even generate synthetic data in medical imaging. These breakthroughs demonstrate the vast potential of AI, injecting vitality into interdisciplinary research and innovation. The recent awarding of the Nobel Prizes in Physics and Chemistry stands as a testament to AI's role in driving scientific progress!
 
-    ![image](https://hackmd.io/_uploads/H1ubqiRwke.png)
-> <center> 2024 Nobel Prize Winners </center>
+    ![image](/image/ossAI/H1ubqiRwke.png)
+    > <center> 2024 Nobel Prize Winners </center>
 
 - **Planning and Reasoning Limitations** 
     Large language models still "stumble" when handling planning and simulation tasks, reflecting certain limitations in their generalization and real-world reasoning capabilities. However, the latest research is enhancing their reasoning abilities through clever methods, such as "chain-of-thought prompting" (guiding the model to derive answers step by step), reinforcement learning (helping the model learn through trial and error), and open-ended exploration (expanding its adaptability). These approaches are all striving to make models smarter and more reliable!
@@ -163,48 +141,42 @@ The chart below takes only a selection of products globally as of the second qua
 - **Chinese AI model companies are making steady progress, forging ahead with determination**
 
     China (V)LLM tops the leaderboards despite sanctions.
-**<center>OpenAI o1 Racing**
-    Baidu, Tencent, ByteDance, MiniMax, Baichuan, 01.AI...not included yet</center>
+
+    **<center>OpenAI o1 Racing</center>**
+
     ![OpenAI o1 racing](https://hackmd.io/_uploads/SkFDQKr3kl.png)
 
+    > <center>OpenAI o1 Racing Baidu, Tencent, ByteDance, MiniMax, Baichuan, 01.AI...not included yet (https://wx4.sinaimg.cn/mw690/8c803935ly1hxtqbzoxnhj21jk2bch8n.jpg)</center>
 
     - Alibaba recently released the **Qwen-2** series, whose visual capabilities have particularly impressed the community, ranging from challenging OCR tasks to the ability to analyze complex artworks.
 
     - In terms of smaller projects:
-      - The NLP Lab at Tsinghua University has funded the **OpenBMB** project, which gave rise to the **MiniCPM** series. These models, with fewer than 2.5B parameters, can run on devices. Their 28B vision model slightly trails GPT-4V on some metrics, while the Llama 3-based 85B model surpasses GPT-4V on others. 
-      - Tsinghua University's Knowledge Engineering Group has also developed **CogVideoX**, one of the most capable text-to-video models.
+        - The NLP Lab at Tsinghua University has funded the **OpenBMB** project, which gave rise to the **MiniCPM** series. These models, with fewer than 2.5B parameters, can run on devices. Their 28B vision model slightly trails GPT-4V on some metrics, while the Llama 3-based 85B model surpasses GPT-4V on others. 
+        - Tsinghua University's Knowledge Engineering Group has also developed **CogVideoX**, one of the most capable text-to-video models.
+
+    - On January 20, 2025, two highly anticipated domestic AI large model startups, **DeepSeek** and **Kimi**, almost simultaneously released their latest models: the **DeepSeek-R1** reasoning model and the **Kimi k1.5** multimodal thinking model. Both outperformed OpenAI's official o1 model in performance benchmarks. Meanwhile, compared to their international counterparts, China's open-source models are more comprehensive, garnering a global following.
+
+    - **DeepSeek**
+        - **DeepSeek-V3**, built on non-top-tier hardware configurations, has developed a cost-effective and high-performing AI large model that rivals GPT-4o through architectural innovation, all at a fraction of the cost of international tech giants. What's more, it's open-source!
+        - **DeepSeek-V3** has surpassed other open-source models like Qwen2.5-72B and Llama-3.1-405B in multiple benchmarks, achieving performance on par with the world's top closed-source models, GPT-4o and Claude-3.5-Sonnet. Although the current open-source version does not yet support multimodal input and output, it is highly promising and worth anticipating.
+        ![image](/image/ossAI/SJcQq8kOkg.png)
+        - Even more impressive is that the entire training of **DeepSeek-V3** cost only $5.576 million, significantly lower than the hundreds of millions of dollars spent by OpenAI, Meta, and others on pre-training large language models.
+            ![image](https://hackmd.io/_uploads/SkfPqL1dJl.png)
+        - On January 20, 2025, the **DeepSeek-R1** reasoning model was released, demonstrating outstanding performance across multiple benchmarks, particularly in mathematics and coding, with some capabilities reaching levels comparable to OpenAI's o1 model. Its unique feature lies in the adoption of Reinforcement Learning as the core training method, breaking away from traditional reliance on large-scale annotated data. Through this approach, **DeepSeek-R1** exhibits strong reasoning abilities, including associative thinking and self-verification.
+        - With its open-source nature and a cost 20 times lower, it stands alongside ChatGPT-4o (as of November 20, 2024).
+        ![image](/image/ossAI/SkOUTMMOke.png)
+        - On the leaderboard for complex prompts/style control, **DeepSeek-R1** ranks first.
+        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](/image/ossAI/H1r5ofMuyl.jpg)
+        - Based on current results, **DeepSeek-R1** maintains a leading position across all dimensions.
+        ![DeepSeek R1 Overall Comparison](/image/ossAI/rJovoMGd1g.jpg)
 
 
-  - On January 20, 2025, two highly anticipated domestic AI large model startups, **DeepSeek** and **Kimi**, almost simultaneously released their latest models: the **DeepSeek-R1** reasoning model and the **Kimi k1.5** multimodal thinking model. Both outperformed OpenAI's official o1 model in performance benchmarks. Meanwhile, compared to their international counterparts, China's open-source models are more comprehensive, garnering a global following.
+        - On the WebDev sub-ranking, which measures a model's programming and development capabilities, **DeepSeek-R1** ranks second, trailing the closed-source Claude 3.5 Sonnet by less than 40 points.
 
-  - **DeepSeek**
-    - **DeepSeek-V3**, built on non-top-tier hardware configurations, has developed a cost-effective and high-performing AI large model that rivals GPT-4o through architectural innovation, all at a fraction of the cost of international tech giants. What's more, it's open-source!
-    - **DeepSeek-V3** has surpassed other open-source models like Qwen2.5-72B and Llama-3.1-405B in multiple benchmarks, achieving performance on par with the world's top closed-source models, GPT-4o and Claude-3.5-Sonnet. Although the current open-source version does not yet support multimodal input and output, it is highly promising and worth anticipating.
+        ![DeepSeek R1 WebDev Leaderboard](/image/ossAI/S1Cx2zzuJg.jpg)
 
-        ![image](https://hackmd.io/_uploads/SJcQq8kOkg.png)
 
-    - Even more impressive is that the entire training of **DeepSeek-V3** cost only $5.576 million, significantly lower than the hundreds of millions of dollars spent by OpenAI, Meta, and others on pre-training large language models.
-
-        ![image](https://hackmd.io/_uploads/SkfPqL1dJl.png)
-
-    - On January 20, 2025, the **DeepSeek-R1** reasoning model was released, demonstrating outstanding performance across multiple benchmarks, particularly in mathematics and coding, with some capabilities reaching levels comparable to OpenAI's o1 model. Its unique feature lies in the adoption of Reinforcement Learning as the core training method, breaking away from traditional reliance on large-scale annotated data. Through this approach, **DeepSeek-R1** exhibits strong reasoning abilities, including associative thinking and self-verification.
-    - With its open-source nature and a cost 20 times lower, it stands alongside ChatGPT-4o (as of November 20, 2024).
-
-        ![image](https://hackmd.io/_uploads/SkOUTMMOke.png)
-
-    - On the leaderboard for complex prompts/style control, **DeepSeek-R1** ranks first.
-
-        ![DeepSeek R1 Chatbot Arena - Hard Prompts w. Style Control](https://hackmd.io/_uploads/H1r5ofMuyl.jpg)
-
-    - Based on current results, **DeepSeek-R1** maintains a leading position across all dimensions.
-
-        ![DeepSeek R1 Overall Comparison](https://hackmd.io/_uploads/rJovoMGd1g.jpg)
-
-    - On the WebDev sub-ranking, which measures a model's programming and development capabilities, **DeepSeek-R1** ranks second, trailing the closed-source Claude 3.5 Sonnet by less than 40 points.
-
-        ![DeepSeek R1 WebDev Leaderboard](https://hackmd.io/_uploads/S1Cx2zzuJg.jpg)
-
-  - Just before the Year of the Snake, Moonshot AI unveiled the **Kimi k1.5** multimodal thinking model, creating a sensation in the AI community. **Kimi k1.5** excels in short-chain reasoning and multimodal processing, while OpenAI's o1 maintains a strong performance in long-chain reasoning and broad application scenarios. Each has its strengths, catering to different application needs.
+    - Just before the Year of the Snake, Moonshot AI unveiled the **Kimi k1.5** multimodal thinking model, creating a sensation in the AI community. **Kimi k1.5** excels in short-chain reasoning and multimodal processing, while OpenAI's o1 maintains a strong performance in long-chain reasoning and broad application scenarios. Each has its strengths, catering to different application needs.
 <br>
 
 | Feature             | Kimi k1.5                        | OpenAI o1                  |
@@ -215,8 +187,7 @@ The chart below takes only a selection of products globally as of the second qua
 | **Context Window**   | 128K                             | <=128K                     |
 | **Reinforcement Learning Application** | Widely applied, enhancing autonomous exploration capabilities | Present, but not exceeding Kimi k1.5 |
 
-<center> Kimi k1.5 vs. OpenAI o1 </center> 
-<br>
+<center> Kimi k1.5 vs. OpenAI o1 </center>
 
 ### 3.2 Industry: Commercial Applications of Artificial Intelligence and Its Business Impact
 
@@ -226,13 +197,12 @@ The chart below takes only a selection of products globally as of the second qua
     NVIDIA remains the undisputed leader in the AI chip market—its GPUs are almost ubiquitous in research papers and large-scale deployments. With rapid product updates and advanced GPU interconnect technology, NVIDIA's position has become even more solid. Even NVIDIA's CEO, Jensen Huang, boldly suggested, "Every government should have its own large language model to protect national assets."
 
     However, this heavy reliance on NVIDIA has sparked some concerns. As a result, tech giants like Google, Meta, and OpenAI have begun actively exploring alternative hardware solutions, seeking more options to break free from the constraints of a single supplier.
-    
     * Competitors: Established rivals like AMD and Intel are striving to catch up but remain significantly behind NVIDIA.
     * A handful of AI chip startups, such as Cerebras and Groq, are gaining some momentum. Unlike NVIDIA, which dominates the training hardware market, these startups primarily focus on providing inference interfaces and cloud services, differentiating themselves by offering faster and more cost-effective solutions than NVIDIA.
 
 - **Talent Flow from Major Labs**
     Top AI labs like OpenAI and DeepMind have recently experienced a brain drain, enabling well-funded newcomers such as Sakana AI and H Company to rise rapidly. These new challengers, led by renowned researchers, focus on specific AI domains or innovative architectures, showcasing the diversification and deepening of the AI ecosystem.
-    
+
     However, transitioning from research to entrepreneurship is not always smooth sailing. Some high-profile projects have already encountered significant challenges in practical operations, highlighting the gap between technological breakthroughs and commercial implementation.
 
 - **Penetration into Vertical Industries**
@@ -262,15 +232,15 @@ The chart below takes only a selection of products globally as of the second qua
         - **Closed-Source Models**: These include a series of models (such as Gen-3, D.M, Kling, etc.) launched by technology companies like Runway, LUMA AI, ByteDance, and Kuaishou, which have gradually evolved to higher versions (e.g., D.M 1.6 and Kling 1.5). These models continue to enhance their functionality and precision, offering increasingly robust support for video generation.
         - **Open-Source Models**: Centered around the Open-Sora series and complemented by emerging projects like EasyAnimate and the CogVideo-X series, these models are driving the growth of the open-source community. They provide developers with more accessible tools and opportunities for collaboration.
 
-       The following diagram illustrates the key milestones and version iteration trajectory of AI video technology from mid-2024 to the end of the year. It highlights the parallel advancement of open-source and closed-source models, as well as the gradual maturation of technology implementation and application.
+        The following diagram illustrates the key milestones and version iteration trajectory of AI video technology from mid-2024 to the end of the year. It highlights the parallel advancement of open-source and closed-source models, as well as the gradual maturation of technology implementation and application.
 
-        ![image](https://hackmd.io/_uploads/SyLtBGWdkg.png)
-https://ailab-cvc.github.io/VideoGen-Eval/
+        ![image](/image/ossAI/SyLtBGWdkg.png)
+        > https://ailab-cvc.github.io/VideoGen-Eval/
 
     - **AI Coding**
         As shown in the figure below, AI programming has gradually become mainstream. Notable AI programming tools include Cursor and Devin internationally, while domestically, there are ByteDance's Doubao MarsCode, Alibaba's Tongyi Lingma, and Baidu's Wenxin Kuaima, among others.
-    
-        ![image](https://hackmd.io/_uploads/r1G1QQbOJg.png)
+
+        ![image](/image/ossAI/r1G1QQbOJg.png)
 
     - **AI Search**
         Startups like Perplexity are leading the charge by leveraging AI to provide precise summaries for search queries, sparing users from being overwhelmed by hundreds of links. This approach has rapidly attracted a global user base, propelling the company to a valuation of $9 billion. Meanwhile, tech giants such as Google, Bing, and ChatGPT 4o are also making significant strides in the AI search domain, setting the stage for an intensely competitive future.
@@ -291,7 +261,7 @@ https://ailab-cvc.github.io/VideoGen-Eval/
     **Capital flow in the open-source AI sector has significantly accelerated**, with large-scale funding deals becoming the norm. Over the past two years, this sector has completed more than 60 transactions, totaling over $13 billion. Remarkably, 45% of these deals were Series A or later-stage funding rounds, indicating that investors are increasingly focusing on projects that have entered the growth phase, optimistic about their potential and future prospects.
 
     **Open-Source AI Startups Attract Significant Capital Investment**
-    - Scale AI completed a $1 billion Series F funding round. 
+    * Scale AI completed a $1 billion Series F funding round. 
     * Mistral AI secured $640 million in a Series B funding round. 
     * Together AI raised $106 million in a Series A funding round.
     * Supabase and AutoGPT are also seen as having the potential to attract further investment.
@@ -303,16 +273,16 @@ https://ailab-cvc.github.io/VideoGen-Eval/
 
     All AI projects in the Summer 2024 (S24) accelerator fully demonstrate that the AI startup boom in Silicon Valley is continuing to heat up! 
 
-    ![image](https://hackmd.io/_uploads/HJ5HYGWukx.png)
- <center>https://www.ycombinator.com/companies?batch=S24</center>
-<br>
+    ![image](/image/ossAI/HJ5HYGWukx.png)
+
+    > https://www.ycombinator.com/companies?batch=S24
 
 - **Acquisitions Surge**
     - Nvidia acquired Deci AI for $300 million
     - Other acquisitions:
-
-        **2024 AI Company Acquisition Statistics**
-
+    <!-- ![image](./public/image/ossAI/r13iF7bO1e.png) -->
+    <center> Source: Founder Park Research Center </center>
+    **2024 AI Company Acquisition Statistics**
 | **Report Date** | **Company** | **Valuation** | **Description** | **Acquisition News** |
 |---------------|------------|-------------|---------------|----------------|
 | **July 2024** | **Adept** | Over $1B | AI Agent | Acquired by Amazon, with talent and technology integrated into Amazon |
@@ -326,18 +296,12 @@ https://ailab-cvc.github.io/VideoGen-Eval/
 | **February 2024** | **Writer** | $500M - $750M | Enterprise-grade AI writing assistant | Being pursued by three enterprises for acquisition |
 | **February 2024** | **Perplexity** | $3B | AI search tool | Its management is in acquisition discussions with four companies |
 
-
-<center> Source: Founder Park Research Center </center>
-<br>
-
-
 - **AI Graveyard**
 
     Starting a business is tough, and AI is especially challenging: The famous AI Graveyard quickly records a large number of fallen AI startups. However, we can expect that in the future, many more entrepreneurs and investment firms will continue to rush into the AI innovation field. AI entrepreneurs never die; they just fade away!
 
-    ![image](https://hackmd.io/_uploads/HkxgAQW_1x.png)
-    <center> Source：https://dang.ai/ai-graveyard </center>
-<br>
+    ![image](/image/ossAI/HkxgAQW_1x.png)
+    > Source：https://dang.ai/ai-graveyard
 
 ### 3.3 Policy: AI Regulation, Economic Impact, and the Evolving Geopolitics of AI
 
@@ -397,40 +361,28 @@ https://ailab-cvc.github.io/VideoGen-Eval/
     Mistral and Llama, among other open-source models, have firmly established themselves within the AI community. By delivering efficient versions and demonstrating exceptional performance in benchmarks, they are competing with top-tier closed-source models like GPT and Claude, even surpassing them in certain metrics.
 
 - **The Role of Open Source in the AI Lifecycle**
-
     - Open source continues to grow along the "enlightenment slope" of the AI cycle, driving value innovation.  
     - While Hugging Face and OpenAI dominate the field, codebases like MindsDB and Roboflow are also rising, with projects such as AutoGPT standing out prominently.
 
 - **Open-Source Innovation Expands Downstream**
-
     - Extending from model and tool development to training and monitoring fields.
     - In 2024, around 150 companies are involved in open-source AI innovation, including model training, fine-tuning, and monitoring tools, indicating the maturation of the foundational toolchain.
 
 - **Significant Growth in Funding and Deals** 
-
     - The transaction size and number of deals for open-source AI startups have surged, demonstrating immense potential.
     - For example, Nvidia acquired Deci AI for $300 million, Scale AI raised $1 billion, and Mistral AI secured $640 million, highlighting the high recognition of capital in this field.
 
 ### 3.6 Future Predictions: 10 predictions for AI developments in the next 12 months
 
 1. **Massive Investment Draws Attention**: A sovereign nation might invest over $10 billion in a major U.S. AI lab, triggering national security reviews. 
-
 2. **No-Code Creativity Goes Viral**: An app or website entirely created by someone without programming skills could go viral, potentially breaking into the top 100 on the App Store.
-
 3. **Shift in Data Collection Policies**: As copyright cases go to trial, leading AI labs may make significant changes to their data collection practices.
- 
 4. **EU Relaxes AI Act**: Due to lawmakers' concerns about stifling innovation, the early implementation of the EU AI Act might be more lenient than expected.
-
 5. **Open-Source AI Breaks Through**: An open-source model could surpass OpenAI's o1 model in benchmark tests (Editor's Note: DeepSeek and Kimi are making strides in this direction).
-
 6. **NVIDIA's Dominance Remains Unshaken**: Challengers still cannot disrupt NVIDIA's leadership in the AI chip market.  
-
 7. **Cooling Investment in Humanoid Robots**: Investment in humanoid robots may decline as companies struggle to find viable market directions.  
-
 8. **Apple Advances On-Device AI**: Apple's breakthroughs in on-device AI research will accelerate the development of AI for personal devices.  
-
 9. **AI Scientist Publishes Research**: A research paper generated by AI might be accepted by a major machine learning conference or workshop.  
-
 10. **AI Video Game Takes Off**: A video game featuring generative AI-driven interactive elements could become a hit, offering a revolutionary gaming experience.
 
 ## 4. 2024 AI Status and Development in China
@@ -450,6 +402,7 @@ After a year of consolidation, the industry is transitioning from chaos to stabi
 **Top Domestic Large AI Models** 
 Companies with Over 1 Billion RMB in Funding
 
+<!-- ![image](./public/image/ossAI/BkamlN-_Jx.png) -->
 | Company | 2024 Financing / Valuation | Total Raised Funds | Investors |
 | -------- | -------- | -------- | -------- |
 | Zhipu AI (智谱 AI) | March: Several billion RMB financing; June: Over $400M financing; September: Several billion RMB financing, with a total investment exceeding 20 billion RMB; December: $301M financing | Over 50 billion RMB | Beijing AI Industry Investment Fund, Mubadala Capital (UAE), Prosperity7, Keywin Capital, Junlian Capital, and other institutional investors |
@@ -465,6 +418,8 @@ Companies with Over 1 Billion RMB in Funding
 
 **Major Product Lines of the Six Emerging AI Model Companies**
 
+![image](./public/image/ossAI/HJX1eV-_kx.png)
+
 | Company | To C Products | To B Products & Solutions |
 | -------- | -------- | -------- |
 | Zhipu AI (智谱) | Zhipu Qingyan (智谱清言) | BigModel Zhipu AI Open Platform: Solutions for smart vehicles, manufacturing, consumer goods, finance, government services, healthcare, gaming, cultural tourism, and AI agents. |
@@ -475,21 +430,16 @@ Companies with Over 1 Billion RMB in Funding
 | 01.AI (零一万物) | Wanzhi (万知) | 01.AI Large Model Open Platform: Solutions for digital humans, marketing short video solutions, and AI infrastructure solutions  |
 
 <center> Source: Jazzyear </center>
-<br>
-
 
 ### 4.2 Chinese AI vendors start a global price war
 
 The global price war was ignited by DeepSeek's astonishing performance and ultra-low pricing, prompting ByteDance's Doubao and Alibaba's Qwen to quickly follow suit, slashing prices to the bone and even pushing into negative margins!
 
-![price_war_comparison](https://hackmd.io/_uploads/rkYgAtSnke.png)
+![price_war_comparison](/image/ossAI/en/Hy70wzWdkl.png)
 > <center> Note: Estimated input price - CNY$ per thousand tokens </center>
-<br>
 
-![inference_price_comparison](https://hackmd.io/_uploads/B1bRvtSn1e.png)
-
+![inference_price_comparison](/image/ossAI/en/HJR3UG-dyx.jpg)
 > <center>Inference Price Comparison of Leading Models from Chinese and International Companies</center>
-<br>
 
 ## 5. World Modeling and Spatial Intelligence
 
@@ -500,23 +450,15 @@ The global price war was ignited by DeepSeek's astonishing performance and ultra
 The world model can autonomously understand how the world operates by learning from unlabeled data (similar to listening to someone speak without needing explanations), completely without requiring explicit instructions.
 
 The architecture of the world model consists of six modules, each responsible for different tasks:
-
 1. **Configurator**: Manages and controls overall operations.
-
 2. **Perception Module**: Understands the current state, acting as the AI's "sensory organs." 
-
 3. **World Model**: Predicts what might happen next, akin to the AI's brain speculating about the future. 
-
 4. **Cost Module**: Calculates the potential costs of each choice, helping to evaluate gains and losses.
-
-5. **Action Module**: Plans the next steps of 
-action, ensuring clear objectives.
-
+5. **Action Module**: Plans the next steps of action, ensuring clear objectives.
 6. **Short-Term Memory Module**: Tracks the current state and related cost information, ensuring the AI doesn't "short-circuit."
 
 This set of modules functions like a small team, working together to help the AI better understand and respond to the dynamic changes in the world!
-
-![image](https://hackmd.io/_uploads/rJlXM2APke.png)
+![image](/image/ossAI/rJlXM2APke.png)
 
 ### 5.2 Spatial Intelligence
 
@@ -531,27 +473,22 @@ The core design concept of this model is to use historical data to construct a d
 
     According to Japan's plans, by 2030, Tokyo will become a fully digital twin city, where seamless integration of information will cover everything from transportation to energy. By then, more and more buildings, homes, and factories will be transformed into virtual data, driving a comprehensive upgrade in urban management and planning!
     
-    ![东京智能空间](https://hackmd.io/_uploads/BJ60emz_kg.jpg)
+    ![东京智能空间](/image/ossAI/BJ60emz_kg.jpg)
 
 - **Traffic Management and Autonomous Driving**
-
     - **New South Wales Traffic Management**
         The integration of digital twins and artificial intelligence allows for real-time adjustments in traffic management to reduce congestion, thereby maximizing social benefits.
-
     - **China's Vehicle-Road-Cloud Integration + Real-time Digital Twin**
         Essentially, this is a "communication, sensing, and computation" network. Its core goal is to digitally represent the real world in real time, seamlessly connecting all smart devices to provide real-time data support, helping traffic and other industries achieve more efficient collaboration, decision-making, and processing.
 
         Specifically, by deploying AI-powered digital road base stations with "communication, sensing, and computation" capabilities at intersections, and combining them with AI roadside edge computing systems (AI-MRS), traffic managers can obtain dynamic information about all traffic participants within a 300-meter radius of the intersection. Based on this data, the system can instantly construct a digital twin model to provide precise, real-time services to all vehicles within the range, making traffic smarter and more efficient!
     
-        ![中国智能化路车云](https://hackmd.io/_uploads/B1fUbmzu1e.jpg)
+        ![中国智能化路车云](/image/ossAI/B1fUbmzu1e.jpg)
         > <center>China's Intelligent Vehicle-Road-Cloud Integration</center>
 
-
 - **Medical Field**
-
     - **Disease Diagnosis**
         Spatial intelligence technology can perform 3D reconstruction and analysis of medical imaging data, helping doctors diagnose diseases more accurately. For example, by converting CT or MRI image data into three-dimensional models, it clearly shows the location, shape, and size of organs and lesions. This 3D information provides doctors with more intuitive and accurate diagnostic references, making complex cases easier to understand!
-
     - **Surgical Navigation and Decision Support**
     Spatial intelligence technology also offers surgical navigation and decision support for doctors. Through 3D modeling and analysis of a patient's anatomical structure, doctors can gain a clear understanding of the surgical site's anatomy and vascular distribution. This intuitive three-dimensional view not only enhances the precision of surgical operations but also significantly improves surgical safety, leading to better treatment outcomes for patients!
 
@@ -568,11 +505,8 @@ Embodied intelligence refers to the integration of artificial intelligence into 
 The essence of embodied intelligence is reflected in three key aspects: physical interaction, generalization and adaptation, and autonomous evolution. These aspects emphasize the dynamic and complex nature of designing and developing intelligent systems.
 
 **Embodied Intelligence System Framework**
-
-![embodied_intelligence_system_framework 1](https://hackmd.io/_uploads/rJhW0Ro31e.png)
-
+![embodied_intelligence_system_framework 1](/image/ossAI/en/ry5T7VQd1x.jpg)
 <center>Source: https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
-<br>
 
 ### 6.2 Key Technologies and Progress
 
@@ -581,10 +515,7 @@ The key to accelerating the development of embodied intelligent robots lies in t
 In embodied intelligence, robots need to possess four core capabilities: "perception, learning, decision-making, and action." In simple terms, they must be able to "see, think, decide, and move." To achieve this efficient feedback loop, robots must seamlessly integrate various technologies, with different modules offering multiple technical paths. This technological synergy is like piecing together a puzzle to form a complete intelligent robot.
 
 **<center>Key Technologies of Embodied Intelligent Robots</center>**
-
-![Key Technologies of Embodied Intelligent Robots](https://hackmd.io/_uploads/rJ9F1-33kl.png)
-
-
+![Key Technologies of Embodied Intelligent Robots](/image/ossAI/en/H1MqNNXdyg.png)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 ### 6.3 Industry Ecology and Composition
@@ -592,13 +523,8 @@ In embodied intelligence, robots need to possess four core capabilities: "percep
 For embodied intelligent robots to adapt to a wide range of application scenarios, they require the support of various technologies and products, as well as the seamless integration of these complex systems. To ensure the healthy development of the entire industry ecosystem, it is essential for all market players to collaborate and work together, enabling the path forward to be both far-reaching and stable.
 
 **<center>Embodied Intelligent Robot Industry Ecosystem</center>**
-
-![Embodied Intelligent Robot Industry Ecosystem](https://hackmd.io/_uploads/ByTh0dTnJl.png)
-
-
-<center> Note: Red-box (China-based companies)
-
-https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
+![Embodied Intelligent Robot Industry Ecosystem](/image/ossAI/en/Syb-8NX_Je.png)
+<center> Note: Red-box (China-based companies): https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
 
 Embodied intelligent robots are like highly sophisticated machines, with hardware and software serving as their two main pillars. On the hardware side, this includes components, infrastructure, and the robot's physical body—these are its "skeleton" and "muscles." On the software side, it represents its "brain" and "nervous system," including the robot's operating system, simulation platforms, datasets, AI large models, visual perception algorithms, motion control algorithms, and more, all of which are key to bringing it "to life."
 
@@ -607,19 +533,14 @@ Furthermore, the needs of different industries vary, and to allow robots to perf
 ### 6.4 Development Pathways and Modalities
 
 In the embodied intelligence industry chain, everyone is working together to drive its development. Currently, there are two main development directions for embodied intelligent robots:
-
 1. **Specialized Non-humanoid Robots**: These robots, such as collaborative robots and commercial service robots, focus on specific tasks in professional scenarios. They are designed for particular purposes, like assistants on assembly lines or food delivery robots, dedicated to specialized tasks.
-
 2. **Multifunctional Humanoid Robots**: These robots are more like "all-rounders." Using a humanoid form, their goal is to handle a wider range of general tasks and become versatile assistants that can be used both at home and in the workplace.
 
 In simple terms, one direction focuses on specialization, while the other pursues versatility.
 
 **<center> Two Development Paths of Embodied Intelligent Robots</center>**
-
-![Two Development Paths of Embodied Intelligent Robots-1](https://hackmd.io/_uploads/ryj33tT2kg.png)
-
+![Two Development Paths of Embodied Intelligent Robots-1](/image/ossAI/en/ByKQd4mdyg.jpg)
 <center> https://www.idc.com/getdoc.jsp?containerId=prCHC52780624 </center>
-
 
 ### 6.5 Technology Provider Focus
 
@@ -638,7 +559,8 @@ Currently, the field of embodied intelligent robots is rapidly advancing globall
 
 - **Development in China**
     In China, the progress of embodied intelligent robots is particularly noteworthy. Leveraging strong manufacturing capabilities, diverse application scenarios, and an open technological ecosystem, Chinese companies are quickly rising to prominence in this field. Several Chinese enterprises are actively creating and participating in open-source projects, fostering technological sharing and innovation. Below are some open-source embodied intelligent robot manufacturers and their open-source status. Among them, **Agibot**, founded by Zhihui Jun (a former Huawei engineer), has emerged as a standout star in the industry.
-<br>
+
+<center>
 
 | **Manufacturer Name** | **Open-Source Project** | **Impact** |
 | -------- | -------- | -------- |
@@ -648,20 +570,21 @@ Currently, the field of embodied intelligent robots is rapidly advancing globall
 | **IO-AI** | Open-sourced an embodied intelligence dataset with over 500,000 entries, covering multiple scenarios and skills | Provided robust data support for the development of embodied intelligent robots, accelerating industry progress |
 | **NimbRo** | Developed the NimbRo-OP2X, an adult-sized open-source 3D-printed humanoid robot | Offered a low-cost, high-performance research platform for institutions and developers, advancing humanoid robotics research |
 
+</center>
+
 <br>
 
 - **Agibot's Open-Source Practices**
     Agibot has significantly propelled the industry forward through its **full-stack open-source approach**. They have not only made their core algorithms and code accessible but also provided hardware design plans (Lingxi X1). Furthermore, they open-sourced AgiBot World, the world's first million-unit real-world dataset based on actual scenarios. This dataset surpasses existing similar datasets, such as Google's Open X-Embodiment, in both scale and quality, offering ten times the long-distance data volume and a hundred times the scene coverage. This initiative has created a comprehensive open-source ecosystem. Such openness allows more developers and companies to participate in the development of embodied intelligent robots at a lower cost, accelerating the dissemination and innovation of technology.
 <br>
 
-![智元灵犀 X1 全栈开源机器人](https://hackmd.io/_uploads/ryMdIB7_1e.png)
+![智元灵犀 X1 全栈开源机器人](/image/ossAI/ryMdIB7_1e.png)
 
 <center> AGIBOT X1 Full-Stack Open Source Robot</center> 
 
 <br>
 
 - **Impact of Agibot's Full-Stack Open-Source Initiative**:
-
     1. **Lowered Technical Barriers**: By open-sourcing, more small and medium-sized enterprises as well as individual developers have the opportunity to enter the field of embodied intelligence, accelerating the diffusion of technology.
     2. **Strengthened Community Ecosystem**: Agibot has inspired a large number of developers to collaboratively optimize and refine related technologies, driving technological iteration across the industry. 
     3. **Innovation in Domestic Technology**: The open-source model showcases the technical prowess of Chinese enterprises while enhancing China's influence in the global embodied intelligent robotics sector. 
@@ -679,30 +602,29 @@ According to **OpenDigger** data, since its release on December 19, 2024, the Ge
 <br>
 
 ## 7. AI Agent
+
 This chapter primarily references the **"Evolution and Impact of AI Agents White Paper"** released by the World Economic Forum in 2024, the **"China AI Agent Industry Research Report"** published by Jazz Year Think Tank, and the CSET workshop report. The goal is to provide readers with a glimpse into the rapidly evolving and continuously updated field of AI Agents.
 
 ### 7.1 Course of Evolution
 
 Starting in the 1950s, the field has evolved from simple rule-based, deterministic systems to complex systems capable of handling uncertainty, learning, and adapting. This progress has been driven by advancements in computing power, the exponential growth of data, and breakthroughs in algorithms, including the development of large models and machine learning techniques.
 
-![image](https://hackmd.io/_uploads/Bkti9PQ_kx.png)
+![image](/image/ossAI/Bkti9PQ_kx.png)
 
 ### 7.2 Definition and Core Components
 
 - **AI Agent** is an autonomous system capable of perceiving its environment, making independent decisions, and taking actions to achieve specific goals. It consists of core components such as sensors, effectors, and a control center, enabling it to operate in both physical and digital environments. By receiving user input, perceiving the environment, planning decisions, and executing actions, it can effectively alter its surroundings.
 
-    ![WEF-Core Components of an Agent](https://hackmd.io/_uploads/SkvhhPQ_Jx.png)
+    ![WEF-Core Components of an Agent](/image/ossAI/SkvhhPQ_Jx.png)
 
 - 2024 marks the breakout year for AI Agents, as the industry shifts from Copilot-driven models to deeper explorations of AI Agent capabilities. As a result, highly automated Copilot products are often generalized under the broader concept of AI Agents in the market. The key difference between Copilots and AI Agents lies in **autonomous planning**. Copilots require human direction, whereas AI Agents directly tackle target tasks with autonomous memory, reasoning, planning, and execution capabilities. In its ultimate form, an AI Agent would only need an initial user instruction and final feedback, operating independently without human intervention throughout the process.
 
-
-![Chatbot-Copilot-Agent small](https://hackmd.io/_uploads/SyxjWbWayg.png)
-
-<center>China AI Agent Industry Research Report by Jazz Year Think Tank</center>
+    ![Chatbot-Copilot-Agent small](/image/ossAI/en/rJTMI_7OJl.png)
+    > <center>China AI Agent Industry Research Report by Jazz Year Think Tank</center>
 <br>
 
 - The main source of confusion between Copilot and AI Agent lies in the distinction between automation in the context of a workflow. From a results-oriented perspective, tasks can be infinitely broken down by humans, and some "Copilot + automation" solutions can fully automate individual work units. However, while these automated Copilot systems handle specific tasks independently, they still rely on human intervention to structure and direct workflows. In contrast, a true AI Agent autonomously orchestrates and executes an entire workflow without requiring manual task segmentation or oversight.
-<br>
+
 
 | **Name** | **Automation Implementation** | **Meaning** |
 | -------- | -------- | -------- |
@@ -717,71 +639,74 @@ These include simple reflex agents, model-based reflex agents, goal-based agents
 
 1. **Advanced AI Agent**: An AI entity with strong autonomy, built on large models and composed of multiple components, capable of handling complex tasks and continuously learning.
 
-    ![image](https://hackmd.io/_uploads/SyFEsPQuyg.png)
+    ![image](/image/ossAI/SyFEsPQuyg.png)
 
 2. **AI Agent System**: A system in which multiple AI agents with different functions work collaboratively to accomplish more complex tasks.
 
-3. **Multi-Agent System (MAS)**: A system that integrates multiple intelligent autonomous entities (including AI agents, AI agent systems, and human users) designed to interact and collaborate to achieve a common goal. Examples include autonomous driving systems.
+3. **Multi-Agent System (MAS)**: A system that integrates multiple intelligent autonomous entities (including AI agents, AI agent systems, and human users) designed to interact and collaborate to achieve a common goal. Examples include autonomous driving systems. MAS consists of multiple independent agents or agent systems working together, with architectures that may involve networks and supervisory mechanisms. These systems enhance efficiency and capabilities but also face challenges in agent communication and interoperability, such as those encountered in traffic management applications.
 
-    MAS consists of multiple independent agents or agent systems working together, with architectures that may involve networks and supervisory mechanisms. These systems enhance efficiency and capabilities but also face challenges in agent communication and interoperability, such as those encountered in traffic management applications.
-
-    ![image](https://hackmd.io/_uploads/BkeDowm_yx.png)
+    ![image](/image/ossAI/BkeDowm_yx.png)
 
 4. **The Structure and Relationship Between AI Agents, AI Agent Systems, and Multi-Agent Systems (MAS)**
 
-    ![WEF-Structure of a multi-Agent Systems](https://hackmd.io/_uploads/HJgpVRwQOyx.png)
+    ![WEF-Structure of a multi-Agent Systems](/image/ossAI/HJgpVRwQOyx.png)
 
 ### 7.4 Work paradigms are being upended
 
 - The commercial value of AI Agents revolves around differences in work paradigms, and a shift in these paradigms signifies the beginning of a new era of intelligence.
 
-    **<center>AI Agent Capability Requirements by Automation Level**    
-![AI Agent Capability Requirements by Automation Level](https://hackmd.io/_uploads/Byejm2QW6Je.png)
-   > Jazz Year Think Tank - China AI Agent Industry Research Report - AI Agent Automation Levels</center>
+    **<center>AI Agent Capability Requirements by Automation Level</center>**
+    ![AI Agent Capability Requirements by Automation Level](/image/ossAI/en/SJera_Q_ke.png)
+    > Jazz Year Think Tank - China AI Agent Industry Research Report - AI Agent Automation Levels
 
 
 - **Process-Oriented vs. Goal-Oriented**
 
-    ![The Enhancement of AI Agent Capabilities Drives the Shift in Work Paradigms](https://hackmd.io/_uploads/S1b6H4bTJg.png)
-
+    ![The Enhancement of AI Agent Capabilities Drives the Shift in Work Paradigms](/image/ossAI/en/BJINR_QOkg.png)
     > <center> Jazz Year Think Tank - China AI Agent Industry Research Report - AI Agents Drive a Shift in Work Paradigms </center>
 <br>
 
 ### 7.5 Areas of application
 
 AI Agents demonstrate broad application potential across multiple fields, including: 
-
 - **Workflow Automation**: Enhancing enterprise efficiency. 
 - **Personal Assistants**: Providing personalized services.
 - **Healthcare**: Improving patient experience.
 - **Education**: Supporting personalized learning.
 - **...**
 
-![Areas of application of AI Agent-small](https://hackmd.io/_uploads/Sk6tFdW6Jx.png)
+![Areas of application of AI Agent-small](/image/ossAI/en/ryOnktX_1e.png)
 
 > <center> Jazz Year Think Tank - China AI Agent Industry Research Report - AI Agent Application Areas </center>
 
 
 ### 7.6 AI Agent Ecosystem Mapping in China
 
-China's AI Agent market has already attracted a diverse range of participants, including **internet giants, generative AI companies, enterprise SaaS providers, startups, and 3C (consumer electronics) companies**. These companies are leveraging their **technological expertise or industry knowledge** to quickly enter the market, securing a strong position in the emerging ecosystem. Additionally, an increasing number of enterprises are actively refining their products and exploring various application scenarios.
+- China's AI Agent market has already attracted a diverse range of participants, including **internet giants, generative AI companies, enterprise SaaS providers, startups, and 3C (consumer electronics) companies**. These companies are leveraging their **technological expertise or industry knowledge** to quickly enter the market, securing a strong position in the emerging ecosystem. Additionally, an increasing number of enterprises are actively refining their products and exploring various application scenarios.
+- As these pioneers gradually demonstrate their commercial value, the diversity of AI Agents in China will continue to expand, leading to an explosive growth in the number of enterprises investing in AI Agent technology.
 
-As these pioneers gradually demonstrate their commercial value, the diversity of AI Agents in China will continue to expand, leading to an explosive growth in the number of enterprises investing in AI Agent technology.
-
-![China AI Agent Ecosystem Map v1.0-small](https://hackmd.io/_uploads/ryqclKbTJg.png)
-
+![China AI Agent Ecosystem Map v1.0-small](/image/ossAI/en/r1juWY7OJg.png)
 > <center> Jazz Year Think Tank - China AI Agent Industry Research Report - China AI Agent Ecosystem Map v1.0 </center>
 
+- 一些值得关注的互联网大厂与新兴提供商
+    - 百度：文心智能体平台
+    - 字节跳动：扣子 Coze
+    - 阿里云：钉钉
+    - 用友：大易
+    - 汇智智能
+- 一些值得关注的海外企业
+    - OpenAI
+    - IBM
+    - AWS
 
 ### 7.7 Impacts and Response Measures
 
-The widespread adoption of AI Agents has the potential to enhance productivity and improve customer experiences across various fields, such as software development, healthcare, education, and finance. However, it also comes with technical, socioeconomic, and ethical risks, including system failures, excessive reliance on technology leading to shifts in employment structures, and ethical dilemmas. 
-
-To ensure the safe, reliable, and beneficial development of AI Agents, it is crucial to implement mitigation strategies, such as technological improvements, public education, the establishment of ethical guidelines, and strengthened regulatory oversight.
-
+The widespread adoption of AI Agents has the potential to enhance productivity and improve customer experiences across various fields, such as software development, healthcare, education, and finance. However, it also comes with technical, socioeconomic, and ethical risks, including system failures, excessive reliance on technology leading to shifts in employment structures, and ethical dilemmas. To ensure the safe, reliable, and beneficial development of AI Agents, it is crucial to implement mitigation strategies, such as technological improvements, public education, the establishment of ethical guidelines, and strengthened regulatory oversight.
 
 ## 8. The Compressed 21st Century
+
 At the end of this article, the editor would like to share a thought-provoking piece with you: **"[Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)"**, a long-form essay published by Anthropic CEO Dario Amodei in October 2024. As we approach the 2025 Year of the Snake Spring Festival, let us reflect together on the potential prosperity and challenges that AI may bring to human society in the future.
+<!-- >  推荐读者们细读译文：https://news.qq.com/rain/a/20241029A03T0400?utm_source=chatgpt.com -->
 
 In his article, **Dario** explores the potential impact of powerful artificial intelligence (AI) on the **21st century**, asserting that AI is poised to achieve significant breakthroughs across multiple domains.
 
@@ -796,5 +721,3 @@ In his article, **Dario** explores the potential impact of powerful artificial i
 **Work & Life Meaning**: The development of AI may bring challenges such as inequality, economic growth concerns, and ethical dilemmas, including the right to opt out of AI-driven systems. Nevertheless, Dario believes that AI has the potential to safeguard freedom, individual rights, and legal equality, ultimately contributing to the creation of a better world.
 
 Finally, Dario emphasizes that while AI presents many challenges and risks, we should strive for positive outcomes that benefit everyone. He calls for unity and collective effort to navigate the challenges of the future together.
-
-
