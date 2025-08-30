@@ -35,20 +35,20 @@ OpenRank References：
 
 [1] [Shengyu Zhao et al: OpenRank Leaderboard: Motivating Open Source Collaborations Through Social Network Evaluation in Alibaba. ICSE, 2024](https://www.researchgate.net/publication/376686121_OpenRank_Leaderboard_Motivating_Open_Source_Collaborations_Through_Social_Network_Evaluation_in_Alibaba)
 
-[2] [赵生宇: 如何评价一个开源项目（三）价值流网络, 2021](https://blog.frankzhao.cn/how_to_measure_open_source_3)
+[2] [ Shengyu Zhao: How to Evaluate an Open Source Project (III) — Value Flow Network, 2021](https://blog.frankzhao.cn/how_to_measure_open_source_3) (in Chinese)
 
-[3] 工业和信息化部标准化研究院: 《信息技术 开源治理 第3部分：社区治理与运营》[T/CESA 1270.3-2023]、《信息技术 开源治理 第 5 部分：开源贡献者评价模型》[T/CESA 1270.5-2023], 2023
+[3]  China Electronics Standardization Institute, Ministry of Industry and Information Technology: Information Technology — Open Source Governance — Part 3: Community Governance and Operation [T/CESA 1270.3-2023], Information Technology — Open Source Governance — Part 5: Open Source Contributor Evaluation Model [T/CESA 1270.5-2023], 2023 (in Chinese)
 
 
-**活跃度（Activity）**
+**Activity**
 
-**活跃度**是 X-lab 研发的核心指标之一，用于量化评估项目或开发者的活跃程度。开发者活跃度通过对其在开源生态中的关键行为（如 Issue 提交、PR 创建、代码 Review 等）进行加权计算得出，精准反映其参与度与贡献强度。项目活跃度则基于项目中所有开发者的活跃度总和，经过标准化处理后生成，全面衡量项目的整体活跃状态与社区参与水平。这一指标为开源生态的健康度评估提供了科学、可量化的依据。
+**活跃度**is one of the core metrics developed by X-lab, designed to quantitatively evaluate the level of activeness of projects or developers. Developer activity is calculated through a weighted assessment of their key behaviors in the open-source ecosystem (such as submitting Issues, creating PRs, conducting code Reviews, etc.), accurately reflecting their engagement and contribution intensity. Project activity, on the other hand, is derived from the aggregated activity of all developers within a project and standardized to provide a comprehensive measure of the project’s overall activity and community participation level. This metric offers a scientific and quantifiable basis for assessing the health of the open-source ecosystem.
 
-Activity 参考文献：
+Activity References:
 
 [1] [Xiaoya Xia et al: Exploring activity and contributors on GitHub: Who, what, when, and where. APSEC, 2023](https://ieeexplore.ieee.org/abstract/document/10043221)
 
-[2] [赵生宇：如何评价一个开源项目（一）——活跃度，2021](https://blog.frankzhao.cn/how_to_measure_open_source_1)
+[2] [Shengyu Zhao: How to Evaluate an Open Source Project (I) — Activity, 2021](https://blog.frankzhao.cn/how_to_measure_open_source_1) (in Chinese)
 
 
 ## 1. Overall Macro Insights

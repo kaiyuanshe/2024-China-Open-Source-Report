@@ -688,13 +688,13 @@ AI Agents demonstrate broad application potential across multiple fields, includ
 ![China AI Agent Ecosystem Map v1.0-small](/image/ossAI/en/r1juWY7OJg.png)
 > <center> Jazz Year Think Tank - China AI Agent Industry Research Report - China AI Agent Ecosystem Map v1.0 </center>
 
-- 一些值得关注的互联网大厂与新兴提供商
-    - 百度：文心智能体平台
-    - 字节跳动：扣子 Coze
-    - 阿里云：钉钉
-    - 用友：大易
-    - 汇智智能
-- 一些值得关注的海外企业
+- Some Noteworthy Internet Giants and Emerging Providers
+    - Baidu: Wenxin Agent Platform
+    - ByteDance: Coze
+    - Alibaba Cloud: DingTalk
+    - Yonyou: Dayi
+    - Huizhi Intelligent
+- Some Noteworthy Overseas Companies
     - OpenAI
     - IBM
     - AWS
