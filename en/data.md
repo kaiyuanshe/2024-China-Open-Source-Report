@@ -42,7 +42,7 @@ OpenRank References：
 
 **Activity**
 
-**活跃度**is one of the core metrics developed by X-lab, designed to quantitatively evaluate the level of activeness of projects or developers. Developer activity is calculated through a weighted assessment of their key behaviors in the open-source ecosystem (such as submitting Issues, creating PRs, conducting code Reviews, etc.), accurately reflecting their engagement and contribution intensity. Project activity, on the other hand, is derived from the aggregated activity of all developers within a project and standardized to provide a comprehensive measure of the project’s overall activity and community participation level. This metric offers a scientific and quantifiable basis for assessing the health of the open-source ecosystem.
+**Activity** is one of the core metrics developed by X-lab, designed to quantitatively evaluate the level of activeness of projects or developers. Developer activity is calculated through a weighted assessment of their key behaviors in the open-source ecosystem (such as submitting Issues, creating PRs, conducting code Reviews, etc.), accurately reflecting their engagement and contribution intensity. Project activity, on the other hand, is derived from the aggregated activity of all developers within a project and standardized to provide a comprehensive measure of the project’s overall activity and community participation level. This metric offers a scientific and quantifiable basis for assessing the health of the open-source ecosystem.
 
 Activity References:
 
