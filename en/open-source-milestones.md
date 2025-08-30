@@ -340,7 +340,7 @@ In 2024, open-source software security faces unprecedented challenges and opport
     Game Freak, developer of Pokémon games, confirmed hackers stole source code for unreleased titles by infiltrating company servers. The breach jeopardizes development timelines and allows reverse engineering, potentially enabling piracy or unauthorized game modifications. This poses significant financial and reputational risks to the franchise.
 
 - **"RockYou2024"**
-    黑客在暗网论坛上发布了包含 100 亿条明文密码的 rockyou2024.txt 文件，新增了约 15 亿个新密码。
+    Hackers have released the rockyou2024.txt file containing 10 billion plaintext passwords on a dark web forum, adding approximately 1.5 billion new passwords.
 
 ### 2.5 Spelling Error Hijacking and Fake Bags
 
