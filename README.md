@@ -34,12 +34,13 @@
   - [オープンソースTopic](https://github.com/Nico-Tech-Shenzhen/2024-China-Open-Source-Report-jp/blob/main/open-source-milestones.md)
 
 
-<!-- - English -->
-  <!-- - [Preface](./en/preface.md)
+- English
+  - [Preface](./en/preface.md)
   - [OSS Questionnaire](./en/questionnaire.md)
   - [OSS Data Analytics](./en/data.md)
   - [OSS Commercialization](./en/commercialization.md)
-  - [OSS Chronicle](./en/open-source-milestones.md) -->
+  - [OSS AI](./en/ossAI.md)
+  - [Open Source Chronicle](./en/open-source-milestones.md)
 
 ## 许可证
 
